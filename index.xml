@@ -2,7 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jason Hand</title>
+<<<<<<< HEAD
     <link>/</link>
+=======
+    
+>>>>>>> 7ba6bb3a92785a97fa13ecde7c7782664b12eb85
     <description>Recent content on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
