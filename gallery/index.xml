@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Galleries on Jason Hand</title>
-    <link>https://jasonhand.com/gallery/</link>
+    <link>/gallery/</link>
     <description>Recent content in Galleries on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 11 Sep 2018 16:37:48 -0600</lastBuildDate>
     
-	<atom:link href="https://jasonhand.com/gallery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/gallery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Books</title>
-      <link>https://jasonhand.com/gallery/books/</link>
+      <link>/gallery/books/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:48 -0600</pubDate>
       
-      <guid>https://jasonhand.com/gallery/books/</guid>
+      <guid>/gallery/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Front Range SRE Meetup</title>
-      <link>https://jasonhand.com/gallery/frontrangesre/</link>
+      <link>/gallery/frontrangesre/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:32 -0600</pubDate>
       
-      <guid>https://jasonhand.com/gallery/frontrangesre/</guid>
+      <guid>/gallery/frontrangesre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Community Pulse</title>
-      <link>https://jasonhand.com/gallery/communitypulse/</link>
+      <link>/gallery/communitypulse/</link>
       <pubDate>Tue, 11 Sep 2018 17:16:11 -0600</pubDate>
       
-      <guid>https://jasonhand.com/gallery/communitypulse/</guid>
+      <guid>/gallery/communitypulse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DevopsDays Rockies</title>
-      <link>https://jasonhand.com/gallery/devopsdaysrox/</link>
+      <link>/gallery/devopsdaysrox/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:00 -0600</pubDate>
       
-      <guid>https://jasonhand.com/gallery/devopsdaysrox/</guid>
+      <guid>/gallery/devopsdaysrox/</guid>
       <description></description>
     </item>
     
