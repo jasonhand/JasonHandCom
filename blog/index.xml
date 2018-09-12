@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Jason Hand</title>
+    <link>https://jasonhand.com/blog/</link>
+    <description>Recent content in Blogs on Jason Hand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 11 Sep 2018 17:25:26 -0600</lastBuildDate>
+    
+	<atom:link href="https://jasonhand.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What A Long Strange Trip It&#39;s Been</title>
+      <link>https://jasonhand.com/blog/what_a_long_strange_trip_its_been/</link>
+      <pubDate>Tue, 11 Sep 2018 17:25:26 -0600</pubDate>
+      
+      <guid>https://jasonhand.com/blog/what_a_long_strange_trip_its_been/</guid>
+      <description>Just over four years ago, I impulsively responded to a Facebook post about a devops evangelism role at a new tech startup.
+I had never been an evangelist and I knew nothing of the term “devops”. #yolo ¯_(ツ)_/¯
+This spontaneous act illuminated a path of personal and professional growth.
+A path that created new opportunities for me almost daily.
+A path that changed me for the better.
+A path that wasn’t there… until it was.</description>
+    </item>
+    
+  </channel>
+</rss>
