@@ -6,11 +6,11 @@
   <title>
     
     
-        Blogs | Jason Hand
+        Configure Deployment Option | Jason Hand
     
   </title>
 
-  <meta name="title" content="Blogs | Jason Hand">
+  <meta name="title" content="Configure Deployment Option | Jason Hand">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -35,7 +35,7 @@
     <meta name="twitter:creator" content="@jasonhand">
   
 
-  <meta property="og:title" content="Blogs | Jason Hand">
+  <meta property="og:title" content="Configure Deployment Option | Jason Hand">
   <meta property="og:type" content="website">
   <meta property="og:url" content="">
 
@@ -52,10 +52,8 @@
     <meta name="theme-color" content="#FFF">
   
 
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/blog/configure_deployment_option/">
 
-  
-    <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="Jason Hand">
   
 
   <link rel="stylesheet" href="/styles/main.css" type="text/css">
@@ -118,38 +116,61 @@
 
     <main>
 
-      <section class="blog" id="blog">
-          <div class="container">
-              <div class="row center-xs">
-                  <div class="col-xs-12"><h1>Blog</h1></div>
+      <section class="container">
+          <section class="content">
+              <h1> Configure Deployment Option </h1>
+
+              <div class="sub-header">
+                  September 13, 2018 · 1 minute read
               </div>
-              <div class="row">
-                  <div class="col-xs-12 posts-list">
-                      
-                          <article>
-                              <h2><a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been</a></h2>
-                              <div class=sub-header>
-                              September 11, 2018 · 5 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="/blog/configure_deployment_option/">Configure Deployment Option</a></h2>
-                              <div class=sub-header>
-                              September 13, 2018 · 1 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="/blog/deploy_static_html_site_to_azure_webapp/">Deploy a Static HTML Site To Azure as a Web App</a></h2>
-                              <div class=sub-header>
-                              September 13, 2018 · 2 minute read
-                              </div>
-                          </article>
-                      
-                  </div>
+
+              <article class="entry-content">
+                  <p>Begin by selecting the &ldquo;Choose Source&rdquo; (Configure required settings) option
+<img src="ConfigureDeploymentOption.png" alt="" /></p>
+
+<p>Next select the correct source. I&rsquo;m using GitHub, so that is the option I will choose:</p>
+
+<p><img src="images/ChooseGitHubSource.png" alt="" /></p>
+
+<p>The next screen will prompt you to enter your GitHub account, project, branch, etc.</p>
+
+<p><img src="images/RepoConfiguration.png" alt="" /></p>
+
+<p>Once you have made your configuration choices, select &ldquo;Save&rdquo; at the bottom of the screen.</p>
+
+<p>That&rsquo;s it!</p>
+
+<p>Now, any time new code is pushed to your repository, Azure will automatically deploy the changes for you.</p>
+
+              </article>
+
+              <div class="pagination">
+                  
+                      <a href="/blog/deploy_static_html_site_to_azure_webapp/">&laquo; Deploy a Static HTML Site To Azure as a Web App</a>
+                  
+                  
+                      <a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
+                  
               </div>
-          </div>
+          </section>
+          <br>
+          <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+      var disqus_shortname = 'jasonhand';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view comments powered by <a href="http://disqus.com/?ref_noscript">Disqus</a>.</noscript>
+</section>
+
       </section>
 
     </main>

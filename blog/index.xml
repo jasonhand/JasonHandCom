@@ -26,6 +26,19 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
+      <title>Configure Deployment Option</title>
+      <link>/blog/configure_deployment_option/</link>
+      <pubDate>Thu, 13 Sep 2018 16:00:47 -0600</pubDate>
+      
+      <guid>/blog/configure_deployment_option/</guid>
+      <description>Begin by selecting the &amp;ldquo;Choose Source&amp;rdquo; (Configure required settings) option Next select the correct source. I&amp;rsquo;m using GitHub, so that is the option I will choose:
+The next screen will prompt you to enter your GitHub account, project, branch, etc.
+Once you have made your configuration choices, select &amp;ldquo;Save&amp;rdquo; at the bottom of the screen.
+That&amp;rsquo;s it!
+Now, any time new code is pushed to your repository, Azure will automatically deploy the changes for you.</description>
+    </item>
+    
+    <item>
       <title>Deploy a Static HTML Site To Azure as a Web App</title>
       <link>/blog/deploy_static_html_site_to_azure_webapp/</link>
       <pubDate>Thu, 13 Sep 2018 15:26:57 -0600</pubDate>
