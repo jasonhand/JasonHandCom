@@ -25,5 +25,19 @@ A path that changed me for the better.
 A path that wasn’t there… until it was.</description>
     </item>
     
+    <item>
+      <title>Deploy a Static HTML Site To Azure as a Web App</title>
+      <link>/blog/deploy_static_html_site_to_azure_webapp/</link>
+      <pubDate>Thu, 13 Sep 2018 15:26:57 -0600</pubDate>
+      
+      <guid>/blog/deploy_static_html_site_to_azure_webapp/</guid>
+      <description>This tutorial will walk you through getting a static web site up and running as a Web App on Microsoft Azure.
+The site itself is stored in a GitHub repository:
+https://github.com/jasonhand/JasonHandCom
+The site is built using Hugo (gohugo.io)
+The tutorial does not cover Hugo specific topics but rather automatically pushing changes to a site up to the cloud (MS Azure) automatically once code has been committed to the repository.
+Open the Cloud Shell from within the Azure Portal</description>
+    </item>
+    
   </channel>
 </rss>
