@@ -6,11 +6,11 @@
   <title>
     
     
-        Configure Deployment Option | Jason Hand
+        Hugo on Azure | Jason Hand
     
   </title>
 
-  <meta name="title" content="Configure Deployment Option | Jason Hand">
+  <meta name="title" content="Hugo on Azure | Jason Hand">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -22,7 +22,7 @@
   <base href="">
 
   
-    <meta name="description" content="Senior Cloud Ops Advocate @ Microsoft (Azure)">
+    <meta name="description" content="This post sets up a series of posts explaining how to put a static HTML site (build with Hugo) on to Azure">
   
 
   
@@ -35,7 +35,7 @@
     <meta name="twitter:creator" content="@jasonhand">
   
 
-  <meta property="og:title" content="Configure Deployment Option | Jason Hand">
+  <meta property="og:title" content="Hugo on Azure | Jason Hand">
   <meta property="og:type" content="website">
   <meta property="og:url" content="">
 
@@ -44,7 +44,7 @@
   
 
   
-    <meta property="og:description" content="Senior Cloud Ops Advocate @ Microsoft (Azure)">
+    <meta name="og:description" content="This post sets up a series of posts explaining how to put a static HTML site (build with Hugo) on to Azure">
   
 
   
@@ -52,7 +52,7 @@
     <meta name="theme-color" content="#FFF">
   
 
-  <link rel="canonical" href="/blog/configure_deployment_option/">
+  <link rel="canonical" href="/blog/huto_on_azure/">
 
   
 
@@ -118,61 +118,49 @@
 
       <section class="container">
           <section class="content">
-              <h1> Configure Deployment Option </h1>
+              <h1> Hugo on Azure </h1>
 
               <div class="sub-header">
-                  September 13, 2018 · 2 minute read
+                  September 14, 2018 · 3 minute read
               </div>
 
               <article class="entry-content">
-                  
+                  <p>As I get settled in to my new role as a Cloud Ops Advocate for Microsft Azure, I&rsquo;ve been kicking around ideas for both learning the Azure platform as well as showing off a few things you can do with the service.</p>
 
-<h3 id="note">Note:</h3>
+<p>Every so often I decide that my website (jasonhand.com) needs an overhaul. But then inevitably I run out of time or energy to not only design and launch a completely new site but to keep up with providing helpful content. One of the reasons for this is that the processes I&rsquo;ve used in the past for this work was time consuming to someone who doesn&rsquo;t develop or write a lot of code.</p>
 
-<p><em>This post is a continuation of <a href="/blog/deploy_static_html_site_to_azure_webapp/">&ldquo;Deploy a Static HTML Site To Azure as a Web App&rdquo;</a>. If you haven&rsquo;t already deployed your new static HTML site following the steps outlined in that post, I suggest starting there first.</em></p>
+<p>I&rsquo;ve been doing this stuff long enough to have sworn off CMS systems such as Wordpress, Drupal, and Joomla.</p>
 
-<p>Now that our static HTML site is live, I want to take it one step further.</p>
+<p>This time it&rsquo;s for realsies.</p>
 
-<p>I&rsquo;m not sure how often I&rsquo;ll be making changes to the content of my site, but I know that I want to remove as many barriers to releasing new information as I can.</p>
+<p>Squarespace and many others make it stupid-simple to get a site up and running, yet there are limitations (and costs) associated with going that route.</p>
 
-<p>Luckily, because the HTML source code to my site is stored in a GitHub repository, I can synchronize my Azure App Service with the repo and any time a change is made to the codebase, Azure will rebuild my site and deploy it&hellip; automatically.</p>
+<p>A few other communities and projects that I&rsquo;m involved with (<a href="https://devopsdays.org">DevOpsDays</a> &amp; the <a href="https://communitypulse.io">Community Pulse Podcast</a>) both leverage <a href="https://gohugo.io">Hugo (gohugo.io)</a> for designing, building, and managing their site.</p>
 
-<h3 id="boom"><em>Boom!</em></h3>
+<p>And as I learned (<em>an embarassing amount of time after Hugo had been out</em>), my buddy <a href="https://stevefrancia.com/">Steve Francia</a> is behind the whole thing. It seemed like all signs pointed to me creating a brand new site using Hugo. I highly recommend checking it out.</p>
 
-<p>From within the Azure Dashboard, let&rsquo;s begin by browsing to your new App Service (Resource) and select &ldquo;Deployment Options&rdquo; from the list.</p>
+<p>Hugo may be one of the favorite new tools for psuedo-webmasters like myself but designing, building, and maintaining a site is only part of the story. I still have to host the site on a webserver.</p>
 
-<p><img src="/images/DeploymentOptions.png" alt="" /></p>
+<p>Many who have fallen in love with Hugo use the service Netlify or similar services to deploy and host their site.</p>
 
-<p>Next, we will select the &ldquo;Choose Source&rdquo; (Configure required settings) option.</p>
+<p>However, from what I understood about Azure, there was no reason why I couldn&rsquo;t just throw a basic LAMP server together and deploy my site there. Azure has a couple of server sizes that are in fact free and since my site is nothing more than static HTML content, the compute resources are low enough that even though smallest of servers should suite my needs.</p>
 
-<p><img src="/images/ConfigureDeploymentOption.png" alt="" /></p>
+<p>And .. if for some reason my site begins to experience a high number of visitors and load on the resources, I can always scale up. I&rsquo;ll cover that process in a future post.</p>
 
-<p>Next select the correct source. I&rsquo;m using GitHub, so that is the option I will choose.</p>
+<p>I&rsquo;m not going to walk you through the process of getting Hugo setup and working in your development environment. There are tons of resources on this already, but I would recommend following the <a href="https://gohugo.io/getting-started/quick-start/">&ldquo;Quick Start&rdquo;</a> and familiarize yourself with Hugo. It&rsquo;s fairly straight forward but I will say that choosing your theme should be one of the earliest steps. It seems that slight variations in how themes are setup dictate how and where you&rsquo;ll design and configure your site. So play around with a few different themes. See how they are different and then choose the one that not only has the look and feel you like but you understand the Taxonomoy of the site and which files you will need to edit (or create).</p>
 
-<p><img src="/images/ChooseGitHubSource.png" alt="" /></p>
+<p>Once you have familiarized yourself with Hugo and you have created and built your new site in your development environment, I suggest placing the code of the site in to aversion control repository system. In my explanation, I&rsquo;m using GitHub and my site is kept in a public repository. You can use a private one, but for the purposes of demonstration I&rsquo;m leaving mine open. If possible, I recommend using GitHub in order to continue following along with my example.</p>
 
-<p>The next screen will prompt you to enter your GitHub account, project, branch, etc.</p>
-
-<p><img src="/images/RepoConfiguration.png" alt="" /></p>
-
-<p>Once you have made your configuration choices, select &ldquo;Save&rdquo; at the bottom of the screen.</p>
-
-<p>That&rsquo;s it!</p>
-
-<p>Now, any time new code is pushed to your repository, Azure will automatically deploy the changes for you.</p>
-
-<p>In my next post, I&rsquo;ll show you how you can view details of your new App Service such as the virtual IP address and what it&rsquo;s costing you to run this app on Azure.</p>
-
-<p><em>Spoiler - If you followed the steps I outlined, it&rsquo;s totally FREE!</em></p>
+<p>If you are ready to move on to deploying your site (stored on GitHub), check out <a href="/blog/deploy_static_html_site_to_azure_webapp/">&ldquo;Deploy a Static HTML Site To Azure as a Web App&rdquo;</a>.</p>
 
               </article>
 
               <div class="pagination">
                   
-                      <a href="/blog/deploy_static_html_site_to_azure_webapp/">&laquo; Deploy a Static HTML Site To Azure as a Web App</a>
+                      <a href="/blog/configure_deployment_option/">&laquo; Configure Deployment Option</a>
                   
                   
-                      <a href="/blog/huto_on_azure/">Hugo on Azure &raquo;</a>
+                      <a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
                   
               </div>
           </section>
