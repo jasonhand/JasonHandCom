@@ -106,10 +106,10 @@ This post will outline the following simple steps to deploy a static HTML websit
     
     <item>
       <title>New Site</title>
-      <link>/blog/hugo_on_azure/</link>
+      <link>/blog/new_site/</link>
       <pubDate>Mon, 10 Sep 2018 16:37:09 -0600</pubDate>
       
-      <guid>/blog/hugo_on_azure/</guid>
+      <guid>/blog/new_site/</guid>
       <description>While I slide in to my new role as a Cloud Ops Advocate for Microsft Azure, I&amp;rsquo;ve been kicking around ideas for both learning the platform as well as showing off a few things you can do with the service.
 Every so often I decide that my website (jasonhand.com) is dumb and needs a complete overhaul. But inevitably I run out of time or energy to do any of the work.</description>
     </item>
