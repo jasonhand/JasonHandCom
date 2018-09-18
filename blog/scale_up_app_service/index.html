@@ -6,11 +6,11 @@
   <title>
     
     
-        Blogs | Jason Hand
+        Scaling Up Your App Service in Azure | Jason Hand
     
   </title>
 
-  <meta name="title" content="Blogs | Jason Hand">
+  <meta name="title" content="Scaling Up Your App Service in Azure | Jason Hand">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -22,7 +22,7 @@
   <base href="">
 
   
-    <meta name="description" content="Senior Cloud Ops Advocate @ Microsoft (Azure)">
+    <meta name="description" content="Step by step how to scale up an App Service">
   
 
   
@@ -35,7 +35,7 @@
     <meta name="twitter:creator" content="@jasonhand">
   
 
-  <meta property="og:title" content="Blogs | Jason Hand">
+  <meta property="og:title" content="Scaling Up Your App Service in Azure | Jason Hand">
   <meta property="og:type" content="website">
   <meta property="og:url" content="">
 
@@ -44,7 +44,7 @@
   
 
   
-    <meta property="og:description" content="Senior Cloud Ops Advocate @ Microsoft (Azure)">
+    <meta name="og:description" content="Step by step how to scale up an App Service">
   
 
   
@@ -52,10 +52,8 @@
     <meta name="theme-color" content="#FFF">
   
 
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/blog/scale_up_app_service/">
 
-  
-    <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="Jason Hand">
   
 
   <link rel="stylesheet" href="/styles/main.css" type="text/css">
@@ -118,59 +116,71 @@
 
     <main>
 
-      <section class="blog" id="blog">
-          <div class="container">
-              <div class="row center-xs">
-                  <div class="col-xs-12"><h1>Blog</h1></div>
+      <section class="container">
+          <section class="content">
+              <h1> Scaling Up Your App Service in Azure </h1>
+
+              <div class="sub-header">
+                  September 18, 2018 · 2 minute read
               </div>
-              <div class="row">
-                  <div class="col-xs-12 posts-list">
-                      
-                          <article>
-                              <h2><a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been</a></h2>
-                              <div class=sub-header>
-                              September 1, 2018 · 5 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="/blog/scale_up_app_service/">Scaling Up Your App Service in Azure</a></h2>
-                              <div class=sub-header>
-                              September 18, 2018 · 2 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="/blog/custom_dns/">Adding Custom DNS</a></h2>
-                              <div class=sub-header>
-                              September 18, 2018 · 2 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="/blog/configure_deployment_option/">Configure Auto Deployments</a></h2>
-                              <div class=sub-header>
-                              September 12, 2018 · 2 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="/blog/deploy_static_html_site_to_azure_webapp/">Six Easy Steps to Deploying Static HTML on Azure</a></h2>
-                              <div class=sub-header>
-                              September 11, 2018 · 3 minute read
-                              </div>
-                          </article>
-                      
-                          <article>
-                              <h2><a href="/blog/hugo_on_azure/">Hugo on Azure</a></h2>
-                              <div class=sub-header>
-                              September 10, 2018 · 3 minute read
-                              </div>
-                          </article>
-                      
-                  </div>
+
+              <article class="entry-content">
+                  <p>This is a continuation of &ldquo;Six Easy Steps to Deploying Static HTML on Azure&rdquo; and &ldquo;Configure Auto Deployments&rdquo;.</p>
+
+<p>Now that we are able to easily deploy changes to our site through auto-deployments and source control, we are ready to point our custom domain (jasonhand.com in my case) to this new site (App Service actually). But before we do this, we have to scale our App Service plan to a paid tier (Shared, Basic, Standard, or Premium). So the first step is to make sure that the App Service app is in the supported pricing tier.</p>
+
+<p>Navigate to the app in the Azure portal
+From the left menu, select App Services, and then select the name of the app.</p>
+
+<p><img src="/images/AppServices.png" alt="" /></p>
+
+<p>You should see the details of your App Service including the plan/pricing tier in the upper right of the dashboard. We need to scale to something larger in order to take advantage of custom DNS.</p>
+
+<p><img src="/images/AppServicePlan.png" alt="" /></p>
+
+<p>In the left navigation, go to the Settings section and select Scale up (App Service plan).</p>
+
+<p>You&rsquo;ll then see several pricing tiers. Currently, I&rsquo;m using an F1 (FREE) tier but I want to move up to the next largest size (D1).</p>
+
+<p><img src="/images/PlanTierPricing.png" alt="" /></p>
+
+<p>Select the D1 tier and click &ldquo;Apply&rdquo; at the bottom of the dashboard.</p>
+
+<p>In just seconds, the process is complete and we are ready to move forward.</p>
+
+<p>Next, we&rsquo;ll configure our custom DNS so that my domain (jasonhand.com) resolves to the App Service.</p>
+
+<p>Read: <a href="/blog/custom_dns">&ldquo;Adding Custom DNS&rdquo;</a></p>
+
+              </article>
+
+              <div class="pagination">
+                  
+                      <a href="/blog/custom_dns/">&laquo; Adding Custom DNS</a>
+                  
+                  
+                      <a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
+                  
               </div>
-          </div>
+          </section>
+          <br>
+          <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+      var disqus_shortname = 'jasonhand';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view comments powered by <a href="http://disqus.com/?ref_noscript">Disqus</a>.</noscript>
+</section>
+
       </section>
 
     </main>

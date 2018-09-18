@@ -121,34 +121,11 @@
               <h1> Adding Custom DNS </h1>
 
               <div class="sub-header">
-                  September 18, 2018 · 3 minute read
+                  September 18, 2018 · 2 minute read
               </div>
 
               <article class="entry-content">
-                  <p>This is a continuation of &ldquo;Six Easy Steps to Deploying Static HTML on Azure&rdquo; and &ldquo;Configure Auto Deployments&rdquo;.</p>
-
-<p>Now that we are able to easily deploy changes to our site through auto-deployments and source control, we are ready to point our custom domain (jasonhand.com in my case) to this new site (App Service actually). But before we do this, we have to scale our App Service plan to a paid tier (Shared, Basic, Standard, or Premium). So the first step is to make sure that the App Service app is in the supported pricing tier.</p>
-
-<p>Navigate to the app in the Azure portal
-From the left menu, select App Services, and then select the name of the app.</p>
-
-<p><img src="/images/AppServices.png" alt="" /></p>
-
-<p>You should see the details of your App Service including the plan/pricing tier in the upper right of the dashboard. We need to scale to something larger in order to take advantage of custom DNS.</p>
-
-<p><img src="/images/AppServicePlan.png" alt="" /></p>
-
-<p>In the left navigation, go to the Settings section and select Scale up (App Service plan).</p>
-
-<p>You&rsquo;ll then see several pricing tiers. Currently, I&rsquo;m using an F1 (FREE) tier but I want to move up to the next largest size (D1).</p>
-
-<p><img src="/images/PlanTierPricing.png" alt="" /></p>
-
-<p>Select the D1 tier and click &ldquo;Apply&rdquo; at the bottom of the dashboard.</p>
-
-<p>In just seconds, the process is complete and we are ready to move forward.</p>
-
-<p>We can use either a CNAME record or an A record to map a custom DNS name to our App Service.</p>
+                  <p>We can use either a CNAME record or an A record to map a custom DNS name to our App Service.</p>
 
 <p>Because I&rsquo;m setting up my root domain (jasonhand.com) I will use an A record.</p>
 
@@ -170,7 +147,7 @@ From the left menu, select App Services, and then select the name of the app.</p
 
 <p>Create a new A Record using the public IP address previously copied from the dashboard.</p>
 
-<p>We also need to create a TXT record to associate the internal (e.g. your-app-service.azurewebsites.net)</p>
+<p>We also need to create a TXT record to associate the internal (e.g. jasonhandcom.azurewebsites.net)</p>
 
 <p><img src="/images/TXTConfigure.png" alt="" /></p>
 
@@ -195,7 +172,7 @@ From the left menu, select App Services, and then select the name of the app.</p
                       <a href="/blog/configure_deployment_option/">&laquo; Configure Auto Deployments</a>
                   
                   
-                      <a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
+                      <a href="/blog/scale_up_app_service/">Scaling Up Your App Service in Azure &raquo;</a>
                   
               </div>
           </section>
