@@ -125,9 +125,7 @@
               </div>
 
               <article class="entry-content">
-                  
-
-<p><img src="https://github.com/ashleymcnamara/Developer-Advocate-Bit/blob/master/bit-azure.png?raw=true" alt="" /></p>
+                  <p><img src="https://github.com/ashleymcnamara/Developer-Advocate-Bit/blob/master/bit-azure.png?raw=true" alt="" /></p>
 
 <p>While I slide in to my new role as a Cloud Ops Advocate for Microsft Azure, I&rsquo;ve been kicking around ideas for both learning the platform as well as showing off a few things you can do with the service.</p>
 
@@ -139,50 +137,33 @@
 
 <p>Squarespace and many others make it stupid-simple to get a site up and running, yet there are limitations (and costs) associated with going that route.</p>
 
-<p>A few other communities and projects that I&rsquo;m involved with (<a href="https://devopsdays.org">DevOpsDays</a> &amp; the <a href="https://communitypulse.io">Community Pulse Podcast</a>) both leverage <a href="https://gohugo.io">Hugo (gohugo.io)</a> for designing, building, and managing their site.</p>
+<p>A few other communities and projects that I&rsquo;m involved with (<a href="https://devopsdays.org">DevOpsDays</a> &amp; the <a href="https://communitypulse.io">Community Pulse Podcast</a>) both leverage <a href="https://gohugo.io">Hugo (gohugo.io)</a> for designing, building, and managing their site. So, I decided to go with that for my personal site as well.</p>
 
 <p><img src="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" alt="" /></p>
 
-<p>Hugo may be one of the favorite new tools for faux-webmasters like myself but designing, building, and maintaining a site is only part of the story. I still have to host the site on a webserver.</p>
+<p>Hugo may be one of the favorite new tools for faux-webmasters like myself but designing, building, and maintaining a site is only part of the story. I still have to host the site somewhere that can serve it up to the public.</p>
 
 <p>Many who have fallen in love with Hugo uses services such as <a href="https://www.netlify.com/">Netlify</a> to deploy and host their site.</p>
 
-<p>However, in just a few simple steps (6 to be exact) I can deploy and host my site on Azure. Since my site is static HTML, it doesn&rsquo;t require a lot of compute resources, so I can get everything up and running on a small (FREE) virtual machine (<em>actually we&rsquo;ll use an App Service</em>).</p>
+<p>However, in just a few simple steps (6 to be exact) I can deploy and host my site on Azure. Since my site is static HTML, it doesn&rsquo;t require a lot of compute resources and I can get everything up and running on a small (FREE) virtual machine (<em>actually we&rsquo;ll use an App Service</em>).</p>
 
-<p>And .. if for some reason my site begins to experience a high number of visitors or load on the resources, I can always scale up.</p>
+<p>And .. if for some reason my site begins to experience a high number of visitors or load on the resources, I can always scale up in a matter of seconds.</p>
 
-<p>I&rsquo;m not going to walk you through the process of getting Hugo setup and working in your development environment. I recommend following the <a href="https://gohugo.io/getting-started/quick-start/">&ldquo;Quick Start Guide&rdquo;</a> and familiarize yourself with Hugo if you haven&rsquo;t already.</p>
+<p>I&rsquo;m not going to cover the process of getting Hugo setup and working in your development environment. The <a href="https://gohugo.io/getting-started/quick-start/">&ldquo;Quick Start Guide&rdquo;</a> is where I always go to remind myself of the steps.</p>
 
-<p>It&rsquo;s fairly straight forward but I will say that choosing your theme should be one of the earliest steps. It seems that slight variations in how themes are setup dictate how and where you&rsquo;ll design and configure your site. So play around with a few different themes. See how they are different and then choose the one that not only has the look and feel you like but you understand the Taxonomy of the site and which files you will need to edit (or create).</p>
+<p>It&rsquo;s fairly straight forward but I will give you this <em>advice</em>:</p>
 
-<p>Once you have familiarized yourself with Hugo and you have created and built your new site in your development environment, I suggest placing the code of the site in to a version control repository system.</p>
+<blockquote>
+<p>Choosing your theme should be one of the earliest steps.</p>
+</blockquote>
+
+<p>It seems that slight variations in how themes are setup dictate how and where you&rsquo;ll design and configure your site.</p>
+
+<p>So play around with a few different themes. See how they are different and then choose the one that not only has the look and feel you like but you understand the Taxonomy of the site and which files you will need to edit (or create).</p>
+
+<p>Once you have familiarized yourself with Hugo and you have your new site working in your development environment, I suggest placing the code of the site in to a version control repository system. I know. You are probably doing this already.. but some folks are still catching on to version/source control best practices. Hit me up on <a href="https://www.twitter.com/jasonhand">Twitter</a> if you have any questions on this.</p>
 
 <p>I&rsquo;ll be using GitHub where I have a public repository that contains all files associated with my site. You can use a private one, but for the purposes of demonstration I&rsquo;m leaving mine open.</p>
-
-<h3 id="six-easy-steps-to-deploying-static-html-on-azure-will-cover">&ldquo;Six Easy Steps to Deploying Static HTML on Azure&rdquo; will cover:</h3>
-
-<ul>
-<li>Creating an App Service (to host our website)</li>
-<li>Cloning a GitHub repository (static HTML) to the App Service</li>
-</ul>
-
-<h3 id="configure-auto-deployments-will-explain">&ldquo;Configure Auto Deployments&rdquo; will explain:</h3>
-
-<ul>
-<li>Configuring Automatic Deployments from repository to the App Service</li>
-</ul>
-
-<h3 id="scaling-up-your-app-service-in-azure-goes-over">&ldquo;Scaling Up Your App Service in Azure&rdquo; goes over:</h3>
-
-<ul>
-<li>Scaling the App Service Up</li>
-</ul>
-
-<h3 id="adding-custom-dns-will-walk-you-through">&ldquo;Adding Custom DNS&rdquo; will walk you through:</h3>
-
-<ul>
-<li>Configuring a custom domain name to the App Service (e.g. jasonhand.com)</li>
-</ul>
 
 <p>When you&rsquo;re ready, check out <a href="/blog/deploy_static_html_site_to_azure_webapp/">&ldquo;Six Easy Steps to Deploying Static HTML on Azure&rdquo;</a>.</p>
 
