@@ -4,22 +4,22 @@
   
     <url>
       <loc>/blog/what_a_long_strange_trip_its_been/</loc>
-      <lastmod>2018-09-11T17:25:26-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>/blog/huto_on_azure/</loc>
-      <lastmod>2018-09-14T16:37:09-06:00</lastmod>
+      <lastmod>2018-09-01T17:25:26-06:00</lastmod>
     </url>
   
     <url>
       <loc>/blog/configure_deployment_option/</loc>
-      <lastmod>2018-09-13T16:00:47-06:00</lastmod>
+      <lastmod>2018-09-12T16:00:47-06:00</lastmod>
     </url>
   
     <url>
       <loc>/blog/deploy_static_html_site_to_azure_webapp/</loc>
-      <lastmod>2018-09-13T15:26:57-06:00</lastmod>
+      <lastmod>2018-09-11T15:26:57-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/blog/hugo_on_azure/</loc>
+      <lastmod>2018-09-10T16:37:09-06:00</lastmod>
     </url>
   
     <url>
@@ -29,13 +29,13 @@
   
     <url>
       <loc>/blog/</loc>
-      <lastmod>2018-09-11T17:25:26-06:00</lastmod>
+      <lastmod>2018-09-01T17:25:26-06:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
       <loc>/</loc>
-      <lastmod>2018-09-11T17:25:26-06:00</lastmod>
+      <lastmod>2018-09-11T16:37:48-06:00</lastmod>
       <priority>0</priority>
     </url>
   

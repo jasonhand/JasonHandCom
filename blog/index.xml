@@ -6,7 +6,7 @@
     <description>Recent content in Blogs on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 11 Sep 2018 17:25:26 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 01 Sep 2018 17:25:26 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>What A Long Strange Trip It&#39;s Been</title>
       <link>/blog/what_a_long_strange_trip_its_been/</link>
-      <pubDate>Tue, 11 Sep 2018 17:25:26 -0600</pubDate>
+      <pubDate>Sat, 01 Sep 2018 17:25:26 -0600</pubDate>
       
       <guid>/blog/what_a_long_strange_trip_its_been/</guid>
       <description>Just over four years ago, I impulsively responded to a Facebook post about a devops evangelism role at a new tech startup.
@@ -26,35 +26,34 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
-      <title>Hugo on Azure</title>
-      <link>/blog/huto_on_azure/</link>
-      <pubDate>Fri, 14 Sep 2018 16:37:09 -0600</pubDate>
-      
-      <guid>/blog/huto_on_azure/</guid>
-      <description>As I get settled in to my new role as a Cloud Ops Advocate for Microsft Azure, I&amp;rsquo;ve been kicking around ideas for both learning the Azure platform as well as showing off a few things you can do with the service.
-Every so often I decide that my website (jasonhand.com) needs an overhaul. But then inevitably I run out of time or energy to not only design and launch a completely new site but to keep up with providing helpful content.</description>
-    </item>
-    
-    <item>
-      <title>Configure Deployment Option</title>
+      <title>Configure Auto Deployments</title>
       <link>/blog/configure_deployment_option/</link>
-      <pubDate>Thu, 13 Sep 2018 16:00:47 -0600</pubDate>
+      <pubDate>Wed, 12 Sep 2018 16:00:47 -0600</pubDate>
       
       <guid>/blog/configure_deployment_option/</guid>
-      <description>Note: This post is a continuation of &amp;ldquo;Deploy a Static HTML Site To Azure as a Web App&amp;rdquo;. If you haven&amp;rsquo;t already deployed your new static HTML site following the steps outlined in that post, I suggest starting there first.
+      <description>Note: This post is a continuation of &amp;ldquo;Six Easy Steps to Deploying Static HTML on Azure&amp;rdquo;. If you haven&amp;rsquo;t already deployed your new static HTML site following the steps outlined in that post, I suggest starting there first.
 Now that our static HTML site is live, I want to take it one step further.
 I&amp;rsquo;m not sure how often I&amp;rsquo;ll be making changes to the content of my site, but I know that I want to remove as many barriers to releasing new information as I can.</description>
     </item>
     
     <item>
-      <title>Deploy a Static HTML Site To Azure as a Web App</title>
+      <title>Six Easy Steps to Deploying Static HTML on Azure</title>
       <link>/blog/deploy_static_html_site_to_azure_webapp/</link>
-      <pubDate>Thu, 13 Sep 2018 15:26:57 -0600</pubDate>
+      <pubDate>Tue, 11 Sep 2018 15:26:57 -0600</pubDate>
       
       <guid>/blog/deploy_static_html_site_to_azure_webapp/</guid>
-      <description>This tutorial will walk you through getting a static web site up and running as a Web App on Microsoft Azure.
-If you haven&amp;rsquo;t read my post &amp;ldquo;Hugo on Azure&amp;rdquo;, I suggest starting there. This post is a continuation of that conversation. We are taking a static HTML site built using Hugo and deploying it to a web server (web app actually) on Azure.
-The site itself is stored in a GitHub repository:</description>
+      <description>If you haven&amp;rsquo;t read my post &amp;ldquo;Hugo on Azure&amp;rdquo;, I suggest starting there.
+This post will outline the following simple steps to deploy a static HTML website to an App Service on Azure.
+ Login to Azure Launch CloudShell Mount (or Create) Persistent Storage Install Azure Web App Extension for CloudShell Clone Repository Deploy (HTML) Code  We are taking a static HTML site built using Hugo and deploying it to a web server (app service actually) on Azure.</description>
+    </item>
+    
+    <item>
+      <title>Hugo on Azure</title>
+      <link>/blog/hugo_on_azure/</link>
+      <pubDate>Mon, 10 Sep 2018 16:37:09 -0600</pubDate>
+      
+      <guid>/blog/hugo_on_azure/</guid>
+      <description>This walk-through will cover the following:  Create an App Service (to host our website) Clone a GitHub repository (static HTML) to the App Service Configure Automatic Deployments from repository to the App Service Scale the App Service Up Configure a custom domain name to the App Service  While I slide in to my new role as a Cloud Ops Advocate for Microsft Azure, I&amp;rsquo;ve been kicking around ideas for both learning the platform as well as showing off a few things you can do with the service.</description>
     </item>
     
   </channel>

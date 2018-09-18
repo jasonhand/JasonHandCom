@@ -6,11 +6,11 @@
   <title>
     
     
-        Deploy a Static HTML Site To Azure as a Web App | Jason Hand
+        Six Easy Steps to Deploying Static HTML on Azure | Jason Hand
     
   </title>
 
-  <meta name="title" content="Deploy a Static HTML Site To Azure as a Web App | Jason Hand">
+  <meta name="title" content="Six Easy Steps to Deploying Static HTML on Azure | Jason Hand">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -22,7 +22,7 @@
   <base href="">
 
   
-    <meta name="description" content="Step by step on how to deploy a static HTML site from GitHub to a web app on Azure">
+    <meta name="description" content="Step by step on how to deploy a static HTML site from GitHub to an App Service on Azure">
   
 
   
@@ -35,7 +35,7 @@
     <meta name="twitter:creator" content="@jasonhand">
   
 
-  <meta property="og:title" content="Deploy a Static HTML Site To Azure as a Web App | Jason Hand">
+  <meta property="og:title" content="Six Easy Steps to Deploying Static HTML on Azure | Jason Hand">
   <meta property="og:type" content="website">
   <meta property="og:url" content="">
 
@@ -44,7 +44,7 @@
   
 
   
-    <meta name="og:description" content="Step by step on how to deploy a static HTML site from GitHub to a web app on Azure">
+    <meta name="og:description" content="Step by step on how to deploy a static HTML site from GitHub to an App Service on Azure">
   
 
   
@@ -118,43 +118,76 @@
 
       <section class="container">
           <section class="content">
-              <h1> Deploy a Static HTML Site To Azure as a Web App </h1>
+              <h1> Six Easy Steps to Deploying Static HTML on Azure </h1>
 
               <div class="sub-header">
-                  September 13, 2018 · 3 minute read
+                  September 11, 2018 · 3 minute read
               </div>
 
               <article class="entry-content">
-                  <p>This tutorial will walk you through getting a static web site up and running as a Web App on Microsoft Azure.</p>
+                  
 
-<p>If you haven&rsquo;t read my post <a href="huto_on_azure/">&ldquo;Hugo on Azure&rdquo;</a>, I suggest starting there. This post is a continuation of that conversation. We are taking a static HTML site built using Hugo and deploying it to a web server (web app actually) on Azure.</p>
+<p>If you haven&rsquo;t read my post <a href="/blog/hugo_on_azure/">&ldquo;Hugo on Azure&rdquo;</a>, I suggest starting there.</p>
 
-<p>The site itself is stored in a GitHub repository:<br />
+<p>This post will outline the following simple steps to deploy a static HTML website to an App Service on Azure.</p>
+
+<ul>
+<li><a href="/blog/deploy_static_html_site_to_azure_webapp/#login">Login to Azure</a></li>
+<li><a href="/blog/deploy_static_html_site_to_azure_webapp/#launch">Launch CloudShell</a></li>
+<li><a href="/blog/deploy_static_html_site_to_azure_webapp/#mount">Mount (or Create) Persistent Storage</a></li>
+<li><a href="/blog/deploy_static_html_site_to_azure_webapp/#extension">Install Azure Web App Extension for CloudShell</a></li>
+<li><a href="/blog/deploy_static_html_site_to_azure_webapp/#clone">Clone Repository</a></li>
+<li><a href="/blog/deploy_static_html_site_to_azure_webapp/#deploy">Deploy (HTML) Code</a></li>
+</ul>
+
+<p>We are taking a static HTML site built using Hugo and deploying it to a web server (app service actually) on Azure.</p>
+
+<p>The static files used in this explanation are stored in one of my GitHub repositories found here:<br />
 <a href="https://github.com/jasonhand/JasonHandCom">https://github.com/jasonhand/JasonHandCom</a></p>
 
-<p>The site is built using Hugo (gohugo.io)</p>
+<p>The walk-through does not cover Hugo specific topics. For more information on using Hugo to design and build a static site, check out the <a href="https://gohugo.io/getting-started/quick-start/">&ldquo;Quick Start&rdquo; Guide</a></p>
 
-<p>The tutorial does not cover Hugo specific topics but rather automatically pushing changes to a site up to the cloud (MS Azure) automatically once code has been committed to the repository.</p>
+<p>Once you have your static site built and stored on GitHub we can begin from within the Azure Portal.</p>
 
-<hr />
+<h2 id="a-name-login-a"><a name="login"></a></h2>
 
-<hr />
+<p><br /></p>
 
-<hr />
+<h2 id="1-login-to-azure">1. Login to Azure</h2>
+
+<p>Login to your Azure account at : <a href="https://portal.azure.com">portal.azure.com</a> .. (or create a new account).</p>
+
+<h2 id="a-name-launch-a"><a name="launch"></a></h2>
+
+<p><br /></p>
+
+<h2 id="2-launch-cloudshell">2. Launch CloudShell</h2>
 
 <p>Open the Cloud Shell from within the Azure Portal</p>
 
 <p><img src="/images/CloudShell.png" alt="" /></p>
 
-<p>If prompted … From within the Cloud Shell .. I choose Bash (Linux)</p>
+<p><em><em>NOTE:</em> If prompted … From within the Cloud Shell .. I choose Bash (Linux)</em></p>
 
 <p><img src="images/CloudShellBash.png" alt="" /></p>
+
+<h2 id="a-name-mount-a"><a name="mount"></a></h2>
+
+<p><br /></p>
+
+<h2 id="3-mount-or-create-persistent-storage">3. Mount (or Create) Persistent Storage</h2>
 
 <p>Choose a subscription to assign the storage (for Cloud Shell usage)</p>
 
 <p><img src="images/MountStorage.png" alt="" /></p>
 
 <p>Once the shell / terminal is ready we’ll begin running a few commands to provision our app service</p>
+
+<h2 id="a-name-extension-a"><a name="extension"></a></h2>
+
+<p><br /></p>
+
+<h2 id="4-install-azure-web-app-extension-for-cloudshell">4. Install Azure Web App Extension for CloudShell</h2>
 
 <p>First, let’s make sure we have the az web app extension installed by running the following:</p>
 
@@ -172,54 +205,65 @@
 
 <p><code>cd www</code></p>
 
+<h2 id="a-name-clone-a"><a name="clone"></a></h2>
+
+<p><br /></p>
+
+<h2 id="5-clone-repository">5. Clone Repository</h2>
+
+<p>If you aren&rsquo;t familiar with git and the basic commands (or version control concepts in general), I suggest reviewing documentation found on both <a href="https://docs.microsoft.com/en-us/azure/devops/learn/git/what-is-version-control">Docs.Microsoft.com</a> and  <a href="https://guides.github.com/">Github</a>. Understanding the basics will help you make sense of the rest of this walk-through as well as help you become a better developer for it.</p>
+
+<p><img src="https://github.com/ashleymcnamara/Developer-Advocate-Bit/blob/master/OCTOCAT_BIT_ROUND.png?raw=true" alt="" /></p>
+
 <p>Now we are going to clone the repository where my site (HTML) is stored.</p>
 
 <p><code>git clone https://github.com/jasonhand/JasonHandCom.git</code></p>
 
 <p><img src="/images/CloneRepo.png" alt="" /></p>
 
-<p>Next we are going to bring up the site by changing to the directory that was just cloned and running the command:</p>
+<h2 id="a-name-deploy-a"><a name="deploy"></a></h2>
+
+<p><br /></p>
+
+<h2 id="6-deploy-html-code">6. Deploy (HTML) Code</h2>
+
+<p>Next we are going to bring up the site by changing to the directory that was just cloned:</p>
 
 <p><code>cd JasonHandCom</code></p>
 
-<p>`az webapp up &ndash;location centralus &ndash;name JasonHandCom</p>
+<p>and running the command:</p>
 
-<p>Note location of eastus1 was my choice. You can choose another option that makes more sense for your situation. The name of the webapp (JasonHandCom) is also unique to me. You will name your app something else.</p>
+<p><code>az webapp up --location centralus --name JasonHandCom</code></p>
+
+<p><em>Note:</em> The location of <em>eastus1</em> was my choice. You can choose another option that makes more sense for your situation.</p>
+
+<p><em>The name of the webapp (JasonHandCom) is also unique to me. You will name your app something else.</em></p>
 
 <p><img src="/images/webapp_up.png" alt="" /></p>
 
-<p>You should see a resource group being created as well as an app service plan as the contents are deployed.</p>
+<p>You should see a resource group being created as well as an app service plan while the contents of your site are deployed.</p>
 
 <p>Once the action has completed, you’ll see the following:
 <img src="/images/Complete.png" alt="" /></p>
 
-<p>Your site should be live now.</p>
+<p>Your site should be live now. You can view it at:</p>
 
-<p>You can view it at:</p>
+<h3 id="http-your-app-service-name-azurewebsites-net">http://(your_app_service_name).azurewebsites.net</h3>
 
-<p>http://<app_name>.azurewebsites.net</p>
+<p>(In my case it is <a href="https://jasonhandcom/azurewebsites.net">https://jasonhandcom/azurewebsites.net</a>)</p>
 
-<p>In my case it is <a href="https://jasonhandcom/azurewebsites.net">https://jasonhandcom/azurewebsites.net</a></p>
+<p>In my next post, we will configure the deployment options so that any time I push new code to the repository, Azure automatically deploys the changes to my live site.</p>
 
-<p>That’s it. You’ve deployed your static HTML site to an Azure Web App Service in just 4 steps</p>
-
-<ul>
-<li>Add the AZ extension in your Cloud Shell</li>
-<li>Create a new directory to host your files</li>
-<li>Clone the repo where your files are stored</li>
-<li>Deploy the site to Azure</li>
-</ul>
-
-<p>The next step is to configure the deployment options of the site so that it is connected to my repository. That way, any time I push new code to the repository, it will automatically deploy the changes to my live site.</p>
-
-<p>Read on&hellip;</p>
+<p>Next in the series: <a href="/blog/configure_deployment_option">Configure Auto Deployments</a></p>
 
               </article>
 
               <div class="pagination">
                   
+                      <a href="/blog/hugo_on_azure/">&laquo; Hugo on Azure</a>
                   
-                      <a href="/blog/configure_deployment_option/">Configure Deployment Option &raquo;</a>
+                  
+                      <a href="/blog/configure_deployment_option/">Configure Auto Deployments &raquo;</a>
                   
               </div>
           </section>
