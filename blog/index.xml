@@ -26,6 +26,16 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
+      <title>Adding Custom DNS</title>
+      <link>/blog/custom_dns/</link>
+      <pubDate>Tue, 18 Sep 2018 13:32:07 -0600</pubDate>
+      
+      <guid>/blog/custom_dns/</guid>
+      <description>This is a continuation of &amp;ldquo;Six Easy Steps to Deploying Static HTML on Azure&amp;rdquo; and &amp;ldquo;Configure Auto Deployments&amp;rdquo;.
+Now that we are able to easily deploy changes to our site through auto-deployments and source control, we are ready to point our custom domain (jasonhand.com in my case) to this new site (App Service actually). But before we do this, we have to scale our App Service plan to a paid tier (Shared, Basic, Standard, or Premium).</description>
+    </item>
+    
+    <item>
       <title>Configure Auto Deployments</title>
       <link>/blog/configure_deployment_option/</link>
       <pubDate>Wed, 12 Sep 2018 16:00:47 -0600</pubDate>
