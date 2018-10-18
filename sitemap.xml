@@ -8,28 +8,8 @@
     </url>
   
     <url>
-      <loc>/blog/custom_dns/</loc>
-      <lastmod>2018-09-18T13:32:07-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>/blog/scale_up_app_service/</loc>
-      <lastmod>2018-09-17T14:23:32-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>/blog/configure_deployment_option/</loc>
-      <lastmod>2018-09-12T16:00:47-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>/blog/deploy_static_html_site_to_azure_webapp/</loc>
-      <lastmod>2018-09-11T15:26:57-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>/blog/new_site/</loc>
-      <lastmod>2018-09-10T16:37:09-06:00</lastmod>
+      <loc>/blog/installing_prometheus_on_azure/</loc>
+      <lastmod>2018-09-21T08:27:38-06:00</lastmod>
     </url>
   
     <url>

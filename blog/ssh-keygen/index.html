@@ -6,11 +6,11 @@
   <title>
     
     
-        Configure Auto Deployments | Jason Hand
+        How To Generate a new SSH Key | Jason Hand
     
   </title>
 
-  <meta name="title" content="Configure Auto Deployments | Jason Hand">
+  <meta name="title" content="How To Generate a new SSH Key | Jason Hand">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -35,7 +35,7 @@
     <meta name="twitter:creator" content="@jasonhand">
   
 
-  <meta property="og:title" content="Configure Auto Deployments | Jason Hand">
+  <meta property="og:title" content="How To Generate a new SSH Key | Jason Hand">
   <meta property="og:type" content="website">
   <meta property="og:url" content="">
 
@@ -52,7 +52,7 @@
     <meta name="theme-color" content="#FFF">
   
 
-  <link rel="canonical" href="/blog/configure_deployment_option/">
+  <link rel="canonical" href="/blog/ssh-keygen/">
 
   
 
@@ -118,93 +118,51 @@
 
       <section class="container">
           <section class="content">
-              <h1> Configure Auto Deployments </h1>
+              <h1> How To Generate a new SSH Key </h1>
 
               <div class="sub-header">
-                  September 12, 2018 · 2 minute read
+                  September 21, 2018 · 1 minute read
               </div>
 
               <article class="entry-content">
                   
 
-<h3 id="note">Note:</h3>
+<h3 id="steps-to-generate-a-new-private-ssh-key">Steps to generate a new private SSH key</h3>
 
-<p><em>This post is a continuation of <a href="/blog/deploy_static_html_site_to_azure_webapp/">&ldquo;Six Easy Steps to Deploying Static HTML on Azure&rdquo;</a>. If you haven&rsquo;t already deployed your new static HTML site following the steps outlined in that post, I suggest starting there first.</em></p>
+<p>This tutorial walks through the process of creating a private SSH key to use in conjunction with a remote server.</p>
 
-<p>Now that our static HTML site is live, I want to take it one step further.</p>
+<p>In my post &ldquo;Installing Prometheus on Azure&rdquo; one of the steps is to create a new key. For those unfamilar with this process, please follow along below.</p>
 
-<p>I&rsquo;m not sure how often I&rsquo;ll be making changes to the content of my site, but I know that I want to remove as many barriers to releasing new information as I can.</p>
+<p>From your terminal (command line) NOTE: I use iterm2 on my MacBook Pro&hellip;
+run the following command:</p>
 
-<p>Luckily, because the HTML source code for my site is stored in a GitHub repository, I can synchronize my Azure App Service with the repo and any time a change is made to the codebase, Azure will rebuild my site and deploy it&hellip; auto-magically.</p>
+<p><code>ssh-keygen</code></p>
 
-<p>Here are the steps:</p>
+<p><img src="/images/ssh-keygen1.png" alt="" /></p>
 
-<ul>
-<li><a href="/blog/configure_deployment_option/#configure">Configure Deployment Options</a></li>
-<li><a href="/blog/configure_deployment_option/#source">Choose Source Control</a></li>
-<li><a href="/blog/configure_deployment_option/#branch">Choose Account, Project, Branch</a></li>
-<li><a href="/blog/configure_deployment_option/#confirm">Confirm Deployment</a></li>
-</ul>
+<p>If you have previously generated a key using the default location and file name, you will be prompted to Overwrite the file as well as provide a passphrase.</p>
 
-<h2 id="a-name-configure-a"><a name="configure"></a></h2>
+<p>You can accept (y) to Overwrite and leave the passphrase blank.
+Press enter a few times and you&rsquo;ll see confirmation that your ssh key has been generated.</p>
 
-<p><br /></p>
+<p>You can view your key by printing (cat) the file to your screen with:</p>
 
-<h3 id="1-configure-deployment-options">1. Configure Deployment Options</h3>
+<p><code>cat /Users/jasonhand/.ssh/id_rsa.pub</code> &lt;&ndash; replace /Users/jasonhand/ with your own directory location.</p>
 
-<p>From within the Azure Dashboard, let&rsquo;s begin by browsing to your new App Service (Resource) and select &ldquo;Deployment Options&rdquo; from the list.</p>
+<p><img src="/images/ssh-keygen2.png" alt="" /></p>
 
-<p><img src="/images/DeploymentOptions.png" alt="" /></p>
+<p>If you were following the instruction on &ldquo;<a href="/blog/installing_prometheus_on_azure/">Installing Prometheus on Azure</a>&rdquo;, return to that post and continue.</p>
 
-<h2 id="a-name-source-a"><a name="source"></a></h2>
-
-<p><br /></p>
-
-<h3 id="2-choose-source-control">2. Choose Source Control</h3>
-
-<p>Next, we will select the &ldquo;Choose Source&rdquo; (Configure required settings) option.</p>
-
-<p><img src="/images/ConfigureDeploymentOption.png" alt="" /></p>
-
-<p>Select the correct source. I&rsquo;m using GitHub, so that is the option I will choose.</p>
-
-<p><img src="/images/ChooseGitHubSource.png" alt="" /></p>
-
-<h2 id="a-name-branch-a"><a name="branch"></a></h2>
-
-<p><br /></p>
-
-<h3 id="3-choose-account-project-branch">3. Choose Account, Project, Branch</h3>
-
-<p>The next screen will prompt you to enter your GitHub account, project, branch, etc.</p>
-
-<p><img src="/images/RepoConfiguration.png" alt="" /></p>
-
-<p>Once you have made your configuration choices, select &ldquo;Save&rdquo; at the bottom of the screen. That&rsquo;s it!</p>
-
-<h3 id="a-name-confirm-a"><a name="confirm"></a></h3>
-
-<p><br /></p>
-
-<h3 id="4-confirm-deployment">4. Confirm Deployment</h3>
-
-<p>Any time new code is pushed to your repository, Azure will automatically deploy the changes for you.
-We can confirm this by making a change to our codebase from the local development environment followed by committing new code or changes to existing code to our repository on GitHub.</p>
-
-<p>The next thing I want to do is point my own domain (JasonHand.com) to this site (App Service). However, in order to do so, I will need to scale my App Service to a larger size. FREE tiers do not offer the ability to use custom domains.</p>
-
-<p>In the next post, we&rsquo;ll walk through the process of scaling our App Service up and configuring everything so my domain resolves to this new site.</p>
-
-<p>Check it out: <a href="/blog/scale_up_app_service/">&ldquo;Scale an App Service&rdquo;</a></p>
+<p>More on SSH keys to come. This is just for those who are new to the process but want to get a VM up and running on Azure. <a href="http://www.twitter.com/jasonhand">Tweet me</a> if you need more help with this step.</p>
 
               </article>
 
               <div class="pagination">
                   
-                      <a href="/blog/deploy_static_html_site_to_azure_webapp/">&laquo; Six Easy Steps to Deploying Static HTML on Azure</a>
+                      <a href="/blog/installing_prometheus_on_azure/">&laquo; Installing Prometheus on Azure</a>
                   
                   
-                      <a href="/blog/scale_up_app_service/">Scaling Up Your App Service in Azure &raquo;</a>
+                      <a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
                   
               </div>
           </section>

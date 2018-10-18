@@ -26,56 +26,13 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
-      <title>Adding Custom DNS</title>
-      <link>/blog/custom_dns/</link>
-      <pubDate>Tue, 18 Sep 2018 13:32:07 -0600</pubDate>
+      <title>Installing Prometheus on Azure</title>
+      <link>/blog/installing_prometheus_on_azure/</link>
+      <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
       
-      <guid>/blog/custom_dns/</guid>
-      <description>We can use either a CNAME record or an A record to map a custom DNS name to our App Service.
-Because I&amp;rsquo;m setting up my root domain (jasonhand.com) I will use an A record.
-To map an A record, you need the app&amp;rsquo;s external IP address. You can find this IP address in the app&amp;rsquo;s Custom domains page in the Azure portal. Copy the app&amp;rsquo;s IP address for use later.</description>
-    </item>
-    
-    <item>
-      <title>Scaling Up Your App Service in Azure</title>
-      <link>/blog/scale_up_app_service/</link>
-      <pubDate>Mon, 17 Sep 2018 14:23:32 -0600</pubDate>
-      
-      <guid>/blog/scale_up_app_service/</guid>
-      <description>This is a continuation of &amp;ldquo;Six Easy Steps to Deploying Static HTML on Azure&amp;rdquo; and &amp;ldquo;Configure Auto Deployments&amp;rdquo;.
-Now that we are able to easily deploy changes to our site through auto-deployments and source control, we are ready to point our custom domain (jasonhand.com in my case) to this new site (App Service actually). But before we do this, we have to scale our App Service plan to a paid tier (Shared, Basic, Standard, or Premium).</description>
-    </item>
-    
-    <item>
-      <title>Configure Auto Deployments</title>
-      <link>/blog/configure_deployment_option/</link>
-      <pubDate>Wed, 12 Sep 2018 16:00:47 -0600</pubDate>
-      
-      <guid>/blog/configure_deployment_option/</guid>
-      <description>Note: This post is a continuation of &amp;ldquo;Six Easy Steps to Deploying Static HTML on Azure&amp;rdquo;. If you haven&amp;rsquo;t already deployed your new static HTML site following the steps outlined in that post, I suggest starting there first.
-Now that our static HTML site is live, I want to take it one step further.
-I&amp;rsquo;m not sure how often I&amp;rsquo;ll be making changes to the content of my site, but I know that I want to remove as many barriers to releasing new information as I can.</description>
-    </item>
-    
-    <item>
-      <title>Six Easy Steps to Deploying Static HTML on Azure</title>
-      <link>/blog/deploy_static_html_site_to_azure_webapp/</link>
-      <pubDate>Tue, 11 Sep 2018 15:26:57 -0600</pubDate>
-      
-      <guid>/blog/deploy_static_html_site_to_azure_webapp/</guid>
-      <description>If you haven&amp;rsquo;t read my post &amp;ldquo;New Job, New Tech, New Website&amp;rdquo;, I suggest starting there.
-This post will outline the following simple steps to deploy a static HTML website to an App Service on Azure.
- Login to Azure Launch CloudShell Mount (or Create) Persistent Storage Install Azure Web App Extension for CloudShell Clone Repository Deploy (HTML) Code  We are taking a static HTML site built using Hugo and deploying it to a web server (app service actually) on Azure.</description>
-    </item>
-    
-    <item>
-      <title>New Job, New Tech, New Website</title>
-      <link>/blog/new_site/</link>
-      <pubDate>Mon, 10 Sep 2018 16:37:09 -0600</pubDate>
-      
-      <guid>/blog/new_site/</guid>
-      <description>While I slide in to my new role as a Cloud Ops Advocate for Microsft Azure, I&amp;rsquo;ve been kicking around ideas for both learning the platform as well as showing off a few things you can do with the service.
-Every so often I decide that my website (jasonhand.com) is dumb and needs a complete overhaul. But inevitably I run out of time or energy to do any of the work.</description>
+      <guid>/blog/installing_prometheus_on_azure/</guid>
+      <description>This post will walk through the basisc of getting Prometheus installed and configured on an Azure Virtual Machine (VM).
+Create a new VM  Create a Virtual Machine  Basics Disks Networking Management   Add a custom domain  Custom DNS Create Virtual Network  Open Ports 22 and 9090   Connect to VM and install Prometheus  Remote Connection to VM Download &amp;amp; Install Promoetheus on VM Start Prometheus  Login to your Azure Portal Go to portal.</description>
     </item>
     
   </channel>
