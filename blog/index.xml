@@ -26,6 +26,18 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
+      <title>Deploying a Static HTML Site to Azure with App Services</title>
+      <link>/blog/deploying_static_html_site_to_azure_with_app_services/</link>
+      <pubDate>Thu, 18 Oct 2018 12:26:05 -0600</pubDate>
+      
+      <guid>/blog/deploying_static_html_site_to_azure_with_app_services/</guid>
+      <description>What&amp;rsquo;s a Static HTML Site? &amp;hellip; you may be asking yourself.
+ It&amp;rsquo;s like the hip way to be old school, but in a new-skool kinda way!
+ Nowadays, most websites contain both server-side and client-side (browser) scripts that are actively changing the content and properties of the website. Any e-commerce site is a good example of this.
+Data is stored and delivered to the server and browser from a variety of sources and served up to the end-user dynamically as they navigate their way through the site.</description>
+    </item>
+    
+    <item>
       <title>Installing Prometheus on Azure</title>
       <link>/blog/installing_prometheus_on_azure/</link>
       <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
