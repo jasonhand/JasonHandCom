@@ -62,15 +62,13 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
-      <title>Deploying a Static HTML Site to Azure with App Services</title>
-      <link>/blog/deploying_static_html_site_to_azure_with_app_services/</link>
-      <pubDate>Thu, 18 Oct 2018 12:26:05 -0600</pubDate>
+      <title>Rethinking Monitoring</title>
+      <link>/blog/rethinking_monitoring/</link>
+      <pubDate>Mon, 22 Oct 2018 15:13:57 -0600</pubDate>
       
-      <guid>/blog/deploying_static_html_site_to_azure_with_app_services/</guid>
-      <description>What&amp;rsquo;s a Static HTML Site? &amp;hellip; you may be asking yourself.
- It&amp;rsquo;s like the hip way to be old school, but in a new-skool kinda way!
- Nowadays, most websites contain both server-side and client-side (browser) scripts that are actively changing the content and properties of the website. Any e-commerce site is a good example of this.
-Data is stored and delivered to the server and browser from a variety of sources and served up to the end-user dynamically as they navigate their way through the site.</description>
+      <guid>/blog/rethinking_monitoring/</guid>
+      <description>If you&amp;rsquo;ve been involved in the management and operation of applications and services newly developed in the cloud, it is painfully obvious that the way we&amp;rsquo;ve monitored our applications and infrastructure in the past isn&amp;rsquo;t cutting it any more.
+Disruptions in service are more frequent. The frequency and complexity of change in production enviornments make it nearly impossible to have a grasp on what&amp;rsquo;s going on with your system. Some of our old school tools and tricks may be giving us insight in to component level metrics such as CPU, memory, or disk space but .</description>
     </item>
     
     <item>

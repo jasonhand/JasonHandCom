@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  
+
+  <title>
+    
+    
+        Rethinking Monitoring | Jason Hand
+    
+  </title>
+
+  <meta name="title" content="Rethinking Monitoring | Jason Hand">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="generator" content="">
+  <base href="">
+
+  
+    <meta name="description" content="Senior Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <meta name="author" content="@jasonhand">
+  
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jasonhand">
+    <meta name="twitter:creator" content="@jasonhand">
+  
+
+  <meta property="og:title" content="Rethinking Monitoring | Jason Hand">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+
+  
+    <meta property="og:image" content="/images/bitops.png">
+  
+
+  
+    <meta property="og:description" content="Senior Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+    <meta name="theme-color" content="#FFF">
+  
+
+  <link rel="canonical" href="/blog/rethinking_monitoring/">
+
+  
+
+  <link rel="stylesheet" href="/styles/main.css" type="text/css">
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+
+  
+</head>
+
+  <body>
+    
+
+
+
+<nav class="row middle-xs center-xs">
+  <div class="col-xs-6 col-sm-1 logo">
+    <a href="#"><img src="/images/pit_crew.png" alt="Jason Hand"></a>
+  </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="/#about">Bio</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="/#work">Community</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="/#blog">Blog</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="/#contact">Social</a></h3>
+      </div>
+    
+  <div class="col-xs-6 col-sm-1 nav-toggle">
+      <a href="" class="nav-icon" onclick="return false"><img src="/images/icon-menu.png" alt="Open Menu"><img src="/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
+  </div>
+</nav>
+
+<section class="nav-full row middle-xs center-xs">
+  <div class="col-xs-12">
+    <div class="row middle-xs center-xs">
+      
+        <div class="col-xs-12"><h1><a href="/#about">Bio</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="/#work">Community</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="/#blog">Blog</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="/#contact">Social</a></h1></div>
+      
+    </div>
+  </div>
+</section>
+
+    <main>
+
+      <section class="container">
+          <section class="content">
+              <h1> Rethinking Monitoring </h1>
+
+              <div class="sub-header">
+                  October 22, 2018 · 3 minute read
+              </div>
+
+              <article class="entry-content">
+                  <p>If you&rsquo;ve been involved in the management and operation of applications and services newly developed in the cloud, it is painfully obvious that the way we&rsquo;ve monitored our applications and infrastructure in the past isn&rsquo;t cutting it any more.</p>
+
+<p>Disruptions in service are more frequent. The frequency and complexity of change in production enviornments make it nearly impossible to have a grasp on what&rsquo;s going on with your system. Some of our old school tools and tricks may be giving us insight in to component level metrics such as CPU, memory, or disk space but .</p>
+
+<p>There are on-going discussions around the ideas of putting developers on the hook for production issues related to an application or service they had a hand in building. &ldquo;Put the Devs On-call&rdquo; is a popular theme (and sometimes meme) within the DevOps community.</p>
+
+<p>Just today there were a few conversations circulating around old-school terminology such as &ldquo;root cause&rdquo;and whether or not it holds significance in today&rsquo;s system design and operation.</p>
+
+<p>p.s. I have some strong opinions on the term and the practice of RCAs.
+For those who don&rsquo;t know me or have read previous articles and books I&rsquo;ve put out on the matter &hellip; the
+<em>t.l.d.r.</em> is that there are better ways to spend your engineer&rsquo;s time and energy that bias towards real learning and improvement to the business (and the value it provides).</p>
+
+<hr />
+
+<p>With newer tech such as containerization, serverless, and a half dozen other buzz words it seems there will always be a smorgasboard of approaches and so-called &ldquo;best practices&rdquo; for building things. But knowing whether or not those things are doing what they are supposed to.</p>
+
+<p>GitHub announced their new Functions service recently. That along with Azure Devops, shows a move towards not only abstracting more and more away from the component level, but some parts of the infrastructure may exist only when needed and called upon.</p>
+
+<p>Microservices are a great example of how we can see where traditional methods of monitoring might not really stand up to today&rsquo;s favored practices and principals. Virtual machines may exist for days, hours, or even less. This realization leaves a lot of old System Administrators like me scratching our heads when asked to monitor these new elements of the system.</p>
+
+<p>Just about any DevOpsDays event you attend these days will have a slide pointing out that the &ldquo;This is how we&rsquo;ve always done it&rdquo; argument unfortunately persists plays a hugely negative role in any organization&rsquo;s efforts to stay competitive (or even in business). Monitoring and responding to incidents is one area I think the old way of thinking has persisted in to a dangerous point in time.</p>
+
+<p>People and to a certain extent society have come to <em>quite literally</em> rely on digital services.</p>
+
+<p>For those curious why terms like Site Reliability Engineering (SRE) has become such an important topic, this is as simple as I can put it.</p>
+
+<p>There&rsquo;s just one HUGE caveat to the SRE story&hellip;</p>
+
+<p>100% uptime of a system isn&rsquo;t really possible or even necessary.
+Systems are always in some stage of change and (yes in fact) failure. The fact that the failure has yet to affect anyone or any thing enough to raise alarm is not only interesting, it&rsquo;s measurable and something egineering teams can use in their favor.</p>
+
+<p>A core concept to SRE is &ldquo;approrpriat level of availability&rdquo;.</p>
+
+<hr />
+
+<p>It&rsquo;s usually about this part of the conversation that people begin to say &ldquo;yeah, that makes sense. Soooo.. what should I do?&rdquo;</p>
+
+<p>And I respond with &ldquo;It depends. What&rsquo;s the most important thing to you&rdquo;.</p>
+
+<p>Depending on role, I&rsquo;ll get a mulitude of responses here.</p>
+
+<p>All of which are are incorrect unless they answered with: &ldquo;The customer&rdquo;.</p>
+
+              </article>
+
+              <div class="pagination">
+                  
+                      <a href="/blog/installing_prometheus_on_azure/">&laquo; Installing Prometheus on Azure</a>
+                  
+                  
+                      <a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
+                  
+              </div>
+          </section>
+          <br>
+          <section class="disqus">
+
+  
+
+</section>
+
+      </section>
+
+    </main>
+    <footer class="row middle-xs center-xs">
+ 
+ 
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://twitter.com/jasonhand">Twitter</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://instagram.com/jhand">Instagram</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://facebook.com/jhand">Facebook</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://linkedin.com/in/jasonhand24">LinkedIn</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://youtube.com/jasonhand24">YouTube</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://github.com/jasonhand">GitHub</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://reddit.com/user/jhand24">Reddit</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://medium.com/@jasonhand">Medium</a></div>
+  
+ 
+
+
+  
+    <div class="col-xs-12">
+      
+        Copyright &copy; 2018 Jason Hand.
+      
+      
+        <a href="https://tomanistor.com" target="_blank">Theme developed by Toma Nistor</a>
+      
+    </div>
+  
+
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+  <script src="/scripts/main.min.js" type="text/javascript"></script>
+
+
+  </body>
+</html>
