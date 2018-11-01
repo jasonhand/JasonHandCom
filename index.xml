@@ -62,16 +62,6 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
-      <title>Rethinking Monitoring</title>
-      <link>/blog/rethinking_monitoring/</link>
-      <pubDate>Mon, 22 Oct 2018 15:13:57 -0600</pubDate>
-      
-      <guid>/blog/rethinking_monitoring/</guid>
-      <description>If you&amp;rsquo;ve been involved in the management and operation of applications and services newly developed in the cloud, it is painfully obvious that the way we&amp;rsquo;ve monitored our applications and infrastructure in the past isn&amp;rsquo;t cutting it any more.
-Disruptions in service are more frequent. The frequency and complexity of change in production enviornments make it nearly impossible to have a grasp on what&amp;rsquo;s going on with your system. Some of our old school tools and tricks may be giving us insight in to component level metrics such as CPU, memory, or disk space but .</description>
-    </item>
-    
-    <item>
       <title>Installing Prometheus on Azure</title>
       <link>/blog/installing_prometheus_on_azure/</link>
       <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
