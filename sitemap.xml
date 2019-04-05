@@ -8,6 +8,11 @@
     </url>
   
     <url>
+      <loc>/blog/startuptour/</loc>
+      <lastmod>2019-04-05T13:13:47-06:00</lastmod>
+    </url>
+  
+    <url>
       <loc>/blog/installing_prometheus_on_azure/</loc>
       <lastmod>2018-09-21T08:27:38-06:00</lastmod>
     </url>
