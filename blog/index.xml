@@ -6,10 +6,159 @@
     <description>Recent content in Blogs on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 01 Sep 2018 17:25:26 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 08:53:36 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scott Cate - Microsoft Ignite | The Tour</title>
+      <link>/blog/scott_cate_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 08:53:36 -0600</pubDate>
+      
+      <guid>/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
+      <description>&amp;ldquo;Speaker Manager&amp;rdquo;
+In charge of creating all the new content for the tour. Done as a team sport rather than individually.
+Talk about the process of how we created the content for the tour.
+scalable. distributable. consumable.
+The ultimate compliment is seeing someone else give your talk. (example in Milan).
+Learning paths. Train the trainer.
+Links (on all advocate pages):
+ Ignite Tour assets Startup Tour  Follow Scott: Twitter</description>
+    </item>
+    
+    <item>
+      <title>Rick Klaus - Microsoft Ignite | The Tour</title>
+      <link>/blog/rick_klaus_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 10:03:55 -0600</pubDate>
+      
+      <guid>/blog/rick_klaus_microsoft_ignite_tour_interview/</guid>
+      <description>Rick&amp;rsquo;s Links
+ Channel 9 show (Bit &amp;amp; Bang) Hybrid session Fundamentals  Links (on all advocate pages)
+ Ignite Tour assets Startup Tour  Follow Rick: Twitter
+GitHub Blog LinkedIn</description>
+    </item>
+    
+    <item>
+      <title>Laurent Bugnion - Microsoft Ignite | The Tour</title>
+      <link>/blog/laurent_bugnion_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:53:40 -0600</pubDate>
+      
+      <guid>/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
+      <description>Introduction to storage on Azure Migrating data to Azure.. application services, VMs, MongoDB to CosmoDB, and old version of SQL server to &amp;ldquo;SQL Managed Instance&amp;rdquo;.
+ Blob Storage CosmosDB Managed SQL Data warehouse Data Factory .NET MVP Program  Links (on all advocate pages): - Ignite Tour assets - Startup Tour
+Follow Laurent: Twitter
+GitHub Blog Stack Overflow Instagram Facebook</description>
+    </item>
+    
+    <item>
+      <title>Jay Gordon - Microsoft Ignite | The Tour</title>
+      <link>/blog/jay_gordon_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:54:09 -0600</pubDate>
+      
+      <guid>/blog/jay_gordon_microsoft_ignite_tour_interview/</guid>
+      <description>MIG10 &amp;ldquo;Migrating your web applications to Azure&amp;rdquo;
+Jay&amp;rsquo;s Links:
+ CosmosDB MongoDB API NoSQL Data Lakes Logic App Functions Azure DevOps Repository Azure Pipelines Docker Powershell Azure Cloud Shell (ARM) Azure Resource Manager Azure CLI (Command Line Interface)  Links (on all advocate pages):
+ Ignite Tour assets Startup Tour  Follow Jay: Twitter
+GitHub LinkedIn Instagram Facebook</description>
+    </item>
+    
+    <item>
+      <title>Mel Mckenna - Microsoft Ignite | The Tour</title>
+      <link>/blog/mel_mckenna_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:54:29 -0600</pubDate>
+      
+      <guid>/blog/mel_mckenna_microsoft_ignite_tour_interview/</guid>
+      <description>Helps organize, triage, and handle logistics of &amp;ldquo;The Hub&amp;rdquo; and &amp;ldquo;Meet the Experts&amp;rdquo;.
+Links (on all advocate pages):
+ Ignite Tour assets Startup Tour  Follow Mel: Twitter</description>
+    </item>
+    
+    <item>
+      <title>Jeremy Likness - Microsoft Ignite | The Tour</title>
+      <link>/blog/jeremy_likness_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:54:46 -0600</pubDate>
+      
+      <guid>/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
+      <description>Session at MITT - &amp;ldquo;Cloud Apps&amp;rdquo;
+Links:
+ .NET back-end Javascript Video tutorials &amp;ldquo;Typscript for Javascript developers&amp;rdquo; Channel 9 show (Top Secret Series: for .NET developers) &amp;ldquo;On .NET&amp;rdquo;  Follow Jeremy: Twitter
+GitHub LinkedIn Blog Stack Overflow</description>
+    </item>
+    
+    <item>
+      <title>Ari Bornstein - Microsoft Ignite | The Tour</title>
+      <link>/blog/ari_bornstein_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:55:03 -0600</pubDate>
+      
+      <guid>/blog/ari_bornstein_microsoft_ignite_tour_interview/</guid>
+      <description>Azure Machine Learning Service DAT10 - DAT50 -
+Links:
+ Databricks Machine Learning Azure Cognitive Services Colorizing black &amp;amp; white images projects TensorFlow  Follow Ari: Twitter
+GitHub LinkedIn</description>
+    </item>
+    
+    <item>
+      <title>Juliet Friedman - Microsoft Ignite | The Tour</title>
+      <link>/blog/juliet_friedman_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:55:18 -0600</pubDate>
+      
+      <guid>/blog/juliet_friedman_microsoft_ignite_tour_interview/</guid>
+      <description>Links: - Ignite Tour - Startup Tour
+Follow Ari: Twitter</description>
+    </item>
+    
+    <item>
+      <title>Damien Brady - Microsoft Ignite | The Tour</title>
+      <link>/blog/damien_brady_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:56:15 -0600</pubDate>
+      
+      <guid>/blog/damien_brady_microsoft_ignite_tour_interview/</guid>
+      <description>Devops &amp;ldquo;deploying faster and safer&amp;rdquo; &amp;ldquo;Augmenting your data with Artificial Intelligence &amp;amp; Machine Learning&amp;rdquo;
+Additional Links
+ Azure Devops Azure Pipelines Cognitive Services Canary Deployments Video of the augmenting data talk Machine Learning Speech to Text API Anthony&amp;rsquo;s transcription project links Chatbots IoT on Azure  Links (on all advocate pages)
+ Ignite Tour assets Startup Tour  Advocate Links:
+Follow Damien: Twitter
+GitHub LinkedIn Blog Stack Overflow</description>
+    </item>
+    
+    <item>
+      <title>Ryan Levick - Microsoft Ignite | The Tour</title>
+      <link>/blog/ryan_levick_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:56:43 -0600</pubDate>
+      
+      <guid>/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
+      <description>Links (on all advocate pages)
+ Ignite Tour assets Startup Tour  Follow Ryan: Twitter
+GitHub LinkedIn Blog</description>
+    </item>
+    
+    <item>
+      <title>Erik St. Martin - Microsoft Ignite | The Tour</title>
+      <link>/blog/erik_stmartin_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:57:09 -0600</pubDate>
+      
+      <guid>/blog/erik_stmartin_microsoft_ignite_tour_interview/</guid>
+      <description>Erik&amp;rsquo;s Links:
+ Containers Kubernetes Go GitHub profile  Migrating a 3 VM deployment to Web Apps for containers. Also includes migrating a cron job to a serverless function.
+The second one is the continuation of the story. Canary deployments. More on Kubernetes.
+Links (on all advocate pages): - Ignite Tour assets - Startup Tour
+Follow Erik: Twitter
+GitHub LinkedIn Blog Podcast</description>
+    </item>
+    
+    <item>
+      <title>Neil Peterson - Microsoft Ignite | The Tour</title>
+      <link>/blog/neil_peterson_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:57:26 -0600</pubDate>
+      
+      <guid>/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
+      <description>Neil&amp;rsquo;s Links:
+ Visual Code Pair programming Azure CLI Azure Resource Manager (APM) templates Configuring VMs Alerting on changes to VMs Securing your environment with (RBAC) Role-based access control Azure Locks Trombone Shorty  Links (on all advocate pages): - Ignite Tour assets - Startup Tour
+Follow Neil: Twitter
+GitHub</description>
+    </item>
     
     <item>
       <title>What A Long Strange Trip It&#39;s Been</title>
@@ -23,16 +172,6 @@ This spontaneous act illuminated a path of personal and professional growth.
 A path that created new opportunities for me almost daily.
 A path that changed me for the better.
 A path that wasn’t there… until it was.</description>
-    </item>
-    
-    <item>
-      <title>Microsoft&#39;s Startup Tour 2019</title>
-      <link>/blog/startuptour/</link>
-      <pubDate>Fri, 05 Apr 2019 13:13:47 -0600</pubDate>
-      
-      <guid>/blog/startuptour/</guid>
-      <description>New York City &amp;amp; Toronto It&amp;rsquo;s been about 8 months since joining the Azure Advocacy Team at Microsoft and I can hardly believe how fast it&amp;rsquo;s gone by.
-Being part of the global event &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; has been an incredible experience. I&amp;rsquo;ve met so many amazing people all over the world who are as excited about learning from us as we are about advocating for them.</description>
     </item>
     
     <item>
