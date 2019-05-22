@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jason Hand</title>
-    <link>jasonhand.com/</link>
+    <link>http://jasonhand.com/</link>
     <description>Recent content on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 21 May 2019 08:53:36 -0600</lastBuildDate>
     
-	<atom:link href="jasonhand.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jasonhand.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scott Cate - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 08:53:36 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
       <description>&amp;ldquo;Speaker Manager&amp;rdquo;
 In charge of creating all the new content for the tour. Done as a team sport rather than individually.
 Talk about the process of how we created the content for the tour.
@@ -29,19 +29,19 @@ Links (on all advocate pages):
     
     <item>
       <title>Books</title>
-      <link>jasonhand.com/gallery/books/</link>
+      <link>http://jasonhand.com/gallery/books/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:48 -0600</pubDate>
       
-      <guid>jasonhand.com/gallery/books/</guid>
+      <guid>http://jasonhand.com/gallery/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Christina Warren - Microsoft | Ignite Tour</title>
-      <link>jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 08:58:10 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
       <description>Opener with Visual Studio code to do pair programming to fix a SQL injection problem.
 FUN10
  Azure fundamentals Serverless computing Migrating systems Azure networking  Additional links
@@ -52,19 +52,19 @@ Blog LinkedIn Facebook</description>
     
     <item>
       <title>Front Range SRE Meetup</title>
-      <link>jasonhand.com/gallery/frontrangesre/</link>
+      <link>http://jasonhand.com/gallery/frontrangesre/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:32 -0600</pubDate>
       
-      <guid>jasonhand.com/gallery/frontrangesre/</guid>
+      <guid>http://jasonhand.com/gallery/frontrangesre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rick Klaus - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/rick_klaus_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/rick_klaus_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 10:03:55 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/rick_klaus_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/rick_klaus_microsoft_ignite_tour_interview/</guid>
       <description>Rick&amp;rsquo;s Links
  Channel 9 show (Bit &amp;amp; Bang) Hybrid session Fundamentals  Links (on all advocate pages)
  Ignite Tour assets Startup Tour  Follow Rick: Twitter
@@ -73,19 +73,19 @@ GitHub Blog LinkedIn</description>
     
     <item>
       <title>Community Pulse</title>
-      <link>jasonhand.com/gallery/communitypulse/</link>
+      <link>http://jasonhand.com/gallery/communitypulse/</link>
       <pubDate>Tue, 11 Sep 2018 17:16:11 -0600</pubDate>
       
-      <guid>jasonhand.com/gallery/communitypulse/</guid>
+      <guid>http://jasonhand.com/gallery/communitypulse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laurent Bugnion - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:53:40 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
       <description>Introduction to storage on Azure Migrating data to Azure.. application services, VMs, MongoDB to CosmoDB, and old version of SQL server to &amp;ldquo;SQL Managed Instance&amp;rdquo;.
  Blob Storage CosmosDB Managed SQL Data warehouse Data Factory .NET MVP Program  Links (on all advocate pages): - Ignite Tour assets - Startup Tour
 Follow Laurent: Twitter
@@ -94,19 +94,19 @@ GitHub Blog Stack Overflow Instagram Facebook</description>
     
     <item>
       <title>DevopsDays Rockies</title>
-      <link>jasonhand.com/gallery/devopsdaysrox/</link>
+      <link>http://jasonhand.com/gallery/devopsdaysrox/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:00 -0600</pubDate>
       
-      <guid>jasonhand.com/gallery/devopsdaysrox/</guid>
+      <guid>http://jasonhand.com/gallery/devopsdaysrox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jay Gordon - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:54:09 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</guid>
       <description>MIG10 &amp;ldquo;Migrating your web applications to Azure&amp;rdquo;
 Jay&amp;rsquo;s Links:
  CosmosDB MongoDB API NoSQL Data Lakes Logic App Functions Azure DevOps Repository Azure Pipelines Docker Powershell Azure Cloud Shell (ARM) Azure Resource Manager Azure CLI (Command Line Interface)  Links (on all advocate pages):
@@ -116,10 +116,10 @@ GitHub LinkedIn Instagram Facebook</description>
     
     <item>
       <title>Mel Mckenna - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/mel_mckenna_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/mel_mckenna_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:54:29 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/mel_mckenna_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/mel_mckenna_microsoft_ignite_tour_interview/</guid>
       <description>Helps organize, triage, and handle logistics of &amp;ldquo;The Hub&amp;rdquo; and &amp;ldquo;Meet the Experts&amp;rdquo;.
 Links (on all advocate pages):
  Ignite Tour assets Startup Tour  Follow Mel: Twitter</description>
@@ -127,10 +127,10 @@ Links (on all advocate pages):
     
     <item>
       <title>Jeremy Likness - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:54:46 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
       <description>Session at MITT - &amp;ldquo;Cloud Apps&amp;rdquo;
 Links:
  .NET back-end Javascript Video tutorials &amp;ldquo;Typscript for Javascript developers&amp;rdquo; Channel 9 show (Top Secret Series: for .NET developers) &amp;ldquo;On .NET&amp;rdquo;  Follow Jeremy: Twitter
@@ -139,10 +139,10 @@ GitHub LinkedIn Blog Stack Overflow</description>
     
     <item>
       <title>Ari Bornstein - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:55:03 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</guid>
       <description>Azure Machine Learning Service DAT10 - DAT50 -
 Links:
  Databricks Machine Learning Azure Cognitive Services Colorizing black &amp;amp; white images projects TensorFlow  Follow Ari: Twitter
@@ -151,20 +151,20 @@ GitHub LinkedIn</description>
     
     <item>
       <title>Juliet Friedman - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/juliet_friedman_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/juliet_friedman_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:55:18 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/juliet_friedman_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/juliet_friedman_microsoft_ignite_tour_interview/</guid>
       <description>Links: - Ignite Tour - Startup Tour
 Follow Ari: Twitter</description>
     </item>
     
     <item>
       <title>Damien Brady - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:56:15 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</guid>
       <description>Devops &amp;ldquo;deploying faster and safer&amp;rdquo; &amp;ldquo;Augmenting your data with Artificial Intelligence &amp;amp; Machine Learning&amp;rdquo;
 Additional Links
  Azure Devops Azure Pipelines Cognitive Services Canary Deployments Video of the augmenting data talk Machine Learning Speech to Text API Anthony&amp;rsquo;s transcription project links Chatbots IoT on Azure  Links (on all advocate pages)
@@ -175,10 +175,10 @@ GitHub LinkedIn Blog Stack Overflow</description>
     
     <item>
       <title>Ryan Levick - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:56:43 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
       <description>Links (on all advocate pages)
  Ignite Tour assets Startup Tour  Follow Ryan: Twitter
 GitHub LinkedIn Blog</description>
@@ -186,10 +186,10 @@ GitHub LinkedIn Blog</description>
     
     <item>
       <title>Erik St. Martin - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:57:09 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</guid>
       <description>Erik&amp;rsquo;s Links:
  Containers Kubernetes Go GitHub profile  Migrating a 3 VM deployment to Web Apps for containers. Also includes migrating a cron job to a serverless function.
 The second one is the continuation of the story. Canary deployments. More on Kubernetes.
@@ -200,10 +200,10 @@ GitHub LinkedIn Blog Podcast</description>
     
     <item>
       <title>Neil Peterson - Microsoft Ignite | The Tour</title>
-      <link>jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</link>
+      <link>http://jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:57:26 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
+      <guid>http://jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
       <description>Neil&amp;rsquo;s Links:
  Visual Code Pair programming Azure CLI Azure Resource Manager (APM) templates Configuring VMs Alerting on changes to VMs Securing your environment with (RBAC) Role-based access control Azure Locks Trombone Shorty  Links (on all advocate pages): - Ignite Tour assets - Startup Tour
 Follow Neil: Twitter
@@ -212,10 +212,10 @@ GitHub</description>
     
     <item>
       <title>What A Long Strange Trip It&#39;s Been</title>
-      <link>jasonhand.com/blog/what_a_long_strange_trip_its_been/</link>
+      <link>http://jasonhand.com/blog/what_a_long_strange_trip_its_been/</link>
       <pubDate>Sat, 01 Sep 2018 17:25:26 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/what_a_long_strange_trip_its_been/</guid>
+      <guid>http://jasonhand.com/blog/what_a_long_strange_trip_its_been/</guid>
       <description>Just over four years ago, I impulsively responded to a Facebook post about a devops evangelism role at a new tech startup.
 I had never been an evangelist and I knew nothing of the term “devops”. #yolo ¯_(ツ)_/¯
 This spontaneous act illuminated a path of personal and professional growth.
@@ -226,20 +226,20 @@ A path that wasn’t there… until it was.</description>
     
     <item>
       <title>Installing Prometheus on Azure</title>
-      <link>jasonhand.com/blog/installing_prometheus_on_azure/</link>
+      <link>http://jasonhand.com/blog/installing_prometheus_on_azure/</link>
       <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
       
-      <guid>jasonhand.com/blog/installing_prometheus_on_azure/</guid>
+      <guid>http://jasonhand.com/blog/installing_prometheus_on_azure/</guid>
       <description>This post will walk through the basisc of getting Prometheus installed and configured on an Azure Virtual Machine (VM).
 Create a new VM  Create a Virtual Machine  Basics Disks Networking Management   Add a custom domain  Custom DNS Create Virtual Network  Open Ports 22 and 9090   Connect to VM and install Prometheus  Remote Connection to VM Download &amp;amp; Install Promoetheus on VM Start Prometheus  Login to your Azure Portal Go to portal.</description>
     </item>
     
     <item>
       <title>Bio</title>
-      <link>jasonhand.com/about/</link>
+      <link>http://jasonhand.com/about/</link>
       <pubDate>Tue, 27 Jun 2017 17:39:21 -0700</pubDate>
       
-      <guid>jasonhand.com/about/</guid>
+      <guid>http://jasonhand.com/about/</guid>
       <description>Jason Hand Senior Cloud Ops Advocate @ Microsoft Jason Hand writes, presents, and coaches on the principles and nuance of DevOps, Site Reliability Engineering, and modern incident management practices. Named &amp;ldquo;DevOps Evangelist of the Year&amp;rdquo; by DevOps.com in 2016, Jason recently authored a new book on the topic of Site Reliability Engineering. In addition to SRE, Jason has authored books with O&amp;rsquo;Reilly Media on the subject of post-incident reviews and Chatops.</description>
     </item>
     
