@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer-when-downgrade">
   <meta name="generator" content="">
-  <base href="">
+  <base href="jasonhand.com">
 
   
     <meta name="description" content="Senior Cloud Ops Advocate @ Microsoft (Azure)">
@@ -37,10 +37,10 @@
 
   <meta property="og:title" content="Installing Prometheus on Azure | Jason Hand">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="">
+  <meta property="og:url" content="jasonhand.com">
 
   
-    <meta property="og:image" content="/images/bitops.png">
+    <meta property="og:image" content="jasonhand.com/images/bitops.png">
   
 
   
@@ -48,15 +48,15 @@
   
 
   
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="jasonhand.com/images/favicon.ico">
     <meta name="theme-color" content="#FFF">
   
 
-  <link rel="canonical" href="/blog/installing_prometheus_on_azure/">
+  <link rel="canonical" href="jasonhand.com/blog/installing_prometheus_on_azure/">
 
   
 
-  <link rel="stylesheet" href="/styles/main.css" type="text/css">
+  <link rel="stylesheet" href="jasonhand.com/styles/main.css" type="text/css">
 
   
 
@@ -74,27 +74,27 @@
 
 <nav class="row middle-xs center-xs">
   <div class="col-xs-6 col-sm-1 logo">
-    <a href="#"><img src="/images/pit_crew.png" alt="Jason Hand"></a>
+    <a href="jasonhand.com#"><img src="jasonhand.com/images/pit_crew.png" alt="Jason Hand"></a>
   </div>
     
       <div class="col-xs-3 col-sm-2">
-        <h3><a href="/#about">Bio</a></h3>
+        <h3><a href="jasonhand.com/#about">Bio</a></h3>
       </div>
     
       <div class="col-xs-3 col-sm-2">
-        <h3><a href="/#work">Community</a></h3>
+        <h3><a href="jasonhand.com/#work">Community</a></h3>
       </div>
     
       <div class="col-xs-3 col-sm-2">
-        <h3><a href="/#blog">Blog</a></h3>
+        <h3><a href="jasonhand.com/#blog">Blog</a></h3>
       </div>
     
       <div class="col-xs-3 col-sm-2">
-        <h3><a href="/#contact">Social</a></h3>
+        <h3><a href="jasonhand.com/#contact">Social</a></h3>
       </div>
     
   <div class="col-xs-6 col-sm-1 nav-toggle">
-      <a href="" class="nav-icon" onclick="return false"><img src="/images/icon-menu.png" alt="Open Menu"><img src="/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
+      <a href="" class="nav-icon" onclick="return false"><img src="jasonhand.com/images/icon-menu.png" alt="Open Menu"><img src="jasonhand.com/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
   </div>
 </nav>
 
@@ -102,13 +102,13 @@
   <div class="col-xs-12">
     <div class="row middle-xs center-xs">
       
-        <div class="col-xs-12"><h1><a href="/#about">Bio</a></h1></div>
+        <div class="col-xs-12"><h1><a href="jasonhand.com/#about">Bio</a></h1></div>
       
-        <div class="col-xs-12"><h1><a href="/#work">Community</a></h1></div>
+        <div class="col-xs-12"><h1><a href="jasonhand.com/#work">Community</a></h1></div>
       
-        <div class="col-xs-12"><h1><a href="/#blog">Blog</a></h1></div>
+        <div class="col-xs-12"><h1><a href="jasonhand.com/#blog">Blog</a></h1></div>
       
-        <div class="col-xs-12"><h1><a href="/#contact">Social</a></h1></div>
+        <div class="col-xs-12"><h1><a href="jasonhand.com/#contact">Social</a></h1></div>
       
     </div>
   </div>
@@ -132,33 +132,33 @@
 <h3 id="create-a-new-vm">Create a new VM</h3>
 
 <ul>
-<li><a href="/blog/installing_prometheus_on_azure/#vm">Create a Virtual Machine</a>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#vm">Create a Virtual Machine</a>
 
 <ul>
-<li><a href="/blog/installing_prometheus_on_azure/#vm_basics">Basics</a></li>
-<li><a href="/blog/installing_prometheus_on_azure/#vm_disks">Disks</a></li>
-<li><a href="/blog/installing_prometheus_on_azure/#vm_networking">Networking</a></li>
-<li><a href="/blog/installing_prometheus_on_azure/#vm_management">Management</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#vm_basics">Basics</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#vm_disks">Disks</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#vm_networking">Networking</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#vm_management">Management</a></li>
 </ul></li>
 </ul>
 
 <h3 id="add-a-custom-domain">Add a custom domain</h3>
 
 <ul>
-<li><a href="/blog/installing_prometheus_on_azure/#dns">Custom DNS</a></li>
-<li><a href="/blog/installing_prometheus_on_azure/#virtual_network">Create Virtual Network</a>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#dns">Custom DNS</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#virtual_network">Create Virtual Network</a>
 
 <ul>
-<li><a href="/blog/installing_prometheus_on_azure/#ports">Open Ports 22 and 9090</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#ports">Open Ports 22 and 9090</a></li>
 </ul></li>
 </ul>
 
 <h3 id="connect-to-vm-and-install-prometheus">Connect to VM and install Prometheus</h3>
 
 <ul>
-<li><a href="/blog/installing_prometheus_on_azure/#ssh">Remote Connection to VM</a></li>
-<li><a href="/blog/installing_prometheus_on_azure/#download">Download &amp; Install Promoetheus on VM</a></li>
-<li><a href="/blog/installing_prometheus_on_azure/#start">Start Prometheus</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#ssh">Remote Connection to VM</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#download">Download &amp; Install Promoetheus on VM</a></li>
+<li><a href="jasonhand.com/blog/installing_prometheus_on_azure/#start">Start Prometheus</a></li>
 </ul>
 
 <h2 id="login-to-your-azure-portal">Login to your Azure Portal</h2>
@@ -167,13 +167,13 @@
 
 <p>Then click the &ldquo;Create virtual machine&rdquo; button.</p>
 
-<p><img src="/images/NewVM.png" alt="" /></p>
+<p><img src="jasonhand.com/images/NewVM.png" alt="" /></p>
 
 <blockquote>
 <p>Note: If you already have a Virtual Machine (VM) running, press the (+) to add a new one.</p>
 </blockquote>
 
-<p><img src="/images/AddVM.png" alt="" /></p>
+<p><img src="jasonhand.com/images/AddVM.png" alt="" /></p>
 
 <h2 id="a-name-vm-a"><a name="vm"></a></h2>
 
@@ -205,9 +205,9 @@
 
 <p>The administrator account I&rsquo;m creating for this VM is jhand (you can use whatever makes sense for you here).</p>
 
-<p>I&rsquo;ll be using an SSH public/private key combo to remotely access the VM from my local laptop. If you aren&rsquo;t familiar with the process of generating your own SSH keys for authentication in to a remote server, check <a href="/blog/ssh-keygen/">this post</a> out and then return here to continue.</p>
+<p>I&rsquo;ll be using an SSH public/private key combo to remotely access the VM from my local laptop. If you aren&rsquo;t familiar with the process of generating your own SSH keys for authentication in to a remote server, check <a href="jasonhand.com/blog/ssh-keygen/">this post</a> out and then return here to continue.</p>
 
-<p><img src="/images/VM_Basics.png" alt="" /></p>
+<p><img src="jasonhand.com/images/VM_Basics.png" alt="" /></p>
 
 <p>The last configuration option (Inbound Port Rules) is where allow traffic to our virtual machine on an inbound port.</p>
 
@@ -216,13 +216,13 @@
 <p>Thus we need to allow traffic on that port in order to view Prometheus from a browser on our machine (or any machine for that matter).</p>
 
 <p>However, from the dashboard we are only given the option to open a few standard ports (80, 443,22, and 3389).
-<img src="/images/InboundPort.png" alt="" /></p>
+<img src="jasonhand.com/images/InboundPort.png" alt="" /></p>
 
 <p>So, we&rsquo;ll skip this step for now and I&rsquo;ll show you how to open port 9090 once the virtual machine isup and running.</p>
 
 <p>For now, leave this option as &ldquo;None&rdquo;, and continue with the configuration by clicking the button near the bottom that says &ldquo;Next:Disks &gt;&ldquo;.</p>
 
-<p><img src="/images/NextDisks.png" alt="" /></p>
+<p><img src="jasonhand.com/images/NextDisks.png" alt="" /></p>
 
 <h2 id="a-name-vm-disks-a"><a name="vm_disks"></a></h2>
 
@@ -232,7 +232,7 @@
 <h4 id="disks"><strong>Disks</strong></h4>
 
 <p>In this part of the configuration, I&rsquo;m going to stick with the defaults. You have the option of choosing several different OS disk types.
-<img src="/images/Disks.png" alt="" /></p>
+<img src="jasonhand.com/images/Disks.png" alt="" /></p>
 
 <p>If you aren&rsquo;t sure which disk option to choose from, check out <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-and-vhds">this document to understand the differences of each type</a>.</p>
 
@@ -249,7 +249,7 @@
 
 <h4 id="networking"><strong>Networking</strong></h4>
 
-<p><img src="/images/Networking.png" alt="" /></p>
+<p><img src="jasonhand.com/images/Networking.png" alt="" /></p>
 
 <p>You can choose an existing Virtual network if you&rsquo;ve already set a previous one up.</p>
 
@@ -261,7 +261,7 @@
 
 <p>Press the &ldquo;Ok&rdquo; button and then proceed to the next configuration option by pressing the &ldquo;Next:Management &gt;&rdquo; button.</p>
 
-<p><img src="/images/NextManagement.png" alt="" /></p>
+<p><img src="jasonhand.com/images/NextManagement.png" alt="" /></p>
 
 <h2 id="a-name-vm-management-a"><a name="vm_management"></a></h2>
 
@@ -270,7 +270,7 @@
 
 <h4 id="management"><strong>Management</strong></h4>
 
-<p><img src="/images/VNManagement.png" alt="" /></p>
+<p><img src="jasonhand.com/images/VNManagement.png" alt="" /></p>
 
 <p>From the management configuration screen, the only thing I&rsquo;m going to do is create a new &ldquo;Diagnostic storage account&rdquo;. I could accept the default but I want to create one with a name I can associate to Prometheus a little easier.</p>
 
@@ -278,27 +278,27 @@
 
 <p>Once you&rsquo;ve given your storage account a name, press the Ok button followed by the button that says &ldquo;Next:Guest config &gt;&rdquo;</p>
 
-<p><img src="/images/NextGuestConfig.png" alt="" /></p>
+<p><img src="jasonhand.com/images/NextGuestConfig.png" alt="" /></p>
 
 <p>There are no changes to be made on this screen so let&rsquo;s move on to the next option by clicking the button marked &ldquo;Next:Tags &gt;&ldquo;.</p>
 
-<p><img src="/images/NextTags.png" alt="" /></p>
+<p><img src="jasonhand.com/images/NextTags.png" alt="" /></p>
 
 <p>The same for the tags configuration. We don&rsquo;t need to make any changes here. Tags can be added later.</p>
 
 <p>Let&rsquo;s move on to the last step by pressing the button marked &ldquo;Next:Review + create&rdquo;.</p>
 
-<p><img src="/images/NextCreate.png" alt="" /></p>
+<p><img src="jasonhand.com/images/NextCreate.png" alt="" /></p>
 
 <p>After a few moments, you&rsquo;ll see a summary of the configuration you agreed to including an estimated cost of the virtual machine. Give it a quick review and then press the &ldquo;Create&rdquo; button at the bottom.</p>
 
-<p><img src="/images/CreateButton.png" alt="" /></p>
+<p><img src="jasonhand.com/images/CreateButton.png" alt="" /></p>
 
 <p>Now, your virtual machine will begin building and configuring itself.</p>
 
-<p><img src="/images/DeploymentUnderway.png" alt="" /></p>
+<p><img src="jasonhand.com/images/DeploymentUnderway.png" alt="" /></p>
 
-<p><img src="/images/GoToResource.png" alt="" /></p>
+<p><img src="jasonhand.com/images/GoToResource.png" alt="" /></p>
 
 <p>Once the deployment is complete you&rsquo;ll see a button marked &ldquo;Go to resource&rdquo;. Clicking this will take us straight to more information and configuration options for our virtual machine.</p>
 
@@ -320,9 +320,9 @@
 
 <p>Here I will give the instance the domain name of <em>prometheus-dev</em></p>
 
-<p><img src="/images/ChangePublicIPtoDNS.png" alt="" /></p>
+<p><img src="jasonhand.com/images/ChangePublicIPtoDNS.png" alt="" /></p>
 
-<p><img src="/images/CustomDNS.png" alt="" /></p>
+<p><img src="jasonhand.com/images/CustomDNS.png" alt="" /></p>
 
 <p>Once you have made the changes, press the &ldquo;Save&rdquo; button near the top of the configuration screen.</p>
 
@@ -334,7 +334,7 @@
 
 <p>From iTerm I&rsquo;ll ping the full domain name</p>
 
-<p><img src="/images/ConfirmDNSPing.png" alt="" /></p>
+<p><img src="jasonhand.com/images/ConfirmDNSPing.png" alt="" /></p>
 
 <p>We can see that the name resolves to the IP address displayed above (137.135.93.18).</p>
 
@@ -362,13 +362,13 @@
 
 <p>From the network interface configuration screen, we only want to create a few additional inbound port rules so click the button marked &ldquo;Add inbound port rule&rdquo;.</p>
 
-<p><img src="/images/AddInboundPortRuleButton.png" alt="" /></p>
+<p><img src="jasonhand.com/images/AddInboundPortRuleButton.png" alt="" /></p>
 
 <p>The only fields to change on the new security rule screen is the &ldquo;Destination port ranges&rdquo; and the &ldquo;Name&rdquo;.</p>
 
 <p>We are opening up port 22 and giving it a name in our configuration of Port_22.</p>
 
-<p><img src="/images/AddPort22.png" alt="" /></p>
+<p><img src="jasonhand.com/images/AddPort22.png" alt="" /></p>
 
 <blockquote>
 <p>NOTE: We typically do NOT want to allow port 22 to remain open on our server to avoid any security breaches. You would like want to allow only specific IP adddresses or domains to be able to access your instances on that port. A VPN in to the VM would be even better. For the purposes of this demonstration I&rsquo;m going to keep it simple knowing that I will be shutting this instance down later today.</p>
@@ -395,7 +395,7 @@
 
 <p><code>ssh jhand@prometheus-dev.eastus.cloudapp.azure.com</code></p>
 
-<p><img src="/images/SSH1.png" alt="" /></p>
+<p><img src="jasonhand.com/images/SSH1.png" alt="" /></p>
 
 <p>You will be prompted to confirm the connection. You can type &lsquo;yes&rsquo; or just press enter. Your remote virtual machine will then compare the private key information we generated early (stored on your machine) to the information saved on the server during our intial configuration steps.</p>
 
@@ -420,7 +420,7 @@
 
 <p><code>wget https://github.com/prometheus/prometheus/releases/download/v2.4.2/prometheus-2.4.2.linux-amd64.tar.gz</code></p>
 
-<p><img src="/images/DownloadPrometheus.png" alt="" /></p>
+<p><img src="jasonhand.com/images/DownloadPrometheus.png" alt="" /></p>
 
 <p>Now that we have downloaded the most recent version of Prometheus, we will need to unpack the contents with the following command:</p>
 
@@ -434,7 +434,7 @@
 
 <p><code>ls -la</code></p>
 
-<p><img src="/images/ContentsOfTar.png" alt="" /></p>
+<p><img src="jasonhand.com/images/ContentsOfTar.png" alt="" /></p>
 
 <h2 id="a-name-start-a"><a name="start"></a></h2>
 
@@ -451,13 +451,13 @@
 
 <p>You should see the following if Prometheus is running on your virtual machine.</p>
 
-<p><img src="/images/ExecutePrometheus.png" alt="" /></p>
+<p><img src="jasonhand.com/images/ExecutePrometheus.png" alt="" /></p>
 
 <p>Last, we can confirm that Prometheus is running by accessing it in a web browser using the custom DNS we created along with specifying the port (9090).</p>
 
 <p>prometheus-dev.eastus.cloudapp.azure.com is the DNS for my instance so if I browse to: <a href="http://prometheus-dev.eastus.cloudapp.azure.com:9090">http://prometheus-dev.eastus.cloudapp.azure.com:9090</a> I should see the following.</p>
 
-<p><img src="/images/PrometheusRunning.png" alt="" /></p>
+<p><img src="jasonhand.com/images/PrometheusRunning.png" alt="" /></p>
 
 <p>That&rsquo;s it!</p>
 
@@ -470,7 +470,7 @@
               <div class="pagination">
                   
                   
-                      <a href="/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
+                      <a href="jasonhand.com/blog/what_a_long_strange_trip_its_been/">What A Long Strange Trip It&#39;s Been &raquo;</a>
                   
               </div>
           </section>
@@ -535,7 +535,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
-  <script src="/scripts/main.min.js" type="text/javascript"></script>
+  <script src="jasonhand.com/scripts/main.min.js" type="text/javascript"></script>
 
 
   </body>
