@@ -195,6 +195,42 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
+      <title>Devops Road Trip - 2019</title>
+      <link>http://jasonhand.com/blog/devops_road_trip_2019/</link>
+      <pubDate>Thu, 23 May 2019 14:19:29 -0600</pubDate>
+      
+      <guid>http://jasonhand.com/blog/devops_road_trip_2019/</guid>
+      <description> Placeholder </description>
+    </item>
+    
+    <item>
+      <title>Microsoft Ignite | The Tour 2019</title>
+      <link>http://jasonhand.com/blog/mitt_fy19/</link>
+      <pubDate>Thu, 23 May 2019 13:54:11 -0600</pubDate>
+      
+      <guid>http://jasonhand.com/blog/mitt_fy19/</guid>
+      <description> Placeholder </description>
+    </item>
+    
+    <item>
+      <title>DevOpsDays Rockies 2019 - Retrospective</title>
+      <link>http://jasonhand.com/blog/devopsdaysrox_2019/</link>
+      <pubDate>Thu, 23 May 2019 13:52:29 -0600</pubDate>
+      
+      <guid>http://jasonhand.com/blog/devopsdaysrox_2019/</guid>
+      <description> Placeholder </description>
+    </item>
+    
+    <item>
+      <title>SRVision 2019 - Retrospective</title>
+      <link>http://jasonhand.com/blog/srvision_2019/</link>
+      <pubDate>Thu, 23 May 2019 13:52:17 -0600</pubDate>
+      
+      <guid>http://jasonhand.com/blog/srvision_2019/</guid>
+      <description> Placeholder </description>
+    </item>
+    
+    <item>
       <title>Installing Prometheus on Azure</title>
       <link>http://jasonhand.com/blog/installing_prometheus_on_azure/</link>
       <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
@@ -210,7 +246,7 @@ Create a new VM  Create a Virtual Machine  Basics Disks Networking Management   
       <pubDate>Tue, 27 Jun 2017 17:39:21 -0700</pubDate>
       
       <guid>http://jasonhand.com/about/</guid>
-      <description>Jason Hand Senior Cloud Ops Advocate @ Microsoft Jason Hand writes, presents, and coaches on the principles and nuance of DevOps, Site Reliability Engineering, and modern incident management practices. Named &amp;ldquo;DevOps Evangelist of the Year&amp;rdquo; by DevOps.com in 2016, Jason recently authored a new book on the topic of Site Reliability Engineering. In addition to SRE, Jason has authored books with O&amp;rsquo;Reilly Media on the subject of post-incident reviews and Chatops.</description>
+      <description>Jason Hand Senior Cloud Ops Advocate @ Microsoft Jason writes, presents, and coaches on the principles and nuance of DevOps, Site Reliability Engineering, and modern incident management practices. Named &amp;ldquo;DevOps Evangelist of the Year&amp;rdquo; by DevOps.com in 2016, Jason recently authored a new book on the topic of Site Reliability Engineering. In addition to SRE, Jason has authored books with O&amp;rsquo;Reilly Media on the subject of post-incident reviews and Chatops.</description>
     </item>
     
   </channel>
