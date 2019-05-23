@@ -42,7 +42,7 @@ Links (on all advocate pages):
       <pubDate>Tue, 21 May 2019 08:58:10 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
-      <description>Azure Fundamentals  FUN10 - Discovering Microsoft Azure FUN20 - Azure Networking Basics  Additional links
+      <description>Tour Presentations: Azure Fundamentals  FUN10 - Discovering Microsoft Azure FUN20 - Azure Networking Basics  Additional links
  Docker (Containers) Kubernetes &amp;ldquo;This Week&amp;rdquo; on Channel 9 ChristinaWarren.com Gatsby (Go) Static website generator Vue GitHub actions Serverless computing  Links (on all advocate pages)
  Ignite Tour assets Startup Tour  Follow Christina: Twitter
 Blog LinkedIn Facebook</description>
@@ -58,12 +58,12 @@ Blog LinkedIn Facebook</description>
     </item>
     
     <item>
-      <title>Rick Klaus - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/rick_klaus_microsoft_ignite_tour_interview/</link>
+      <title>Rick Claus - Microsoft Ignite | The Tour</title>
+      <link>http://jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 10:03:55 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/rick_klaus_microsoft_ignite_tour_interview/</guid>
-      <description>Azure Fundamentals  Azure Security Basics - FUN40 - https://cda.ms/TD  Building &amp;amp; Maintaining Your Hybrid Cloud  Business continuity planning - HYB50 - https://cda.ms/TD  Rick&amp;rsquo;s Links
+      <guid>http://jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</guid>
+      <description>Tour Presentations: Azure Fundamentals  HYB50 - Business continuity planning FUN40 - Azure Security Basics  Rick&amp;rsquo;s Links
  Channel 9 show (Bit &amp;amp; Bang) Hybrid session Fundamentals  Links (on all advocate pages)
  Ignite Tour assets Startup Tour  Follow Rick: Twitter
 GitHub Blog LinkedIn</description>
@@ -84,8 +84,17 @@ GitHub Blog LinkedIn</description>
       <pubDate>Tue, 21 May 2019 09:53:40 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
-      <description>Azure Fundamentals  Discovering Azure Tooling &amp;amp; Utilities - (FUN30) - https://cda.ms/Tt Storing Data in Azure - (FUN50) - https://cda.ms/Tx  Migrating Apps to the Cloud  Moving your database to Azure - (MIG20) - https://cda.ms/TS  application services, VMs, MongoDB to CosmoDB, and old version of SQL server to &amp;ldquo;SQL Managed Instance&amp;rdquo;.
- Blob Storage CosmosDB Managed SQL Data warehouse Data Factory .NET MVP Program  Links (on all advocate pages): - Ignite Tour assets - Startup Tour</description>
+      <description>Tour Presentations: Azure Fundamentals  FUN30 - Discovering Azure Tooling &amp;amp; Utilities FUN50 - Storing Data in Azure MIG20 - Moving your database to Azure
+ Blob Storage
+ CosmosDB
+ Managed SQL
+ Data warehouse Data Factory
+ .NET
+ MongoDB
+ MVP Program
+  Links (on all advocate pages): - Ignite Tour assets - Startup Tour
+Follow Laurent: Twitter
+GitHub Blog Stack Overflow Instagram Facebook</description>
     </item>
     
     <item>
@@ -103,8 +112,7 @@ GitHub Blog LinkedIn</description>
       <pubDate>Tue, 21 May 2019 09:54:09 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</guid>
-      <description>MIG10 &amp;ldquo;Migrating your web applications to Azure&amp;rdquo;
-Jay&amp;rsquo;s Links:
+      <description>Tour Presentations: Azure Fundamentals  MIG10 - Migrating web applications to Azure  Additional links:
  CosmosDB MongoDB API NoSQL Data Lakes Logic App Functions Azure DevOps Repository Azure Pipelines Docker Powershell Azure Cloud Shell (ARM) Azure Resource Manager Azure CLI (Command Line Interface)  Links (on all advocate pages):
  Ignite Tour assets Startup Tour  Follow Jay: Twitter
 GitHub LinkedIn Instagram Facebook</description>
@@ -127,8 +135,7 @@ Links (on all advocate pages):
       <pubDate>Tue, 21 May 2019 09:54:46 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
-      <description>Session at MITT - &amp;ldquo;Cloud Apps&amp;rdquo;
-Links:
+      <description>Tour Presentations: Azure Fundamentals  DEV10 - Designing resilient cloud applications DEV50 - Investing in Serverless: less servers, more code  Links:
  .NET back-end Javascript Video tutorials &amp;ldquo;Typscript for Javascript developers&amp;rdquo; Channel 9 show (Top Secret Series: for .NET developers) &amp;ldquo;On .NET&amp;rdquo;  Follow Jeremy: Twitter
 GitHub LinkedIn Blog Stack Overflow</description>
     </item>
@@ -139,9 +146,13 @@ GitHub LinkedIn Blog Stack Overflow</description>
       <pubDate>Tue, 21 May 2019 09:55:03 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</guid>
-      <description>Azure Machine Learning Service DAT10 - DAT50 -
-Links:
- Databricks Machine Learning Azure Cognitive Services Colorizing black &amp;amp; white images projects TensorFlow  Follow Ari: Twitter
+      <description>Tour Presentations: Azure Fundamentals  DAT20 - Operationalizing your new inventory management Machine Learning Model DAT40 - Running Machine Learning experiments on inventory management DAT50 - Operationalizing your new inventory management Machine Learning Model
+ Databricks
+ Machine Learning
+ Azure Cognitive Services
+ Colorizing black &amp;amp; white images projects
+ TensorFlow
+  Follow Ari: Twitter
 GitHub LinkedIn</description>
     </item>
     
@@ -161,12 +172,9 @@ Follow Ari: Twitter</description>
       <pubDate>Tue, 21 May 2019 09:56:15 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</guid>
-      <description>Devops &amp;ldquo;deploying faster and safer&amp;rdquo; &amp;ldquo;Augmenting your data with Artificial Intelligence &amp;amp; Machine Learning&amp;rdquo;
-Additional Links
+      <description>Tour Presentations: Azure Fundamentals  DEV20 - Deploying your application faster and safer DAT30 - Using artificial intelligence to augment data MIG30 - Deploying your application faster and safer  Additional Links
  Azure Devops Azure Pipelines Cognitive Services Canary Deployments Video of the augmenting data talk Machine Learning Speech to Text API Anthony&amp;rsquo;s transcription project links Chatbots IoT on Azure  Links (on all advocate pages)
- Ignite Tour assets Startup Tour  Advocate Links:
-Follow Damien: Twitter
-GitHub LinkedIn Blog Stack Overflow</description>
+ Ignite Tour assets Startup Tour  Advocate Links:</description>
     </item>
     
     <item>
@@ -175,7 +183,7 @@ GitHub LinkedIn Blog Stack Overflow</description>
       <pubDate>Tue, 21 May 2019 09:56:43 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
-      <description>Links (on all advocate pages)
+      <description>Tour Presentations: Azure Fundamentals  DAT10 - Dealing with massive data ingestion  Links (on all advocate pages)
  Ignite Tour assets Startup Tour  Follow Ryan: Twitter
 GitHub LinkedIn Blog</description>
     </item>
@@ -186,12 +194,10 @@ GitHub LinkedIn Blog</description>
       <pubDate>Tue, 21 May 2019 09:57:09 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</guid>
-      <description>Erik&amp;rsquo;s Links:
+      <description>Tour Presentations: Azure Fundamentals  MIG40 - Modernizing your application with containers and Serverless MIG50 - Consolidating infrastructure with Azure Kubernetes Service  Erik&amp;rsquo;s Links:
  Containers Kubernetes Go GitHub profile  Migrating a 3 VM deployment to Web Apps for containers. Also includes migrating a cron job to a serverless function.
 The second one is the continuation of the story. Canary deployments. More on Kubernetes.
-Links (on all advocate pages): - Ignite Tour assets - Startup Tour
-Follow Erik: Twitter
-GitHub LinkedIn Blog Podcast</description>
+Links (on all advocate pages): - Ignite Tour assets - Startup Tour</description>
     </item>
     
     <item>
@@ -200,8 +206,10 @@ GitHub LinkedIn Blog Podcast</description>
       <pubDate>Tue, 21 May 2019 09:57:26 -0600</pubDate>
       
       <guid>http://jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
-      <description>Building &amp;amp; Maintaining Your Hybrid Cloud  Maintaining your environment - HYB30 - https://cda.ms/TB Governing your Azure environment - HYB40 - https://cda.ms/TC  Neil&amp;rsquo;s Links:
- Visual Code Pair programming Azure CLI Azure Resource Manager (APM) templates Configuring VMs Alerting on changes to VMs Securing your environment with (RBAC) Role-based access control Azure Locks Trombone Shorty  Links (on all advocate pages): - Ignite Tour assets - Startup Tour</description>
+      <description>Tour Presentations: Azure Fundamentals  HYB30 - Maintaining your environment HYB40 - Governing your Azure environment  Neil&amp;rsquo;s Links:
+ Visual Code Pair programming Azure CLI Azure Resource Manager (APM) templates Configuring VMs Alerting on changes to VMs Securing your environment with (RBAC) Role-based access control Azure Locks Trombone Shorty  Links (on all advocate pages): - Ignite Tour assets - Startup Tour
+Follow Neil: Twitter
+GitHub</description>
     </item>
     
     <item>
