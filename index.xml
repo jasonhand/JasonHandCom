@@ -6,10 +6,21 @@
     <description>Recent content on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 11 Sep 2018 16:37:48 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 08:53:36 -0600</lastBuildDate>
     
 	<atom:link href="http://jasonhand.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scott Cate - Microsoft Ignite | The Tour</title>
+      <link>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 08:53:36 -0600</pubDate>
+      
+      <guid>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
+      <description>The 2018&amp;frasl;2019 &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; global event recently completed in Mumbai.
+The event took place in 17 cities around the world. Myself and other advocates joined forces with MVPs and Microsoft product specialists and experts to share current thinking around how to build amazing systems and services in the cloud and how to keep them up and running reliably.
+In the coming weeks I&amp;rsquo;ll provide a full retrospective on the event and the seven cities I had the pleasure of visiting while on tour.</description>
+    </item>
     
     <item>
       <title>Books</title>
