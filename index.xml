@@ -6,25 +6,10 @@
     <description>Recent content on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 May 2019 08:53:36 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 16:37:48 -0600</lastBuildDate>
     
 	<atom:link href="http://jasonhand.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Scott Cate - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 08:53:36 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
-      <description>&amp;ldquo;Speaker Manager&amp;rdquo;
-In charge of creating all the new content for the tour. Done as a team sport rather than individually.
-Talk about the process of how we created the content for the tour.
-scalable. distributable. consumable.
-The ultimate compliment is seeing someone else give your talk. (example in Milan).
-Learning paths. Train the trainer.
-More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Scott: Twitter</description>
-    </item>
     
     <item>
       <title>Books</title>
@@ -33,16 +18,6 @@ More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Scott:
       
       <guid>http://jasonhand.com/gallery/books/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Christina Warren - Microsoft | Ignite Tour</title>
-      <link>http://jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 08:58:10 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  FUN10 - Discovering Microsoft Azure FUN20 - Azure Networking Basics  Hot Topics  Containers (Docker) Kubernetes &amp;ldquo;This Week on Channel 9&amp;rdquo; Gatsby.js (Static Site Generator) Vue Github Actions Serverless Computing  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Christina: Twitter
-Blog LinkedIn Facebook</description>
     </item>
     
     <item>
@@ -55,16 +30,6 @@ Blog LinkedIn Facebook</description>
     </item>
     
     <item>
-      <title>Rick Claus - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 10:03:55 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  HYB50 - Business continuity planning FUN40 - Azure Security Basics  Hot Topics  Bit &amp;amp; Bang show Powershell Azure Cloud shell Azure Resource Manager (ARM) Azure Command Line Interface (CLI)  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Rick: Twitter
-GitHub Blog LinkedIn</description>
-    </item>
-    
-    <item>
       <title>Community Pulse</title>
       <link>http://jasonhand.com/gallery/communitypulse/</link>
       <pubDate>Tue, 11 Sep 2018 17:16:11 -0600</pubDate>
@@ -74,110 +39,12 @@ GitHub Blog LinkedIn</description>
     </item>
     
     <item>
-      <title>Laurent Bugnion - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:53:40 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  FUN30 - Discovering Azure Tooling &amp;amp; Utilities FUN50 - Storing Data in Azure MIG20 - Moving your database to Azure  Hot Topics  Blob storage CosmosDB Managed SQL Data warehouse Data factory .NET MongoDB API Microsoft MVP Program  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Laurent: Twitter
-GitHub Blog Stack Overflow Instagram Facebook</description>
-    </item>
-    
-    <item>
       <title>DevopsDays Rockies</title>
       <link>http://jasonhand.com/gallery/devopsdaysrox/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:00 -0600</pubDate>
       
       <guid>http://jasonhand.com/gallery/devopsdaysrox/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Jay Gordon - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:54:09 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  MIG10 - Migrating web applications to Azure  Hot Topics  CosmosDB MongoDB API NoSQL Data lakes Logic Apps Azure Devops Azure Pipelines Containers (Docker) Powershell Azure Cloud shell Azure Resource Manager (ARM) Azure Command Line Interface (CLI)  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Jay: Twitter
-GitHub LinkedIn Instagram Facebook</description>
-    </item>
-    
-    <item>
-      <title>Mel Mckenna - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/mel_mckenna_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:54:29 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/mel_mckenna_microsoft_ignite_tour_interview/</guid>
-      <description>Helps organize, triage, and handle logistics of &amp;ldquo;The Hub&amp;rdquo; and &amp;ldquo;Meet the Experts&amp;rdquo;.
-More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Mel: Twitter</description>
-    </item>
-    
-    <item>
-      <title>Jeremy Likness - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:54:46 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  DEV10 - Designing resilient cloud applications DEV50 - Investing in Serverless: less servers, more code  Hot Topics  .NET Javascript Typescript for Javascript Developers &amp;ldquo;On .NET&amp;rdquo;  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Jeremy: Twitter
-GitHub LinkedIn Blog Stack Overflow</description>
-    </item>
-    
-    <item>
-      <title>Ari Bornstein - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:55:03 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  DAT20 - Operationalizing your new inventory management Machine Learning Model DAT40 - Running Machine Learning experiments on inventory management DAT50 - Operationalizing your new inventory management Machine Learning Model  Hot Topics  Databricks Machine Learning Cognitive Services TensorFlow  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Ari: Twitter
-GitHub LinkedIn</description>
-    </item>
-    
-    <item>
-      <title>Juliet Friedman - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/juliet_friedman_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:55:18 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/juliet_friedman_microsoft_ignite_tour_interview/</guid>
-      <description>More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Ari: Twitter</description>
-    </item>
-    
-    <item>
-      <title>Damien Brady - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:56:15 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  DEV20 - Deploying your application faster and safer DAT30 - Using artificial intelligence to augment data MIG30 - Deploying your application faster and safer  Hot Topics  Azure Devops Azure Pipelines Cognitive Services Canary Deployments Machine Learning Speech to text translation Live audio transcription project Chatbots IoT on Azure  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Advocate Links:</description>
-    </item>
-    
-    <item>
-      <title>Ryan Levick - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:56:43 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  DAT10 - Dealing with massive data ingestion  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Ryan: Twitter
-GitHub LinkedIn Blog</description>
-    </item>
-    
-    <item>
-      <title>Erik St. Martin - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:57:09 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  MIG40 - Modernizing your application with containers and Serverless MIG50 - Consolidating infrastructure with Azure Kubernetes Service  Hot Topics  Containers (Docker) Kubernetes Golang Serverless computing (functions) Virtual Machines  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Erik: Twitter
-GitHub LinkedIn Blog Podcast</description>
-    </item>
-    
-    <item>
-      <title>Neil Peterson - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:57:26 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
-      <description>Tour Presentations: Azure Fundamentals  HYB30 - Maintaining your environment HYB40 - Governing your Azure environment  Hot Topics  Visual Studio Code - Remote development Azure CLI Azure Resource Manager (ARM) Virtual Machines Alerting Role based access control (RBAC) Azure locks Trombone Shorty  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Neil: Twitter
-GitHub</description>
     </item>
     
     <item>
@@ -210,24 +77,6 @@ A path that wasn’t there… until it was.</description>
       
       <guid>http://jasonhand.com/blog/mitt_fy19/</guid>
       <description>Azure Fundamentals    Track Presentation     FUN10 - Discovering Microsoft Azure   FUN20 - Azure Networking Basics   FUN30 - Discovering Azure Tooling &amp;amp; Utilities   FUN40 - Azure Security Basics   FUN50 - Storing Data in Azure    Building and Maintaining Your Hybrid Cloud    Track Presentation     HYB10 - Planning and implementing hybrid network connectivity   HYB20 - Securing your Azure environment   HYB30 - Maintaining your environment   HYB40 - Governing your Azure environment   HYB50 - Business continuity planning    Building Your Applications for the Cloud    Track Presentation     DEV10 - Designing resilient cloud applications   DEV20 - Deploying your application faster and safer   DEV30 - Detecting application anomalies with Telemetry   DEV40 - Selecting the right data storage strategy for your cloud application   DEV50 - Investing in Serverless: less servers, more code    Getting the Most out of your Data    Track Presentation     DAT10 - Dealing with massive data ingestion   DAT20 - Operationalizing your new inventory management Machine Learning Model   DAT30 - Using artificial intelligence to augment data   DAT40 - Running Machine Learning experiments on inventory management   DAT50 - Operationalizing your new inventory management Machine Learning Model    Migrating Applications to the Cloud    Track Presentation     MIG10 - Migrating web applications to Azure   MIG20 - Moving your database to Azure   MIG30 - Deploying your application faster and safer   MIG40 - Modernizing your application with containers and Serverless   MIG50 - Consolidating infrastructure with Azure Kubernetes Service    Operating Applications &amp;amp; Infrastructure in the Cloud    Track Presentation     SRE10 - Modernizing your infrastructure: moving to Infrastructure as Code   SRE20 - Monitoring your infrastructure and applications in production   SRE30 - Diagnosing failure in the cloud   SRE40 - Scaling for growth and resiliency   SRE50 - Responding to and learning from failure    Check out some additional interviews from:  Scott Cate Christina Warren Rick Claus Laurent Bugnion Jay Gordon Mel McKenna Jeremy Likness Ari Bornstein Juliet Friedman Damien Brady Ryan Levick Erik S.</description>
-    </item>
-    
-    <item>
-      <title>DevOpsDays Rockies 2019</title>
-      <link>http://jasonhand.com/blog/devopsdaysrox_2019/</link>
-      <pubDate>Thu, 23 May 2019 13:52:29 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/devopsdaysrox_2019/</guid>
-      <description>J Paul Reed  Whispers In Chaos : Keynote Sara Willett  How To DevOps When Dev Doesn&amp;rsquo;t Want To So you’re on a DevOps team that is siloed from both Dev and Ops? And the Dev organization has no interest in continuing their DevOps transformation? A good DevOps Engineer is always pushing for improvements so stay tuned for tips on How To DevOps When Dev Doesn’t Want To.</description>
-    </item>
-    
-    <item>
-      <title>SRVision 2019 - Retrospective</title>
-      <link>http://jasonhand.com/blog/srvision_2019/</link>
-      <pubDate>Thu, 23 May 2019 13:52:17 -0600</pubDate>
-      
-      <guid>http://jasonhand.com/blog/srvision_2019/</guid>
-      <description>Coming Soon &amp;hellip; meanwhile .. have you heard about The DevOps Road Trip?</description>
     </item>
     
     <item>
