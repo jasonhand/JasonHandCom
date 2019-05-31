@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  
+
+  <title>
+    
+    
+        Empowering Users through Site Reliability Engineering | Jason Hand
+    
+  </title>
+
+  <meta name="title" content="Empowering Users through Site Reliability Engineering | Jason Hand">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="generator" content="">
+  <base href="http://jasonhand.com">
+
+  
+    <meta name="description" content="Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <meta name="author" content="@jasonhand">
+  
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jasonhand">
+    <meta name="twitter:creator" content="@jasonhand">
+  
+
+  <meta property="og:title" content="Empowering Users through Site Reliability Engineering | Jason Hand">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://jasonhand.com">
+
+  
+    <meta property="og:image" content="http://jasonhand.com/images/bitops.png">
+  
+
+  
+    <meta property="og:description" content="Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <link rel="icon" type="image/png" sizes="16x16" href="http://jasonhand.com/images/favicon.ico">
+    <meta name="theme-color" content="#FFF">
+  
+
+  <link rel="canonical" href="http://jasonhand.com/blog/empowering_users_through_site_reliability_engineering/">
+
+  
+
+  <link rel="stylesheet" href="http://jasonhand.com/styles/main.css" type="text/css">
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+
+  
+</head>
+
+  <body>
+    
+
+
+
+<nav class="row middle-xs center-xs">
+  <div class="col-xs-6 col-sm-1 logo">
+    <a href="http://jasonhand.com#"><img src="http://jasonhand.com/images/pit_crew.png" alt="Jason Hand"></a>
+  </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="http://jasonhand.com/#about">Bio</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="http://jasonhand.com/#work">Community</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="http://jasonhand.com/#blog">Blog</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="http://jasonhand.com/#contact">Social</a></h3>
+      </div>
+    
+  <div class="col-xs-6 col-sm-1 nav-toggle">
+      <a href="" class="nav-icon" onclick="return false"><img src="http://jasonhand.com/images/icon-menu.png" alt="Open Menu"><img src="http://jasonhand.com/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
+  </div>
+</nav>
+
+<section class="nav-full row middle-xs center-xs">
+  <div class="col-xs-12">
+    <div class="row middle-xs center-xs">
+      
+        <div class="col-xs-12"><h1><a href="http://jasonhand.com/#about">Bio</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="http://jasonhand.com/#work">Community</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="http://jasonhand.com/#blog">Blog</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="http://jasonhand.com/#contact">Social</a></h1></div>
+      
+    </div>
+  </div>
+</section>
+
+    <main>
+
+      <section class="container">
+          <section class="content">
+              <h1> Empowering Users through Site Reliability Engineering </h1>
+
+              <div class="sub-header">
+                  May 23, 2019 · 11 minute read
+              </div>
+
+              <article class="entry-content">
+                  
+
+<script async class="speakerdeck-embed" data-id="20d08fe4c7854e62a2426619c2ae1256" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+<h2 id="when">When..</h2>
+
+<p>was the last time you got excited about new technology? What was it?</p>
+
+<p>Was it a programming language?</p>
+
+<p><a href="https://www.rust-lang.org/">Rust</a>, <a href="https://golang.org/">Go</a>, <a href="https://nodejs.org">Node.js</a>?</p>
+
+<p>Maybe a new framework?</p>
+
+<p><a href="https://angular.io/">Angular</a>, <a href="https://reactjs.org/">React</a>?</p>
+
+<p>Or was it something like <a href="https://cda.ms/X1">serverless</a> or <a href="https://cda.ms/X2">containers</a>?</p>
+
+<p><a href="https://cda.ms/X3">Azure functions</a>, <a href="https://cda.ms/X4">Docker</a>, <a href="https://cda.ms/X5">Kubernetes</a>?</p>
+
+<p>Think back on what it was.</p>
+
+<p>Do you have something in your mind?</p>
+
+<p>Ok, now &hellip;</p>
+
+<p><strong><em>How did you learn about it?</em></strong></p>
+
+<p>Likely from a friend or colleague introducing it to you, right? Maybe they sent you a link to &ldquo;check this out&rdquo;. Or maybe you saw someone on Twitter talking about it. Someone you trust or respect enough to follow. Maybe it came from a blog post you read. <a href="https://www.producthunt.com/">ProductHunt</a>? <a href="https://www.reddit.com/">Reddit</a>? <a href="https://dev.to/">Dev.to</a>?</p>
+
+<p>Regardless of where you initially heard about it, it more than likely came from a &ldquo;trusted&rdquo; source. A person or brand that you have established a relationship with. You have confidence in their opinions.</p>
+
+<p>In most cases we get excited about something because someone we know and trust is excited about it.</p>
+
+<p>At any given moment, someone is sharing something that they suddenly can&rsquo;t live without - with someone else.</p>
+
+<p>Whether face to face or in blogs, reviews, discussions, tweets, comments, updates, texts, photoes - people talk. There are many different forms of &ldquo;word of mouth&rdquo;.</p>
+
+<p>How does that happen?
+What inspires those recommendations?</p>
+
+<p>What compels you to share something with someone else?</p>
+
+<h2 id="all-the-feels">All the Feels</h2>
+
+<p><img src="http://i.qkme.me/3pxd1i.jpg" alt="" /></p>
+
+<p>It&rsquo;s not really about the product, or the company, or the brand.</p>
+
+<p>In fact a lot of the new stuff that we love, comes from a startup or unknown company. The underdog. The new kid.</p>
+
+<p>Users haven&rsquo;t had a chance to formulate an opinion on the company or brand providing the service yet. It&rsquo;s not about how the user feels about us as the provider.</p>
+
+<p>It has nothing to do with us.</p>
+
+<p>It&rsquo;s about how the user feels about themself.</p>
+
+<h2 id="shifting-self-perception">Shifting Self Perception</h2>
+
+<p>How does the service we are building change the way they perceive themselves? Does it make them better at something?</p>
+
+<p>What does our product or service help them <strong>do</strong> and <strong>be</strong>?</p>
+
+<p>How does it transform them? What is enabled?</p>
+
+<p>This is what we need to discover.</p>
+
+<h2 id="successful-users">Successful Users</h2>
+
+<blockquote>
+<p>&ldquo;I can&rsquo;t believe you were able to do that with that thing. <strong>You&rsquo;re</strong> amazing!&rdquo;</p>
+</blockquote>
+
+<p><img src="http://jasonhand.com/images/mindblown.gif" alt="" /></p>
+
+<p>We want to build products, services, and support in ways that inspire users to talk about <strong>themselves</strong>. We want them to be proud of themselves and what they are capable of.</p>
+
+<blockquote>
+<p>Instead of looking for common attributes across successful <em>products</em>, we must look for common attributes across successful <strong>users</strong> of those <em>products</em>. - Kathy Sierra (<a href="https://www.oreilly.com/free/badass-making-users-awesome.html">Badass: Making Users Awesome</a> - O&rsquo;Reilly Media)</p>
+</blockquote>
+
+<p><img src="http://jasonhand.com/images/badass.jpg" alt="" /></p>
+
+<p>Where you find sustained success driven by recommendations, you find smarter, more skillful, more powerful users. Users who <strong>know</strong> more and can <strong>do</strong> more in a way that&rsquo;s personally meaningful.</p>
+
+<p>Fans of new tech dont&rsquo; share it with their friends because they love a company. They tip off their friends because they like their <strong>friends</strong>.</p>
+
+<p>It&rsquo;s about what they can do or be as a result of what our product, service, experience <strong>enables</strong>. Sustained bestsellers help their users achieve <strong>results</strong>.</p>
+
+<p>All of my digital devices contain dozens of apps that enable me to be a better version of me. A more creative one. A more rested one. One who can travel around new cities with ease. One who (although often forgetful) always knows which flights and hotels they are supposed to be in.</p>
+
+<p>It&rsquo;s about the objectives of our users. We must care more about what they are doing, attempting to do, failing at doing, etc.</p>
+
+<h3 id="an-unlikely-ally">An Unlikely Ally</h3>
+
+<p>Many of these concepts are currently being amplified through Site Reliability Engineering principles.</p>
+
+<p>Reliability means a lot of things but at the end of the day, something is <strong>NOT</strong> reliable if it can&rsquo;t deliver on the promise to enable user results.</p>
+
+<p>If a user could communicate what they were thinking or feeling while they used our product, that would be helpful, right?</p>
+
+<p>How do we find out?</p>
+
+<p>We move monitoring closer to the user.</p>
+
+<p><img src="http://jasonhand.com/images/MonitorHere.png" alt="" /></p>
+
+<p>For a deep dive on this idea, I highly recommend reading <a href="https://www.practicalmonitoring.com/">&ldquo;Practical Monitoring&rdquo; (O&rsquo;Reilly) by Mike Julian</a></p>
+
+<p><a href="https://www.practicalmonitoring.com/" target="_blank"><img src = /images/practical_monitoring.jpg></p>
+
+<h3 id="monitoring-for-what-users-care-about">Monitoring For What Users Care About</h3>
+
+<p>Traditionally, we monitored our systems for problems related to the underlying technology. Installing agents on new servers to update a central console about the health and performance of things such as CPU, memory, and disk space.</p>
+
+<p>A problem with any of these and many other component level items meant it would likely affect any applications running on the servers. If apps aren&rsquo;t able to perform, databases aren&rsquo;t able to save, and tasks can&rsquo;t complete, users would be impacted.</p>
+
+<h4 id="known-knowns"><strong>Known Knowns</strong></h4>
+
+<p>It&rsquo;s a logical cause and effect scenario. It makes perfect sense that if there is a problem with the tech that supports the app, the app won&rsquo;t work and the user won&rsquo;t be able to achieve their expected results. Everybody knows that.</p>
+
+<p>Those are the &ldquo;known knowns&rdquo; of our system. We <strong>know</strong> that if a disk is full, the database can no longer write.</p>
+
+<p>In the cloud world, we can easily set up automation to address the known knowns .. since we know about them and we know what countermeasures should be taken to avoid the problem. For example, if disk space runs low, we simply acquire more storage. We can even automate the process of scaling resources back down on demand.</p>
+
+<h4 id="known-unknowns"><strong>Known Unknowns</strong></h4>
+
+<p>But as practitioners and architects building and operating systems, we&rsquo;ve all seen some weird stuff go down. Stuff we didn&rsquo;t even know was possible. As a result, we now have the wisdom to continously remind ourselves (and our teammates):</p>
+
+<blockquote>
+<p>&ldquo;Don&rsquo;t get too comfortable. It&rsquo;s coming&rdquo;.</p>
+</blockquote>
+
+<p>Those are the &ldquo;known unknowns&rdquo; of our system. We <strong>know</strong> that there are things we DO NOT know (i.e. <strong>unknown</strong>).</p>
+
+<p>Like life <a href="https://oceanservice.noaa.gov/facts/exploration.html" target="_blank">below the surface of the ocean, we know so little.</p>
+
+<p>But at least we are self-aware of our own ignorance.</p>
+
+<p>Anomaly detection and finely tuned monitoring, logging, and eventing tools can tip you off to these types of problems. First responders are alerted to an incident while providing whatever context is available at the time.</p>
+
+<p>In many cases, not much is known in terms of possible causality, but the system (or parts of it) are not currently healthy and users are likely experiencing some disruption in service. We may not in fact be sure that they are experiencing downtime, but we often feel it&rsquo;s safe to assume.</p>
+
+<p>The fact is, we don&rsquo;t know but because this is something we&rsquo;ve never seen before. Combined with the information we are able to obtain by querying and investigating different aspects of the system we have strong reason to believe users know there is a problem.</p>
+
+<p>That leaves us with the trickiest of them all - <strong>&ldquo;uknown unknowns&rdquo;</strong></p>
+
+<h4 id="unknown-unknowns"><strong>Unknown Unknowns</strong></h4>
+
+<p>You don&rsquo;t know what you don&rsquo;t know!</p>
+
+<p>There are things about your system, and particularly your users that you are completely blind to.</p>
+
+<p>Why?</p>
+
+<p>There&rsquo;s no monitoring for it.</p>
+
+<p><strong>Example:</strong> <em>An online retailer missed out on tens of thousands of dollars from orders placed on Black Friday simply because the cart checkout wasn&rsquo;t accepting American Express. Operations teams were monitoring for failed components of the credit card system but had no idea it &ldquo;suddenly&rdquo; couldn&rsquo;t handle Amex.</em></p>
+
+<p>Users didn&rsquo;t complain through support or social media. They just abandoned their cart.</p>
+
+<p>Abandoned carts are pretty common. But are you monitoring for it?</p>
+
+<p>Which has a bigger impact to business value?</p>
+
+<p>Customers abandoning their carts at checkout. Leaving frustrated and without making a purchase &hellip;</p>
+
+<p>or &hellip;</p>
+
+<p>CPU utilization of the virtual machines on which these apps run is running at 99%?</p>
+
+<p>How would we monitor for something like this?
+What type of feedback do we need in order to give us more about what it&rsquo;s actually like for a user?</p>
+
+<h3 id="creating-virtuous-feedback-loops">Creating Virtuous Feedback Loops</h3>
+
+<p>In site reliability engineering, we use what are known as Service Level Indicators and Service Level Objectives as a way of monitoring and alerting our systems.</p>
+
+<blockquote>
+<p><strong>Indicators</strong> are time based values we calculate as simple ratios.</p>
+</blockquote>
+
+<p><strong><em>For example:</em></strong></p>
+
+<p>Availability of a service may be calculated as the number of successful requests received by the load balancer divided by the <strong>total</strong> number of requests (successful <strong>AND</strong> failed).</p>
+
+<p>Over the course of an hour, the load balancer may see 100,000 total requests come through. Of those, 1,000 failed. This means 99,000 requests were succesful. 99,000 over 100,000 is 99% available - as measured by the load balancer for the last hour.</p>
+
+<p>The <strong>time</strong> and <strong>source</strong> are both key to building a service level indicator (SLI).</p>
+
+<blockquote>
+<p>Check out: <a href="https://cda.ms/X0" target="_blank">Site Reliabiltiy course on Microsoft Learn for more about SLIs and SLOs.</p>
+</blockquote>
+
+<p>A service level objective is our line in the sand, so to speak. What target are we setting that if breached, we need to alert a human?</p>
+
+<p>In our shopping cart example we may have a service level indicator that measures the total number of abandoned carts - (as measured by the credit card processing system) - (over the course of 30 minutes).</p>
+
+<p>As an objective, we need to determine what is a <strong>reasonable</strong> number of abandoned shopping carts - (over the course of 30 minutes) - are we comfortable with?</p>
+
+<p>How many until a person is alerted to an issue to begin troubleshooting?</p>
+
+<blockquote>
+<p>Hint: It&rsquo;s <strong>NOT</strong> 1.</p>
+</blockquote>
+
+<p>Many would say we don&rsquo;t want anyone to abandon a cart, no matter what time period you are looking at. And maybe that&rsquo;s the goal you are setting. The objective.</p>
+
+<p>As someone who has been on-call most of their life, I&rsquo;ll tell you that chances of you paging an engineer quick enough for them to respond and remediate whatever is contributing to this Amex problem <strong>BEFORE</strong> the user notices and changes their mind&hellip; are pretty close to zero.</p>
+
+<p>You might be thinking&hellip; &ldquo;Sure, we lost one person. But I want someone to investigate immediately so that a second one doesn&rsquo;t happen.&rdquo;</p>
+
+<p>Just because it happened once doesn&rsquo;t necessarily mean we have a problem either.</p>
+
+<p>There are lots of reasons why people may abandon a shopping cart, even if coincidentally all of them were attempting to use an American Express credit card.</p>
+
+<p>We need to make data driven decisions.</p>
+
+<p>Remember the <strong>unknown unknowns</strong>?</p>
+
+<p>We don&rsquo;t know what the problem is (yet), only that something is wrong enough that we want to get a person involved once our line in the sand has been crossed. That&rsquo;s our service level objective.</p>
+
+<p>This is our feedback loop.</p>
+
+<p>By placing more focus on what it&rsquo;s like for the end user as they attempt to achieve results (like buying something with an American Express credit card), we have a much better understanding of what it&rsquo;s like to use our system. Are we delivering on the value? Are we monitoring for the things that actually give us some sort of indication as to what&rsquo;s going on from their perspective, or are we focusing too much on the menutia and noise (<strong>old kown knowns and known unknowns</strong>) that make up the guts of our services</p>
+
+<h2 id="increasing-observability">Increasing Observability</h2>
+
+<p>Our goal is to protect the reliability of business value .. whatever that may mean to your business.</p>
+
+<p>In order to do so we must first identify the true value we are aiming to deliver and then seek out ways to give us high fidelity on what state that value is in at any given time (service level indicators).</p>
+
+<p>Once we know why people use our services we then establish a threshold (service level objectives) that when breached informs software engineers to take action.</p>
+
+<p>What engineering effort is needed to fill in the current blindspots?</p>
+
+<p>What does your incident response plan look like? Do you even have one?</p>
+
+<p>Is there urgency in your response to recovering from a degredation in service or does your process involve creating tickets that are sent to a support group that has never seen, let alone touched a line of code in your system?</p>
+
+<p>Users <strong>DO NOT</strong> care about your tech stack. They <strong>DO NOT</strong> care what cloud you are using or even if the service you provide runs on a Raspberry Pi in the back of a closet in your parents basement. They just want to use your service to <em>do a thing</em>. A thing that makes them awesome!</p>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<p>Establish service level indicators and objectives that closely match the true value of the service you intend to provide. This may take some engineering effort.</p>
+
+<p>Plan and schedule the work. It should be part of your engineering sprint. It&rsquo;s just as (actually more) important than any new feature you are working on, so it needs to be treated as such.</p>
+
+<p>Discuss what it will take to increase observability and formulate a standardized response plan for WHEN things aren&rsquo;t meeting the expectations of our users.</p>
+
+<p>And .. most important .. focus on continuously improving your monitoring efforts. You&rsquo;ll never be able to have a pulse on every aspect of a complex system but we can create ways to give us clues that something isn&rsquo;t quite right and we need to investigate and possibly mitigate problems before users are impacted and take their money to another provider who can &ldquo;reliably&rdquo; make them awesome.</p>
+
+              </article>
+
+              <div class="pagination">
+                  
+                      <a href="http://jasonhand.com/blog/installing_prometheus_on_azure/">&laquo; Installing Prometheus on Azure</a>
+                  
+                  
+                      <a href="http://jasonhand.com/blog/mitt_fy19/">Microsoft Ignite | The Tour 2019 &raquo;</a>
+                  
+              </div>
+          </section>
+          <br>
+          <section class="disqus">
+
+  
+
+</section>
+
+      </section>
+
+    </main>
+    <footer class="row middle-xs center-xs">
+ 
+ 
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://twitter.com/jasonhand">Twitter</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://instagram.com/jhand">Instagram</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://facebook.com/jhand">Facebook</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://linkedin.com/in/jasonhand24">LinkedIn</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://youtube.com/jasonhand24">YouTube</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://github.com/jasonhand">GitHub</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://reddit.com/user/jhand24">Reddit</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://medium.com/@jasonhand">Medium</a></div>
+  
+ 
+
+
+  
+    <div class="col-xs-12">
+      
+        Copyright &copy; 2019 Jason Hand.
+      
+      
+        <a href="https://tomanistor.com" target="_blank">Theme developed by Toma Nistor</a>
+      
+    </div>
+  
+
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+  <script src="http://jasonhand.com/scripts/main.min.js" type="text/javascript"></script>
+
+
+  </body>
+</html>

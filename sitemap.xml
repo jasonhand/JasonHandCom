@@ -23,6 +23,11 @@
     </url>
   
     <url>
+      <loc>http://jasonhand.com/blog/empowering_users_through_site_reliability_engineering/</loc>
+      <lastmod>2019-05-23T12:37:39-06:00</lastmod>
+    </url>
+  
+    <url>
       <loc>http://jasonhand.com/blog/installing_prometheus_on_azure/</loc>
       <lastmod>2018-09-21T08:27:38-06:00</lastmod>
     </url>

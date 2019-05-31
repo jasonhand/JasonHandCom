@@ -93,6 +93,26 @@ In Denver, we invited attendees to Mile High Stadium (where the Denver Broncos p
     </item>
     
     <item>
+      <title>Empowering Users through Site Reliability Engineering</title>
+      <link>http://jasonhand.com/blog/empowering_users_through_site_reliability_engineering/</link>
+      <pubDate>Thu, 23 May 2019 12:37:39 -0600</pubDate>
+      
+      <guid>http://jasonhand.com/blog/empowering_users_through_site_reliability_engineering/</guid>
+      <description>When.. was the last time you got excited about new technology? What was it?
+Was it a programming language?
+Rust, Go, Node.js?
+Maybe a new framework?
+Angular, React?
+Or was it something like serverless or containers?
+Azure functions, Docker, Kubernetes?
+Think back on what it was.
+Do you have something in your mind?
+Ok, now &amp;hellip;
+How did you learn about it?
+Likely from a friend or colleague introducing it to you, right?</description>
+    </item>
+    
+    <item>
       <title>Installing Prometheus on Azure</title>
       <link>http://jasonhand.com/blog/installing_prometheus_on_azure/</link>
       <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
