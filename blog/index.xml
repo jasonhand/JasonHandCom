@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Jason Hand</title>
-    <link>http://jasonhand.com/blog/</link>
+    <link>https://www.jasonhand.com/blog/</link>
     <description>Recent content in Blogs on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 21 May 2019 08:53:36 -0600</lastBuildDate>
     
-	<atom:link href="http://jasonhand.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jasonhand.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scott Cate - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
+      <link>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 08:53:36 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
+      <guid>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
       <description>The 2018&amp;frasl;2019 &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; global event recently completed in Mumbai.
 The event took place in 17 cities around the world. Myself and other advocates joined forces with MVPs and Microsoft product specialists and experts to share current thinking around how to build amazing systems and services in the cloud and how to keep them up and running reliably.
 In the coming weeks I&amp;rsquo;ll provide a full retrospective on the event and the seven cities I had the pleasure of visiting while on tour.</description>
@@ -24,10 +24,10 @@ In the coming weeks I&amp;rsquo;ll provide a full retrospective on the event and
     
     <item>
       <title>Christina Warren - Microsoft | Ignite Tour</title>
-      <link>http://jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</link>
+      <link>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 08:58:10 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
+      <guid>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
       <description>Christina and I first met during the Cloud Advocate Summit right after I joined the team at Microsoft. We had a full day of speaker training and were paired up on our first excercise.
 Personally knowing only a handful of people on the team prior to joining, I had researched a few people on the roster, Christina quickly surfaced in my online searches.
 Host of &amp;ldquo;This week on Channel 9&amp;rdquo;, Christina is one of the most knowledgable and charismatic people I know.</description>
@@ -35,10 +35,10 @@ Host of &amp;ldquo;This week on Channel 9&amp;rdquo;, Christina is one of the mo
     
     <item>
       <title>Rick Claus - Microsoft Ignite | The Tour</title>
-      <link>http://jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</link>
+      <link>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 10:03:55 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</guid>
+      <guid>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</guid>
       <description>I&amp;rsquo;ll never forget my very first day on campus as a full-time Microsoft Azure Advocate.
 Especially my first &amp;ldquo;real&amp;rdquo; meeting with members of my team - a discussion around the process of updating documentation found on Microsoft Docs!
 I couldn&amp;rsquo;t believe it. Here I was sitting around a table with others reviewing how we could submit changes and new content to online resources used by so many.
@@ -47,10 +47,10 @@ Leading the conversation was Rick Claus.</description>
     
     <item>
       <title>What A Long Strange Trip It&#39;s Been</title>
-      <link>http://jasonhand.com/blog/what_a_long_strange_trip_its_been/</link>
+      <link>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</link>
       <pubDate>Sat, 01 Sep 2018 17:25:26 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/what_a_long_strange_trip_its_been/</guid>
+      <guid>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</guid>
       <description>Just over four years ago, I impulsively responded to a Facebook post about a devops evangelism role at a new tech startup.
 I had never been an evangelist and I knew nothing of the term “devops”. #yolo ¯_(ツ)_/¯
 This spontaneous act illuminated a path of personal and professional growth.
@@ -60,20 +60,29 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
+      <title>Migrating a Static Site from Azure App Service to Blob Storage</title>
+      <link>https://www.jasonhand.com/blog/migrate_to_static_blob/</link>
+      <pubDate>Tue, 02 Jul 2019 13:58:25 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/migrate_to_static_blob/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>ITSM Crowd Podcast</title>
-      <link>http://jasonhand.com/blog/itsm_crowd_podcast/</link>
+      <link>https://www.jasonhand.com/blog/itsm_crowd_podcast/</link>
       <pubDate>Tue, 02 Jul 2019 13:19:52 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/itsm_crowd_podcast/</guid>
+      <guid>https://www.jasonhand.com/blog/itsm_crowd_podcast/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Devops Road Trip - 2019</title>
-      <link>http://jasonhand.com/blog/devops_road_trip_2019/</link>
+      <link>https://www.jasonhand.com/blog/devops_road_trip_2019/</link>
       <pubDate>Thu, 23 May 2019 14:19:29 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/devops_road_trip_2019/</guid>
+      <guid>https://www.jasonhand.com/blog/devops_road_trip_2019/</guid>
       <description>In 2016, with the help of my amazing team at VictorOps, we put on the initial DevOps Road Trip - a series of events in several tech hubs around the U.S.
 Starting off in Denver, we took our traveling event to Seattle, Minneapolis, San Francisco, and New York. Each of these free events were held at a unique and memorable venues.
 In Denver, we invited attendees to Mile High Stadium (where the Denver Broncos play).</description>
@@ -81,19 +90,19 @@ In Denver, we invited attendees to Mile High Stadium (where the Denver Broncos p
     
     <item>
       <title>Microsoft Ignite | The Tour 2019</title>
-      <link>http://jasonhand.com/blog/mitt_fy19/</link>
+      <link>https://www.jasonhand.com/blog/mitt_fy19/</link>
       <pubDate>Thu, 23 May 2019 13:54:11 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/mitt_fy19/</guid>
+      <guid>https://www.jasonhand.com/blog/mitt_fy19/</guid>
       <description>Azure Fundamentals    Track Presentation     FUN10 - Discovering Microsoft Azure   FUN20 - Azure Networking Basics   FUN30 - Discovering Azure Tooling &amp;amp; Utilities   FUN40 - Azure Security Basics   FUN50 - Storing Data in Azure    Building and Maintaining Your Hybrid Cloud    Track Presentation     HYB10 - Planning and implementing hybrid network connectivity   HYB20 - Securing your Azure environment   HYB30 - Maintaining your environment   HYB40 - Governing your Azure environment   HYB50 - Business continuity planning    Building Your Applications for the Cloud    Track Presentation     DEV10 - Designing resilient cloud applications   DEV20 - Deploying your application faster and safer   DEV30 - Detecting application anomalies with Telemetry   DEV40 - Selecting the right data storage strategy for your cloud application   DEV50 - Investing in Serverless: less servers, more code    Getting the Most out of your Data    Track Presentation     DAT10 - Dealing with massive data ingestion   DAT20 - Operationalizing your new inventory management Machine Learning Model   DAT30 - Using artificial intelligence to augment data   DAT40 - Running Machine Learning experiments on inventory management   DAT50 - Operationalizing your new inventory management Machine Learning Model    Migrating Applications to the Cloud    Track Presentation     MIG10 - Migrating web applications to Azure   MIG20 - Moving your database to Azure   MIG30 - Deploying your application faster and safer   MIG40 - Modernizing your application with containers and Serverless   MIG50 - Consolidating infrastructure with Azure Kubernetes Service    Operating Applications &amp;amp; Infrastructure in the Cloud    Track Presentation     SRE10 - Modernizing your infrastructure: moving to Infrastructure as Code   SRE20 - Monitoring your infrastructure and applications in production   SRE30 - Diagnosing failure in the cloud   SRE40 - Scaling for growth and resiliency   SRE50 - Responding to and learning from failure    Check out some additional interviews from:  Scott Cate Christina Warren Rick Claus Laurent Bugnion Jay Gordon Mel McKenna Jeremy Likness Ari Bornstein Juliet Friedman Damien Brady Ryan Levick Erik S.</description>
     </item>
     
     <item>
       <title>Empowering Users through Site Reliability Engineering</title>
-      <link>http://jasonhand.com/blog/empowering_users_through_site_reliability_engineering/</link>
+      <link>https://www.jasonhand.com/blog/empowering_users_through_site_reliability_engineering/</link>
       <pubDate>Thu, 23 May 2019 12:37:39 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/empowering_users_through_site_reliability_engineering/</guid>
+      <guid>https://www.jasonhand.com/blog/empowering_users_through_site_reliability_engineering/</guid>
       <description>When.. was the last time you got excited about new technology? What was it?
 Was it a programming language?
 Rust, Go, Node.js?
@@ -110,10 +119,10 @@ Likely from a friend or colleague introducing it to you, right?</description>
     
     <item>
       <title>Installing Prometheus on Azure</title>
-      <link>http://jasonhand.com/blog/installing_prometheus_on_azure/</link>
+      <link>https://www.jasonhand.com/blog/installing_prometheus_on_azure/</link>
       <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
       
-      <guid>http://jasonhand.com/blog/installing_prometheus_on_azure/</guid>
+      <guid>https://www.jasonhand.com/blog/installing_prometheus_on_azure/</guid>
       <description>This post will walk through the basisc of getting Prometheus installed and configured on an Azure Virtual Machine (VM).
 Create a new VM  Create a Virtual Machine  Basics Disks Networking Management   Add a custom domain  Custom DNS Create Virtual Network  Open Ports 22 and 9090   Connect to VM and install Prometheus  Remote Connection to VM Download &amp;amp; Install Promoetheus on VM Start Prometheus  Login to your Azure Portal Go to portal.</description>
     </item>

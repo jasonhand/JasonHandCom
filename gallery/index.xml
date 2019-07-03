@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Galleries on Jason Hand</title>
-    <link>http://jasonhand.com/gallery/</link>
+    <link>https://www.jasonhand.com/gallery/</link>
     <description>Recent content in Galleries on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 11 Sep 2018 16:37:48 -0600</lastBuildDate>
     
-	<atom:link href="http://jasonhand.com/gallery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jasonhand.com/gallery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Books</title>
-      <link>http://jasonhand.com/gallery/books/</link>
+      <link>https://www.jasonhand.com/gallery/books/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:48 -0600</pubDate>
       
-      <guid>http://jasonhand.com/gallery/books/</guid>
+      <guid>https://www.jasonhand.com/gallery/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Front Range SRE Meetup</title>
-      <link>http://jasonhand.com/gallery/frontrangesre/</link>
+      <link>https://www.jasonhand.com/gallery/frontrangesre/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:32 -0600</pubDate>
       
-      <guid>http://jasonhand.com/gallery/frontrangesre/</guid>
+      <guid>https://www.jasonhand.com/gallery/frontrangesre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Community Pulse</title>
-      <link>http://jasonhand.com/gallery/communitypulse/</link>
+      <link>https://www.jasonhand.com/gallery/communitypulse/</link>
       <pubDate>Tue, 11 Sep 2018 17:16:11 -0600</pubDate>
       
-      <guid>http://jasonhand.com/gallery/communitypulse/</guid>
+      <guid>https://www.jasonhand.com/gallery/communitypulse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DevopsDays Rockies</title>
-      <link>http://jasonhand.com/gallery/devopsdaysrox/</link>
+      <link>https://www.jasonhand.com/gallery/devopsdaysrox/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:00 -0600</pubDate>
       
-      <guid>http://jasonhand.com/gallery/devopsdaysrox/</guid>
+      <guid>https://www.jasonhand.com/gallery/devopsdaysrox/</guid>
       <description></description>
     </item>
     
