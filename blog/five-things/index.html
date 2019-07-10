@@ -121,23 +121,115 @@
               <h1> Five Things </h1>
 
               <div class="sub-header">
-                  July 10, 2019 · 1 minute read
+                  July 10, 2019 · 6 minute read
               </div>
 
               <article class="entry-content">
                   
 
-<h1 id="on-call">On-call</h1>
+<h1 id="5-things-developers-can-use-to-go-on-call">5 – Things Developers Can Use To Go <strong>On-call</strong></h1>
 
-<p>&hellip; is a big resonsibility and heavy ask.</p>
-
-<p>And as continuous delivery of digital products and services continue to become more common, developers are shouldering more of the &ldquo;on-call&rdquo; load then they are used to.</p>
-
-<p>Here are <strong>Five Things</strong> Developers Can Use to Go On-Call (And Not Hate Their Life)</p>
+<h2 id="and-not-hate-their-life">(and Not Hate Their Life)</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bExmlUg4hao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<p>As service reliability and uptime become increasingly more important for organizations building applications, developers are now being exposed to new responsibilities and challenges.</p>
+
+<p>Tiered ticketing processes, Network Operations Centers (NOC), along with traditional change and incident management technicques can’t provide the level of response necessary to support rapidly deployed applications requiring high availability and maximum uptime.</p>
+
+<p>Urgency of downtime in the modern era requires a different approach to building and maintaining digital systems and services. Engineers must know about and respond to problems quickly.</p>
+
+<p>Rapid response and remediation of service disruptions means those with intimate knowledge of the codebase as well as the build and release process are best suited as first responders - the the software engineers.</p>
+
+<p>Today, developers with little experience outside of software delivery lifecycle are now being asked to go &ldquo;on-call&rdquo; and assume the First Responder role when problems inevitably arise in production systems.</p>
+
+<p>Here are five things all software engineers should know about to accept the new challenges of building and maintaining highly available systems.</p>
+
 <p>For more of my thoughts on the role of &ldquo;On-call&rdquo; including incident resonse and retrospective analysis, check out <a href="https://cda.ms/Tq">this talk from Microsoft Ignite | The Tour</a></p>
+
+<h2 id="1-application-insights"><strong>1</strong> - Application Insights</h2>
+
+<p>The worst part about being alerted when you are on-call is not knowing where to investigate or what data is even available to you.</p>
+
+<p>Out of the box, Azure Monitor provides several great products to help build a more obvservable system and make it easier to know about and diagnose problems in our applications running in the cloud.</p>
+
+<p>Instrumented with very few lines of code, App Insights, instantly begins scraping tons of great data that can be queried, analyzed, and shared with other engineers.</p>
+
+<p>Even if on-call isn&rsquo;t a responsibility for you as a developer, understanding and leveraging Application Insights will give you a big advantage when it comes to building high performing applications on Azure.</p>
+
+<blockquote>
+<p><em>Application Insights is an extensible Application Performance Management (APM) service for web developers on multiple platforms. Use it to monitor your live web application. It will automatically detect performance anomalies. It includes powerful analytics tools to help you diagnose issues and to understand what users actually do with your app. It&rsquo;s designed to help you continuously improve performance and usability. It works for apps on a wide variety of platforms including .NET, Node.js and J2EE, hosted on-premises, hybrid, or any public cloud. It integrates with your DevOps process, and has connection points to a variety of development tools. It can monitor and analyze telemetry from mobile apps by integrating with Visual Studio App Center.</em> - <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview">Docs</a></p>
+</blockquote>
+
+<h2 id="2-azure-monitor-for-containers"><strong>2</strong> - Azure Monitor For Containers</h2>
+
+<p>Containers are all the rage these days. But with so much abstraction it&rsquo;s hard to know what&rsquo;s actually going on with your applications inside of them. And when you start building large scale applications with components that dynamically come and go, the challenge is even harder.</p>
+
+<p>Azure Monitor For Containers is the best way to gain visibility on exactly what&rsquo;s going on within these abstracted pieces of modern applications.</p>
+
+<blockquote>
+<p><em>Azure Monitor for containers is a feature designed to monitor the performance of container workloads deployed to either Azure Container Instances or managed Kubernetes clusters hosted on Azure Kubernetes Service (AKS). Monitoring your containers is critical, especially when you&rsquo;re running a production cluster, at scale, with multiple applications. Azure Monitor for containers gives you performance visibility by collecting memory and processor metrics from controllers, nodes, and containers that are available in Kubernetes through the Metrics API. Container logs are also collected. After you enable monitoring from Kubernetes clusters, these metrics and logs are automatically collected for you through a containerized version of the Log Analytics agent for Linux and stored in your Log Analytics workspace.</em> - <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-overview">Docs</a></p>
+</blockquote>
+
+<h2 id="3-log-analytics-with-kusto"><strong>3</strong> - Log Analytics with KUSTO</h2>
+
+<p>Collecting data is one thing but how do you know where to look and how to ask what you want to know?</p>
+
+<p>Log Analytics (a feature of Azure Monitor) stores a ton of helpful data regarding both the internals of your application as well as the underlying infrastructure.</p>
+
+<p>Capturing data such as requests, exceptions, traces, and usage in Log Analytics, this data is stored in and made available by writing a simple query.</p>
+
+<blockquote>
+<p>In Log Analytics you can leverage log searches by constructing queries to analyze the collected data, use pre-existing dashboards which you can customize with graphical views of your most valuable searches. <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-viewdata">Docs</a></p>
+</blockquote>
+
+<p>Log Analytics uses a version of the Data Explorer query language to retrieve and analyze log data in a variety of ways.</p>
+
+<p>The basic structure of a query is a source table followed by a series of operators separated by a pipe character <code>|</code> .</p>
+
+<p>You can chain together multiple operators to refine the data and perform advanced functions.</p>
+
+<p>You use the query language KUSTO Query Language (KQL) to access this data.</p>
+
+<p>For example, suppose you wanted to find the <strong>total</strong> number of successful HTTP requests in the last hour, along with a count of how many were <strong>successful</strong> and how many <strong>failed</strong>.</p>
+
+<h3 id="kusto-query-language-kql"><strong>KUSTO Query Language (KQL)</strong></h3>
+
+<pre><code>requests
+| where timestamp &gt; ago(1h)
+| summarize succeed = count (success==true), failed = count (success == false), total = count() by bin(timestamp, 1h)
+</code></pre>
+
+<h2 id="4-logic-apps-teams"><strong>4</strong> - Logic Apps &amp; Teams</h2>
+
+<p>Azure Logic Apps is a service that helps you automate and orchestrate tasks and workflows by  integrating apps, data, systems, and services across all kinds of places internally and externally to your company.</p>
+
+<p>Using Logic Apps, new channels can be created automatically as problems arise. This allows for a clean workspace to respond to and collaborate over the issues at hand.</p>
+
+<h2 id="5-visual-studio-code-extensions"><strong>5</strong> - Visual Studio Code Extensions</h2>
+
+<p>Visual Studio Code is now the most popular text/code editor according to &ldquo;The State of JS&rdquo;.</p>
+
+<p>One reason, is because there are so many great extensions to make the lives of developers easier.</p>
+
+<p>Here are a couple of extensions anyone developing in Azure should add to their VS-Code toolkit.</p>
+
+<h3 id="azure-application-insights-visual-studio-code-extension"><strong>Azure Application Insights Visual Studio Code Extension</strong></h3>
+
+<p>The Application Insights extension for Visual Studio Code brings information from your production services right into your code editor to help you find and fix issues faster.
+<img src="https://aidevtools.blob.core.windows.net/vscode-assets/codelens.gif" alt="marketplace.visualstudio.com" /></p>
+
+<p>Enable Application Insights telemetry collection in your Express app with a simple command in Visual Studio Code.</p>
+
+<p><img src="https://aidevtools.blob.core.windows.net/vscode-assets/onboarding.gif" alt="" /></p>
+
+<h3 id="azure-log-analytics-kusto-syntax-highlighting"><strong>Azure Log Analytics (Kusto) Syntax Highlighting</strong></h3>
+
+<p>Adds highlighting support for Azure Log Analytics (Kusto) (.csl and .kusto). This syntax is based on TextmateBundleInstaller - Kusto syntax.</p>
+
+<p><img src="https://github.com/josin/kusto-syntax-highlighting/raw/master/images/screenshot1.png?raw=true" alt="marketplace.visualstudio.com" /></p>
+
+<p>Knowing about these five things should help upskill your development abilities and move you closer to building highly available applications without hating your life while &ldquo;on-call&rdquo;.</p>
 
               </article>
 

@@ -101,10 +101,8 @@ A path that wasn’t there… until it was.</description>
       <pubDate>Wed, 10 Jul 2019 12:48:23 -0600</pubDate>
       
       <guid>https://www.jasonhand.com/blog/five-things/</guid>
-      <description>On-call &amp;hellip; is a big resonsibility and heavy ask.
-And as continuous delivery of digital products and services continue to become more common, developers are shouldering more of the &amp;ldquo;on-call&amp;rdquo; load then they are used to.
-Here are Five Things Developers Can Use to Go On-Call (And Not Hate Their Life)
- For more of my thoughts on the role of &amp;ldquo;On-call&amp;rdquo; including incident resonse and retrospective analysis, check out this talk from Microsoft Ignite | The Tour</description>
+      <description>5 – Things Developers Can Use To Go On-call (and Not Hate Their Life)  As service reliability and uptime become increasingly more important for organizations building applications, developers are now being exposed to new responsibilities and challenges.
+Tiered ticketing processes, Network Operations Centers (NOC), along with traditional change and incident management technicques can’t provide the level of response necessary to support rapidly deployed applications requiring high availability and maximum uptime.</description>
     </item>
     
     <item>
