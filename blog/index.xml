@@ -60,6 +60,17 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
+      <title>On Call Horror Stories</title>
+      <link>https://www.jasonhand.com/blog/on-call-horror-stories/</link>
+      <pubDate>Tue, 09 Jul 2019 15:28:33 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/on-call-horror-stories/</guid>
+      <description>A couple of weeks ago while in New York City to speak at QCon, my buddy and co-worker (Jay Gordon) was nice enough to let me take over his home office to record a podcast with the ITSM Crowd.
+While I was there, we decided it made perfect sense to record an episode of his show &amp;ldquo;On-call Horror Stories&amp;rdquo;, of which I have plenty to reminisce over.
+However, we decided to take a different approach to the conversation.</description>
+    </item>
+    
+    <item>
       <title>Migrating a Static Site from Azure App Service to Blob Storage</title>
       <link>https://www.jasonhand.com/blog/migrate_to_static_blob/</link>
       <pubDate>Tue, 02 Jul 2019 13:58:25 -0600</pubDate>
@@ -74,7 +85,10 @@ A path that wasn’t there… until it was.</description>
       <pubDate>Tue, 02 Jul 2019 13:19:52 -0600</pubDate>
       
       <guid>https://www.jasonhand.com/blog/itsm_crowd_podcast/</guid>
-      <description> </description>
+      <description>IT Service Management (ITSM) &amp;hellip; and devops share many of the same high level objectives, but often diverge on approach and language.
+Some of that is starting to change, however.
+Check out the conversation I had with Claire Agutter, and Doug Tedder on Site Reliability Engineering and how organizations are finding common ground when they start to talk about desired outcomes and value.
+For more on the topic of SRE, check out the following:</description>
     </item>
     
     <item>
