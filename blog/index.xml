@@ -60,6 +60,18 @@ A path that wasn’t there… until it was.</description>
     </item>
     
     <item>
+      <title>Five Things</title>
+      <link>https://www.jasonhand.com/blog/five-things/</link>
+      <pubDate>Wed, 10 Jul 2019 12:48:23 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/five-things/</guid>
+      <description>On-call &amp;hellip; is a big resonsibility and heavy ask.
+And as continuous delivery of digital products and services continue to become more common, developers are shouldering more of the &amp;ldquo;on-call&amp;rdquo; load then they are used to.
+Here are Five Things Developers Can Use to Go On-Call (And Not Hate Their Life)
+ For more of my thoughts on the role of &amp;ldquo;On-call&amp;rdquo; including incident resonse and retrospective analysis, check out this talk from Microsoft Ignite | The Tour</description>
+    </item>
+    
+    <item>
       <title>On Call Horror Stories</title>
       <link>https://www.jasonhand.com/blog/on-call-horror-stories/</link>
       <pubDate>Tue, 09 Jul 2019 15:28:33 -0600</pubDate>
@@ -89,6 +101,16 @@ However, we decided to take a different approach to the conversation.</descripti
 Some of that is starting to change, however.
 Check out the conversation I had with Claire Agutter, and Doug Tedder on Site Reliability Engineering and how organizations are finding common ground when they start to talk about desired outcomes and value.
 For more on the topic of SRE, check out the following:</description>
+    </item>
+    
+    <item>
+      <title>Cloud Guru  and Recap</title>
+      <link>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</link>
+      <pubDate>Thu, 23 May 2019 15:13:55 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</guid>
+      <description>  Microsoft Ignite | The Tour: Check out some additional interviews from
+ Scott Cate Christina Warren Rick Claus Laurent Bugnion Jay Gordon Mel McKenna Jeremy Likness Ari Bornstein Juliet Friedman Damien Brady Ryan Levick Erik S. Martin Neil Peterson  </description>
     </item>
     
     <item>
