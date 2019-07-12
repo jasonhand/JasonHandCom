@@ -73,6 +73,17 @@ Leading the conversation was Rick Claus.</description>
     </item>
     
     <item>
+      <title>Laurent Bugnion - Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:53:40 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
+      <description>Laurent and I had the pleasure of taking part in the first two stops on last year&amp;rsquo;s Microsoft Ignite | The Tour in Berlin and Sau Paulo. Since then we&amp;rsquo;ve met up at a number of cities around the world.
+A true polymath on technical topics, Laurent delivered a number of different sessions throughout the tour.
+Be sure to check out some of the talks below as well as a few other areas Laurent likes to dabble in.</description>
+    </item>
+    
+    <item>
       <title>DevopsDays Rockies</title>
       <link>https://www.jasonhand.com/gallery/devopsdaysrox/</link>
       <pubDate>Tue, 11 Sep 2018 16:37:00 -0600</pubDate>
@@ -97,8 +108,8 @@ Every time we got to speak at the same stop on the Microsoft Ignite | The Tour, 
       <pubDate>Tue, 21 May 2019 09:54:46 -0600</pubDate>
       
       <guid>https://www.jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
-      <description>If you&amp;rsquo;ve ever seen Jeremy give a talk you start to understand just how much he knows about a large number of topics. Co-host of &amp;ldquo;On .NET&amp;rdquo;, Jeremy teaches me something new each time I interact with him.
-Check out a couple of the presentations he gave during Microsoft Ignite | The Tour in Amsterdam below.
+      <description>If you&amp;rsquo;ve ever seen Jeremy give a talk, you start to understand just how much he knows about a large number of topics. Co-host of &amp;ldquo;On .NET&amp;rdquo;, Jeremy teaches me something new each time I interact with him.
+Check out a couple of the presentations he gave during the Microsoft Ignite | The Tour in Amsterdam below.
 Tour Presentations: Azure Fundamentals  DEV10 - Designing resilient cloud applications DEV50 - Investing in Serverless: less servers, more code  Hot Topics  .</description>
     </item>
     
@@ -123,6 +134,16 @@ If you have a few minutes, give the &amp;ldquo;Using Artificial Intelligence to 
     </item>
     
     <item>
+      <title>Ryan Levick - Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:56:43 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
+      <description>Ryan and I haven&amp;rsquo;t had a ton of opportunities to work together so far, but each time we do chat I realize I have a lot to learn. One specific area I want to learn more from Ryan about is on the topic of Rust.
+He gave a great internal presentation on the benefits of using Rust, especially from an Operations-work point of view. The increased security aspect of it is enough to take a closer look if you are a traditional C# developer.</description>
+    </item>
+    
+    <item>
       <title>Erik St. Martin - Microsoft Ignite | The Tour</title>
       <link>https://www.jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</link>
       <pubDate>Tue, 21 May 2019 09:57:09 -0600</pubDate>
@@ -131,6 +152,17 @@ If you have a few minutes, give the &amp;ldquo;Using Artificial Intelligence to 
       <description>Hands-down&amp;hellip; the most amazing experience of this year&amp;rsquo;s &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; was riding along with Erik in a Ferrari 488 Spider through not only the streets of Milan but along Lake Como and up the mountain to the observatory.
 Check out this video I made of the experience.
  You&amp;rsquo;d be hard pressed to find anyone who knows more about Kubernetes than Erik and that&amp;rsquo;s exactly what he was in Amsterdam to talk about when we got another chance to hang out.</description>
+    </item>
+    
+    <item>
+      <title>Neil Peterson - Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</link>
+      <pubDate>Tue, 21 May 2019 09:57:26 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
+      <description>Neil and I had several really great trips together this year during the Microsoft Ignite | The Tour including a layover in Zermatt, Switzerland to snowboard the Matterhorn!
+ A wizard at Kubernetes and continuous deployment techniques with Azure Devops, I learn something new from Neil each time I see one of his talks.
+Check out a couple of the talks Neil delivered while in Amsterdam this past March.</description>
     </item>
     
     <item>
@@ -237,6 +269,16 @@ Do you have something in your mind?
 Ok, now &amp;hellip;
 How did you learn about it?
 Likely from a friend or colleague introducing it to you, right?</description>
+    </item>
+    
+    <item>
+      <title>Minimum Viable Incident Response Plan</title>
+      <link>https://www.jasonhand.com/blog/minimum-viable-incident-response-plan/</link>
+      <pubDate>Thu, 23 May 2019 12:31:35 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/minimum-viable-incident-response-plan/</guid>
+      <description>Small Problem - Large Cost On Wednesday, August 1st 2012 an 18 year old financial services firm began a test run of their new trading software.
+Carefully configured to interact with a very small number of stocks and with Buy and Sell points set well outside where the markets were trading that day, a reasonable amount of caution was taken to reduce the blast radius in the unlikely event anything should go wrong.</description>
     </item>
     
     <item>
