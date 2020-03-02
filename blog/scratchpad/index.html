@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){
+         function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t
+      }({
+         instrumentationKey:"92c82829-9ba0-470e-b7ac-ab3af0c05e38"
+      });
+   
+      window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+   </script>
+  
+
+  <title>
+    
+    
+         | Jason Hand
+    
+  </title>
+
+  <meta name="title" content=" | Jason Hand">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="generator" content="">
+  <base href="https://www.jasonhand.com/">
+
+  
+    <meta name="description" content="Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <meta name="author" content="@jasonhand">
+  
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jasonhand">
+    <meta name="twitter:creator" content="@jasonhand">
+  
+
+  <meta property="og:title" content=" | Jason Hand">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.jasonhand.com/">
+
+  
+    <meta property="og:image" content="https://www.jasonhand.com//qcon_head_shot.jpg">
+  
+
+  
+    <meta property="og:description" content="Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.jasonhand.com/images/favicon.ico">
+    <meta name="theme-color" content="#FFF">
+  
+
+  <link rel="canonical" href="https://www.jasonhand.com/blog/scratchpad/">
+
+  
+
+  <link rel="stylesheet" href="https://www.jasonhand.com//styles/main.css" type="text/css">
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+
+  
+</head>
+
+  <body>
+    <head>
+    <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){
+         function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t
+      }({
+         instrumentationKey:"92c82829-9ba0-470e-b7ac-ab3af0c05e38"
+      });
+   
+      window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+   </script>
+</head>
+
+
+
+
+<nav class="row middle-xs center-xs">
+  <div class="col-xs-6 col-sm-1 logo">
+    <a href="https://www.jasonhand.com/#"><img src="https://www.jasonhand.com/images/pit_crew.png" alt="Jason Hand"></a>
+  </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#about">Bio</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#work">Community</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#blog">Blog</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#contact">Social</a></h3>
+      </div>
+    
+  <div class="col-xs-6 col-sm-1 nav-toggle">
+      <a href="" class="nav-icon" onclick="return false"><img src="https://www.jasonhand.com/images/icon-menu.png" alt="Open Menu"><img src="https://www.jasonhand.com/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
+  </div>
+</nav>
+
+<section class="nav-full row middle-xs center-xs">
+  <div class="col-xs-12">
+    <div class="row middle-xs center-xs">
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#about">Bio</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#work">Community</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#blog">Blog</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#contact">Social</a></h1></div>
+      
+    </div>
+  </div>
+</section>
+
+    <main>
+
+      <section class="container">
+          <section class="content">
+              <h1>  </h1>
+
+              <div class="sub-header">
+                  January 1, 0001 · 1 minute read
+              </div>
+
+              <article class="entry-content">
+                  <p>Notes about the &ldquo;intro to data science in azure&rdquo; Learn course:</p>
+<p>Autoregressive Integrated Moving Average (ARIMA) model. This is a modeling technique for time series analysis that helps with predictions concerning time.</p>
+<p>When you train a model, you need to split your data into training and testing sets so that you don&rsquo;t train your model on all the data.
+When using time series data, it&rsquo;s essential to split the data based on time.</p>
+<p>Mean squared error (MSE) is one of the most popular model evaluation metrics in statistical modeling. It allows you to look at how far your predictions are on average from the correct values.</p>
+
+              </article>
+
+              <div class="pagination">
+                  
+                  
+                      <a href="https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/">@ScottCate (Scott Cate) during this year&#39;s Microsoft Ignite | The Tour &raquo;</a>
+                  
+              </div>
+          </section>
+          <br>
+          <section class="disqus">
+
+  
+
+</section>
+
+      </section>
+
+    </main>
+    <footer class="row middle-xs center-xs">
+ 
+ 
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://twitter.com/jasonhand">Twitter</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://instagram.com/jhand">Instagram</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://facebook.com/jhand">Facebook</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://linkedin.com/in/jasonhand24">LinkedIn</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://youtube.com/jasonhand24">YouTube</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://github.com/jasonhand">GitHub</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://reddit.com/user/jhand24">Reddit</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://medium.com/@jasonhand">Medium</a></div>
+  
+ 
+
+
+  
+    <div class="col-xs-12">
+      
+        Copyright &copy; 2020 Jason Hand.
+      
+      
+        <a href="https://tomanistor.com" target="_blank">Theme developed by Toma Nistor</a>
+      
+    </div>
+  
+
+</footer>
+
+    <head>
+    <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){
+         function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t
+      }({
+         instrumentationKey:"92c82829-9ba0-470e-b7ac-ab3af0c05e38"
+      });
+   
+      window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+   </script>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+  <script src="https://www.jasonhand.com/scripts/main.min.js" type="text/javascript"></script>
+
+
+  </body>
+</html>

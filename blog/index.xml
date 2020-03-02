@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Jason Hand</title>
@@ -6,151 +6,42 @@
     <description>Recent content in Blogs on Jason Hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 May 2019 08:53:36 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 09:48:07 -0600</lastBuildDate>
     
 	<atom:link href="https://www.jasonhand.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>@ScottCate (Scott Cate) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 08:53:36 -0600</pubDate>
+      <title>Understand the Evolving World of Data</title>
+      <link>https://www.jasonhand.com/blog/understand-the-evolving-world-of-data/</link>
+      <pubDate>Tue, 23 Jul 2019 09:48:07 -0600</pubDate>
       
-      <guid>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
-      <description>The 2018&amp;frasl;2019 &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; global event recently completed in Mumbai.
-The event took place in 17 cities around the world. Myself and other advocates joined forces with MVPs and Microsoft product specialists and experts to share current thinking around how to build amazing systems and services in the cloud and how to keep them up and running reliably.
-In the coming weeks I&amp;rsquo;ll provide a full retrospective on the event and the seven cities I had the pleasure of visiting while on tour.</description>
+      <guid>https://www.jasonhand.com/blog/understand-the-evolving-world-of-data/</guid>
+      <description>If you haven&amp;rsquo;t had a chance to check out some of the Microsoft Learn courses available over on Docs, drop what you&amp;rsquo;re doing and bookmark a few that catch your eye. They&amp;rsquo;re actually pretty decent and kinda fun.
+I&amp;rsquo;m currently working through several courses and documenting my thoughts and experience.
+To kick things off I thought I&amp;rsquo;d start with one of the high level (read: non-technical) courses and then move on to some stuff around Databricks.</description>
     </item>
     
     <item>
-      <title>@filmgirl (Christina Warren) during this year&#39;s Microsoft | Ignite Tour</title>
-      <link>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 08:58:10 -0600</pubDate>
+      <title>How To Monitor Static Websites on Azure (With Rod Stewart)</title>
+      <link>https://www.jasonhand.com/blog/monitoring-a-static-website-with-rod-stuart/</link>
+      <pubDate>Wed, 17 Jul 2019 17:11:01 -0600</pubDate>
       
-      <guid>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
-      <description>Christina and I first met during the Cloud Advocate Summit right after I joined the team at Microsoft. We had a full day of speaker training and were paired up on our first excercise.
-Personally knowing only a handful of people on the team prior to joining, I had researched a few people on the roster, Christina quickly surfaced in my online searches.
-Host of &amp;ldquo;This week on Channel 9&amp;rdquo;, Christina is one of the most knowledgable and charismatic people I know.</description>
+      <guid>https://www.jasonhand.com/blog/monitoring-a-static-website-with-rod-stuart/</guid>
+      <description>Here&amp;rsquo;s How I Setup Monitoring on My Site I recently changed this website from an App Service to a static site hosted in Azure Blob storage. So, the Application Insights (part of Azure Monitor) that I was previously using wasn&amp;rsquo;t going to work any more.
+Rather than try to reconfigure my existing instance, I decided a green field would be more interesting. And maybe even more challenging.
+It was actually way simpler than I thought it would be.</description>
     </item>
     
     <item>
-      <title>@RicksterCDN (Rick Claus) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 10:03:55 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</guid>
-      <description>I&amp;rsquo;ll never forget my very first day on campus as a full-time Microsoft Azure Advocate.
-Especially my first &amp;ldquo;real&amp;rdquo; meeting with members of my team - a discussion around the process of updating documentation found on Microsoft Docs!
-I couldn&amp;rsquo;t believe it. Here I was sitting around a table with others reviewing how we could submit changes and new content to online resources used by so many.
-Leading the conversation was Rick Claus.</description>
-    </item>
-    
-    <item>
-      <title>@LBugnion (Laurent Bugnion) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:53:40 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
-      <description>Laurent and I had the pleasure of taking part in the first two stops on last year&amp;rsquo;s Microsoft Ignite | The Tour in Berlin and Sau Paulo. Since then we&amp;rsquo;ve met up at a number of cities around the world.
-A true polymath on technical topics, Laurent delivered a number of different sessions throughout the tour.
-Be sure to check out some of the talks below as well as a few other areas Laurent likes to dabble in.</description>
-    </item>
-    
-    <item>
-      <title>@jaydestro (Jay Gordon) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:54:09 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</guid>
-      <description>Jay and I joined Microsoft around the same time and for a brief moment were even on the same team within the larger Cloud Advocacy team.
-Every time we got to speak at the same stop on the Microsoft Ignite | The Tour, we tended to gravitate towards each other and despite vastly different tastes in music, we have a lot in common and it&amp;rsquo;s always good to catch up.</description>
-    </item>
-    
-    <item>
-      <title>@JeremyLikness (Jeremy Likness) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:54:46 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
-      <description>If you&amp;rsquo;ve ever seen Jeremy give a talk, you start to understand just how much he knows about a large number of topics. Co-host of &amp;ldquo;On .NET&amp;rdquo;, Jeremy teaches me something new each time I interact with him.
-Check out a couple of the presentations he gave during the Microsoft Ignite | The Tour in Amsterdam below.
-Tour Presentations: Azure Fundamentals  DEV10 - Designing resilient cloud applications DEV50 - Investing in Serverless: less servers, more code  Hot Topics  .</description>
-    </item>
-    
-    <item>
-      <title>@pythiccoder (Ari Bornstein) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:55:03 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</guid>
-      <description>Every time I get to hang out with Ari is a good work trip. The moment I saw him carrying around a copy of Daniel Kahneman&amp;rsquo;s &amp;ldquo;Thinking Fast &amp;amp; Slow&amp;rdquo;, I knew we would get along well.
-Aside from behavorial economic theory, Ari and I have had the pleasure of connecting on several stops during the Microsoft Ignite | The Tour and I&amp;rsquo;m looking forward to teaming up with him on a few artificial intelligence projects - something I&amp;rsquo;m starting to explore more myself.</description>
-    </item>
-    
-    <item>
-      <title>@damovisa (Damien Brady) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:56:15 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</guid>
-      <description>When you chat with Damien about literally any topic, you quickly realize YOU KNOW NOTHING .. and ALSO, he&amp;rsquo;s really REALLY good at explaining things.
-If you have a few minutes, give the &amp;ldquo;Using Artificial Intelligence to Augment Data&amp;rdquo; presentation from this past Microsoft Ignite | The Tour a watch. It was one of my favorites from the entire tour. It&amp;rsquo;s pretty crazy how easy it is to start using AI and Machine Learning to assist with different aspects of just about any business.</description>
-    </item>
-    
-    <item>
-      <title>@ryan_levick (Ryan Levick) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:56:43 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
-      <description>Ryan and I haven&amp;rsquo;t had a ton of opportunities to work together so far, but each time we do chat I realize I have a lot to learn. One specific area I want to learn more from Ryan about is on the topic of Rust.
-He gave a great internal presentation on the benefits of using Rust, especially from an Operations-work point of view. The increased security aspect of it is enough to take a closer look if you are a traditional C# developer.</description>
-    </item>
-    
-    <item>
-      <title>@erikstmartin (Erik St. Martin) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:57:09 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</guid>
-      <description>Hands-down&amp;hellip; the most amazing experience of this year&amp;rsquo;s &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; was riding along with Erik in a Ferrari 488 Spider through not only the streets of Milan but along Lake Como and up the mountain to the observatory.
-Check out this video I made of the experience.
- You&amp;rsquo;d be hard pressed to find anyone who knows more about Kubernetes than Erik and that&amp;rsquo;s exactly what he was in Amsterdam to talk about when we got another chance to hang out.</description>
-    </item>
-    
-    <item>
-      <title>@nepeters (Neil Peterson) during this year&#39;s Microsoft Ignite | The Tour</title>
-      <link>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</link>
-      <pubDate>Tue, 21 May 2019 09:57:26 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
-      <description>Neil and I had several really great trips together this year during the Microsoft Ignite | The Tour including a layover in Zermatt, Switzerland to snowboard the Matterhorn!
- A wizard at Kubernetes and continuous deployment techniques with Azure Devops, I learn something new from Neil each time I see one of his talks.
-Check out a couple of the talks Neil delivered while in Amsterdam this past March.</description>
-    </item>
-    
-    <item>
-      <title>What A Long Strange Trip It&#39;s Been</title>
-      <link>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</link>
-      <pubDate>Sat, 01 Sep 2018 17:25:26 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</guid>
-      <description>Just over four years ago, I impulsively responded to a Facebook post about a devops evangelism role at a new tech startup.
-I had never been an evangelist and I knew nothing of the term “devops”. #yolo ¯_(ツ)_/¯
-This spontaneous act illuminated a path of personal and professional growth.
-A path that created new opportunities for me almost daily.
-A path that changed me for the better.
-A path that wasn’t there… until it was.</description>
-    </item>
-    
-    <item>
-      <title>Five Things</title>
+      <title>Five Things Developers Can Use To Go On-call (and Not Hate Their Life)</title>
       <link>https://www.jasonhand.com/blog/five-things/</link>
       <pubDate>Wed, 10 Jul 2019 12:48:23 -0600</pubDate>
       
       <guid>https://www.jasonhand.com/blog/five-things/</guid>
-      <description>5 – Things Developers Can Use To Go On-call (and Not Hate Their Life)  As service reliability and uptime become increasingly more important for organizations building applications, developers are now being exposed to new responsibilities and challenges.
-Tiered ticketing processes, Network Operations Centers (NOC), along with traditional change and incident management technicques can’t provide the level of response necessary to support rapidly deployed applications requiring high availability and maximum uptime.</description>
+      <description>&amp;lt;img src=&amp;rdquo;/images/FiveThingsHeader.png&amp;rdquo; alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot;border=&amp;quot;10&amp;rdquo; /&amp;gt;Why Are Developers Going On-Call These Days? As service reliability and uptime become increasingly more important for organizations building applications, developers are now being exposed to new responsibilities and challenges.
+Tiered ticketing processes, Network Operations Centers (NOC), along with traditional change and incident management technicques can’t provide the level of response necessary to support rapidly deployed applications requiring high availability and maximum uptime.
+Urgency of downtime in the modern era requires a different approach to building and maintaining digital systems and services.</description>
     </item>
     
     <item>
@@ -162,15 +53,6 @@ Tiered ticketing processes, Network Operations Centers (NOC), along with traditi
       <description>A couple of weeks ago while in New York City to speak at QCon, my buddy and co-worker (Jay Gordon) was nice enough to let me take over his home office to record a podcast with the ITSM Crowd.
 While I was there, we decided it made perfect sense to record an episode of his show &amp;ldquo;On-call Horror Stories&amp;rdquo;, of which I have plenty to reminisce over.
 However, we decided to take a different approach to the conversation.</description>
-    </item>
-    
-    <item>
-      <title>Migrating a Static Site from Azure App Service to Blob Storage</title>
-      <link>https://www.jasonhand.com/blog/migrate_to_static_blob/</link>
-      <pubDate>Tue, 02 Jul 2019 13:58:25 -0600</pubDate>
-      
-      <guid>https://www.jasonhand.com/blog/migrate_to_static_blob/</guid>
-      <description> </description>
     </item>
     
     <item>
@@ -186,13 +68,12 @@ For more on the topic of SRE, check out the following:</description>
     </item>
     
     <item>
-      <title>Cloud Guru  and Recap</title>
-      <link>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</link>
-      <pubDate>Thu, 23 May 2019 15:13:55 -0600</pubDate>
+      <title>Migrating a Static Site from Azure App Service to Blob Storage</title>
+      <link>https://www.jasonhand.com/blog/migrate_to_static_blob/</link>
+      <pubDate>Tue, 02 Jul 2019 13:58:25 -0600</pubDate>
       
-      <guid>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</guid>
-      <description>  Microsoft Ignite | The Tour: Check out some additional interviews from
- Scott Cate Christina Warren Rick Claus Laurent Bugnion Jay Gordon Mel McKenna Jeremy Likness Ari Bornstein Juliet Friedman Damien Brady Ryan Levick Erik S. Martin Neil Peterson  </description>
+      <guid>https://www.jasonhand.com/blog/migrate_to_static_blob/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -201,18 +82,19 @@ For more on the topic of SRE, check out the following:</description>
       <pubDate>Thu, 23 May 2019 14:19:29 -0600</pubDate>
       
       <guid>https://www.jasonhand.com/blog/devops_road_trip_2019/</guid>
-      <description>In 2016, with the help of my amazing team at VictorOps, we put on the initial DevOps Road Trip - a series of events in several tech hubs around the U.S.
+      <description>&amp;lt;img src=&amp;rdquo;/images/youtubevanvideo.gif&amp;rdquo; alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot;border=&amp;quot;10&amp;rdquo; /&amp;gt;In 2016, with the help of my amazing team at VictorOps, we put on the initial DevOps Road Trip - a series of events in several tech hubs around the U.S.
 Starting off in Denver, we took our traveling event to Seattle, Minneapolis, San Francisco, and New York. Each of these free events were held at a unique and memorable venues.
 In Denver, we invited attendees to Mile High Stadium (where the Denver Broncos play).</description>
     </item>
     
     <item>
-      <title>Microsoft Ignite | The Tour 2019</title>
-      <link>https://www.jasonhand.com/blog/mitt_fy19/</link>
-      <pubDate>Thu, 23 May 2019 13:54:11 -0600</pubDate>
+      <title>Cloud Guru  and Recap</title>
+      <link>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</link>
+      <pubDate>Thu, 23 May 2019 15:13:55 -0600</pubDate>
       
-      <guid>https://www.jasonhand.com/blog/mitt_fy19/</guid>
-      <description>Azure Fundamentals    Track Presentation     FUN10 - Discovering Microsoft Azure   FUN20 - Azure Networking Basics   FUN30 - Discovering Azure Tooling &amp;amp; Utilities   FUN40 - Azure Security Basics   FUN50 - Storing Data in Azure    Building and Maintaining Your Hybrid Cloud    Track Presentation     HYB10 - Planning and implementing hybrid network connectivity   HYB20 - Securing your Azure environment   HYB30 - Maintaining your environment   HYB40 - Governing your Azure environment   HYB50 - Business continuity planning    Building Your Applications for the Cloud    Track Presentation     DEV10 - Designing resilient cloud applications   DEV20 - Deploying your application faster and safer   DEV30 - Detecting application anomalies with Telemetry   DEV40 - Selecting the right data storage strategy for your cloud application   DEV50 - Investing in Serverless: less servers, more code    Getting the Most out of your Data    Track Presentation     DAT10 - Dealing with massive data ingestion   DAT20 - Operationalizing your new inventory management Machine Learning Model   DAT30 - Using artificial intelligence to augment data   DAT40 - Running Machine Learning experiments on inventory management   DAT50 - Operationalizing your new inventory management Machine Learning Model    Migrating Applications to the Cloud    Track Presentation     MIG10 - Migrating web applications to Azure   MIG20 - Moving your database to Azure   MIG30 - Deploying your application faster and safer   MIG40 - Modernizing your application with containers and Serverless   MIG50 - Consolidating infrastructure with Azure Kubernetes Service    Operating Applications &amp;amp; Infrastructure in the Cloud    Track Presentation     SRE10 - Modernizing your infrastructure: moving to Infrastructure as Code   SRE20 - Monitoring your infrastructure and applications in production   SRE30 - Diagnosing failure in the cloud   SRE40 - Scaling for growth and resiliency   SRE50 - Responding to and learning from failure    Check out some additional interviews from:  Scott Cate Christina Warren Rick Claus Laurent Bugnion Jay Gordon Mel McKenna Jeremy Likness Ari Bornstein Juliet Friedman Damien Brady Ryan Levick Erik S.</description>
+      <guid>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</guid>
+      <description>Microsoft Ignite | The Tour: Check out some additional interviews from
+ Scott Cate Christina Warren Rick Claus Laurent Bugnion Jay Gordon Mel McKenna Jeremy Likness Ari Bornstein Juliet Friedman Damien Brady Ryan Levick Erik S. Martin Neil Peterson  </description>
     </item>
     
     <item>
@@ -236,6 +118,60 @@ Likely from a friend or colleague introducing it to you, right?</description>
     </item>
     
     <item>
+      <title>Microsoft Ignite | The Tour 2019</title>
+      <link>https://www.jasonhand.com/blog/mitt_fy19/</link>
+      <pubDate>Thu, 23 May 2019 13:54:11 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/mitt_fy19/</guid>
+      <description>Azure Fundamentals    Track Presentation     FUN10 - Discovering Microsoft Azure   FUN20 - Azure Networking Basics   FUN30 - Discovering Azure Tooling &amp;amp; Utilities   FUN40 - Azure Security Basics   FUN50 - Storing Data in Azure    Building and Maintaining Your Hybrid Cloud    Track Presentation     HYB10 - Planning and implementing hybrid network connectivity   HYB20 - Securing your Azure environment   HYB30 - Maintaining your environment   HYB40 - Governing your Azure environment   HYB50 - Business continuity planning    Building Your Applications for the Cloud    Track Presentation     DEV10 - Designing resilient cloud applications   DEV20 - Deploying your application faster and safer   DEV30 - Detecting application anomalies with Telemetry   DEV40 - Selecting the right data storage strategy for your cloud application   DEV50 - Investing in Serverless: less servers, more code    Getting the Most out of your Data    Track Presentation     DAT10 - Dealing with massive data ingestion   DAT20 - Operationalizing your new inventory management Machine Learning Model   DAT30 - Using artificial intelligence to augment data   DAT40 - Running Machine Learning experiments on inventory management   DAT50 - Operationalizing your new inventory management Machine Learning Model    Migrating Applications to the Cloud    Track Presentation     MIG10 - Migrating web applications to Azure   MIG20 - Moving your database to Azure   MIG30 - Deploying your application faster and safer   MIG40 - Modernizing your application with containers and Serverless   MIG50 - Consolidating infrastructure with Azure Kubernetes Service    Operating Applications &amp;amp; Infrastructure in the Cloud    Track Presentation     SRE10 - Modernizing your infrastructure: moving to Infrastructure as Code   SRE20 - Monitoring your infrastructure and applications in production   SRE30 - Diagnosing failure in the cloud   SRE40 - Scaling for growth and resiliency   SRE50 - Responding to and learning from failure    Check out some additional interviews from:  Scott Cate Christina Warren Rick Claus Laurent Bugnion Jay Gordon Mel McKenna Jeremy Likness Ari Bornstein Juliet Friedman Damien Brady Ryan Levick Erik S.</description>
+    </item>
+    
+    <item>
+      <title>Installing Prometheus on Azure</title>
+      <link>https://www.jasonhand.com/blog/installing_prometheus_on_azure/</link>
+      <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/installing_prometheus_on_azure/</guid>
+      <description>This post will walk through the basisc of getting Prometheus installed and configured on an Azure Virtual Machine (VM).
+Create a new VM  Create a Virtual Machine  Basics Disks Networking Management    Add a custom domain  Custom DNS Create Virtual Network  Open Ports 22 and 9090    Connect to VM and install Prometheus  Remote Connection to VM Download &amp;amp; Install Promoetheus on VM Start Prometheus  Login to your Azure Portal Go to portal.</description>
+    </item>
+    
+    <item>
+      <title>@erikstmartin (Erik St. Martin) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:57:09 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</guid>
+      <description>Hands-down&amp;hellip; the most amazing experience of this year&amp;rsquo;s &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; was riding along with Erik in a Ferrari 488 Spider through not only the streets of Milan but along Lake Como and up the mountain to the observatory.
+Check out this video I made of the experience.
+You&amp;rsquo;d be hard pressed to find anyone who knows more about Kubernetes than Erik and that&amp;rsquo;s exactly what he was in Amsterdam to talk about when we got another chance to hang out.</description>
+    </item>
+    
+    <item>
+      <title>@jaydestro (Jay Gordon) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:54:09 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</guid>
+      <description>Jay and I joined Microsoft around the same time and for a brief moment were even on the same team within the larger Cloud Advocacy team.
+Every time we got to speak at the same stop on the Microsoft Ignite | The Tour, we tended to gravitate towards each other and despite vastly different tastes in music, we have a lot in common and it&amp;rsquo;s always good to catch up.</description>
+    </item>
+    
+    <item>
+      <title>What A Long Strange Trip It&#39;s Been</title>
+      <link>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</link>
+      <pubDate>Sat, 01 Sep 2018 17:25:26 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</guid>
+      <description>Just over four years ago, I impulsively responded to a Facebook post about a devops evangelism role at a new tech startup.
+I had never been an evangelist and I knew nothing of the term “devops”. #yolo ¯_(ツ)_/¯
+This spontaneous act illuminated a path of personal and professional growth.
+A path that created new opportunities for me almost daily.
+A path that changed me for the better.
+A path that wasn’t there… until it was.</description>
+    </item>
+    
+    <item>
       <title>Minimum Viable Incident Response Plan</title>
       <link>https://www.jasonhand.com/blog/minimum-viable-incident-response-plan/</link>
       <pubDate>Thu, 23 May 2019 12:31:35 -0600</pubDate>
@@ -246,13 +182,111 @@ Carefully configured to interact with a very small number of stocks and with Buy
     </item>
     
     <item>
-      <title>Installing Prometheus on Azure</title>
-      <link>https://www.jasonhand.com/blog/installing_prometheus_on_azure/</link>
-      <pubDate>Fri, 21 Sep 2018 08:27:38 -0600</pubDate>
+      <title>@RicksterCDN (Rick Claus) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 10:03:55 -0600</pubDate>
       
-      <guid>https://www.jasonhand.com/blog/installing_prometheus_on_azure/</guid>
-      <description>This post will walk through the basisc of getting Prometheus installed and configured on an Azure Virtual Machine (VM).
-Create a new VM  Create a Virtual Machine  Basics Disks Networking Management   Add a custom domain  Custom DNS Create Virtual Network  Open Ports 22 and 9090   Connect to VM and install Prometheus  Remote Connection to VM Download &amp;amp; Install Promoetheus on VM Start Prometheus  Login to your Azure Portal Go to portal.</description>
+      <guid>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</guid>
+      <description>I&amp;rsquo;ll never forget my very first day on campus as a full-time Microsoft Azure Advocate.
+Especially my first &amp;ldquo;real&amp;rdquo; meeting with members of my team - a discussion around the process of updating documentation found on Microsoft Docs!
+I couldn&amp;rsquo;t believe it. Here I was sitting around a table with others reviewing how we could submit changes and new content to online resources used by so many.
+Leading the conversation was Rick Claus.</description>
+    </item>
+    
+    <item>
+      <title>@nepeters (Neil Peterson) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:57:26 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</guid>
+      <description>Neil and I had several really great trips together this year during the Microsoft Ignite | The Tour including a layover in Zermatt, Switzerland to snowboard the Matterhorn!
+A wizard at Kubernetes and continuous deployment techniques with Azure Devops, I learn something new from Neil each time I see one of his talks.
+Check out a couple of the talks Neil delivered while in Amsterdam this past March.
+Tour Presentations: Azure Fundamentals  HYB30 - Maintaining your environment HYB40 - Governing your Azure environment  Hot Topics  Visual Studio Code - Remote development Azure CLI Azure Resource Manager (ARM) Virtual Machines Alerting Role based access control (RBAC) Azure locks Trombone Shorty  More Fun Links  Improved Microsoft Docs New (FREE) Online courses  Follow Neil: </description>
+    </item>
+    
+    <item>
+      <title>@ryan_levick (Ryan Levick) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:56:43 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</guid>
+      <description>Ryan and I haven&amp;rsquo;t had a ton of opportunities to work together so far, but each time we do chat I realize I have a lot to learn. One specific area I want to learn more from Ryan about is on the topic of Rust.
+He gave a great internal presentation on the benefits of using Rust, especially from an Operations-work point of view. The increased security aspect of it is enough to take a closer look if you are a traditional C# developer.</description>
+    </item>
+    
+    <item>
+      <title>@damovisa (Damien Brady) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:56:15 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</guid>
+      <description>When you chat with Damien about literally any topic, you quickly realize YOU KNOW NOTHING .. and ALSO, he&amp;rsquo;s really REALLY good at explaining things.
+If you have a few minutes, give the &amp;ldquo;Using Artificial Intelligence to Augment Data&amp;rdquo; presentation from this past Microsoft Ignite | The Tour a watch. It was one of my favorites from the entire tour. It&amp;rsquo;s pretty crazy how easy it is to start using AI and Machine Learning to assist with different aspects of just about any business.</description>
+    </item>
+    
+    <item>
+      <title>@pythiccoder (Ari Bornstein) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:55:03 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</guid>
+      <description>Every time I get to hang out with Ari is a good work trip. The moment I saw him carrying around a copy of Daniel Kahneman&amp;rsquo;s &amp;ldquo;Thinking Fast &amp;amp; Slow&amp;rdquo;, I knew we would get along well.
+Aside from behavorial economic theory, Ari and I have had the pleasure of connecting on several stops during the Microsoft Ignite | The Tour and I&amp;rsquo;m looking forward to teaming up with him on a few artificial intelligence projects - something I&amp;rsquo;m starting to explore more myself.</description>
+    </item>
+    
+    <item>
+      <title>@JeremyLikness (Jeremy Likness) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:54:46 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</guid>
+      <description>If you&amp;rsquo;ve ever seen Jeremy give a talk, you start to understand just how much he knows about a large number of topics. Co-host of &amp;ldquo;On .NET&amp;quot;, Jeremy teaches me something new each time I interact with him.
+Check out a couple of the presentations he gave during the Microsoft Ignite | The Tour in Amsterdam below.
+Tour Presentations: Azure Fundamentals  DEV10 - Designing resilient cloud applications DEV50 - Investing in Serverless: less servers, more code  Hot Topics  .</description>
+    </item>
+    
+    <item>
+      <title>@LBugnion (Laurent Bugnion) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 09:53:40 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</guid>
+      <description>Laurent and I had the pleasure of taking part in the first two stops on last year&amp;rsquo;s Microsoft Ignite | The Tour in Berlin and Sau Paulo. Since then we&amp;rsquo;ve met up at a number of cities around the world.
+A true polymath on technical topics, Laurent delivered a number of different sessions throughout the tour.
+Be sure to check out some of the talks below as well as a few other areas Laurent likes to dabble in.</description>
+    </item>
+    
+    <item>
+      <title>@filmgirl (Christina Warren) during this year&#39;s Microsoft | Ignite Tour</title>
+      <link>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 08:58:10 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</guid>
+      <description>&amp;lt;img src=&amp;rdquo;/images/ChristinaWarren.png&amp;rdquo; alt=&amp;quot;Christina Warren - Microsoft Azure Advocate&amp;rdquo; &amp;ldquo;border=&amp;quot;10&amp;rdquo; /&amp;gt;Christina and I first met during the Cloud Advocate Summit right after I joined the team at Microsoft. We had a full day of speaker training and were paired up on our first excercise.
+Personally knowing only a handful of people on the team prior to joining, I had researched a few people on the roster, Christina quickly surfaced in my online searches.</description>
+    </item>
+    
+    <item>
+      <title>@ScottCate (Scott Cate) during this year&#39;s Microsoft Ignite | The Tour</title>
+      <link>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</link>
+      <pubDate>Sun, 21 Apr 2019 08:53:36 -0600</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</guid>
+      <description>The 2018/2019 &amp;ldquo;Microsoft Ignite | The Tour&amp;rdquo; global event recently completed in Mumbai.
+The event took place in 17 cities around the world. Myself and other advocates joined forces with MVPs and Microsoft product specialists and experts to share current thinking around how to build amazing systems and services in the cloud and how to keep them up and running reliably.
+In the coming weeks I&amp;rsquo;ll provide a full retrospective on the event and the seven cities I had the pleasure of visiting while on tour.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.jasonhand.com/blog/scratchpad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jasonhand.com/blog/scratchpad/</guid>
+      <description>Notes about the &amp;ldquo;intro to data science in azure&amp;rdquo; Learn course:
+Autoregressive Integrated Moving Average (ARIMA) model. This is a modeling technique for time series analysis that helps with predictions concerning time.
+When you train a model, you need to split your data into training and testing sets so that you don&amp;rsquo;t train your model on all the data. When using time series data, it&amp;rsquo;s essential to split the data based on time.</description>
     </item>
     
   </channel>

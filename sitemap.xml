@@ -1,65 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T08:53:36-06:00</lastmod>
+      <loc>https://www.jasonhand.com/blog/understand-the-evolving-world-of-data/</loc>
+      <lastmod>2019-07-23T09:48:07-06:00</lastmod>
     </url>
   
     <url>
-      <loc>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T08:58:10-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T10:03:55-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:53:40-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:54:09-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:54:46-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:55:03-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:56:15-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:56:43-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:57:09-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</loc>
-      <lastmod>2019-05-21T09:57:26-06:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</loc>
-      <lastmod>2018-09-01T17:25:26-06:00</lastmod>
+      <loc>https://www.jasonhand.com/blog/monitoring-a-static-website-with-rod-stuart/</loc>
+      <lastmod>2019-07-17T17:11:01-06:00</lastmod>
     </url>
   
     <url>
@@ -73,18 +22,13 @@
     </url>
   
     <url>
-      <loc>https://www.jasonhand.com/blog/migrate_to_static_blob/</loc>
-      <lastmod>2019-07-02T13:58:25-06:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://www.jasonhand.com/blog/itsm_crowd_podcast/</loc>
       <lastmod>2019-07-02T13:19:52-06:00</lastmod>
     </url>
   
     <url>
-      <loc>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</loc>
-      <lastmod>2019-05-23T15:13:55-06:00</lastmod>
+      <loc>https://www.jasonhand.com/blog/migrate_to_static_blob/</loc>
+      <lastmod>2019-07-02T13:58:25-06:00</lastmod>
     </url>
   
     <url>
@@ -93,8 +37,8 @@
     </url>
   
     <url>
-      <loc>https://www.jasonhand.com/blog/mitt_fy19/</loc>
-      <lastmod>2019-05-23T13:54:11-06:00</lastmod>
+      <loc>https://www.jasonhand.com/blog/cloud_guru_mitt_2019/</loc>
+      <lastmod>2019-05-23T15:13:55-06:00</lastmod>
     </url>
   
     <url>
@@ -103,8 +47,8 @@
     </url>
   
     <url>
-      <loc>https://www.jasonhand.com/blog/minimum-viable-incident-response-plan/</loc>
-      <lastmod>2019-05-23T12:31:35-06:00</lastmod>
+      <loc>https://www.jasonhand.com/blog/mitt_fy19/</loc>
+      <lastmod>2019-05-23T13:54:11-06:00</lastmod>
     </url>
   
     <url>
@@ -113,19 +57,87 @@
     </url>
   
     <url>
+      <loc>https://www.jasonhand.com/blog/erik_stmartin_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:57:09-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/jay_gordon_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:54:09-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/what_a_long_strange_trip_its_been/</loc>
+      <lastmod>2018-09-01T17:25:26-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/</loc>
+      <lastmod>2019-07-23T09:48:07-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/</loc>
+      <lastmod>2019-07-23T09:48:07-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/minimum-viable-incident-response-plan/</loc>
+      <lastmod>2019-05-23T12:31:35-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/rick_claus_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T10:03:55-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/neil_peterson_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:57:26-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/ryan_levick_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:56:43-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/damien_brady_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:56:15-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/ari_bornstein_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:55:03-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/jeremy_likness_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:54:46-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/laurent_bugnion_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T09:53:40-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/christina_warren__microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T08:58:10-06:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://www.jasonhand.com/blog/scott_cate_microsoft_ignite_tour_interview/</loc>
+      <lastmod>2019-04-21T08:53:36-06:00</lastmod>
+    </url>
+  
+    <url>
       <loc>https://www.jasonhand.com/about/</loc>
       <lastmod>2017-06-27T17:39:21-07:00</lastmod>
     </url>
   
     <url>
-      <loc>https://www.jasonhand.com/blog/</loc>
-      <lastmod>2019-05-21T08:53:36-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-      <loc>https://www.jasonhand.com/</loc>
-      <lastmod>2019-05-21T08:53:36-06:00</lastmod>
+      <loc>https://www.jasonhand.com/blog/scratchpad/</loc>
       <priority>0</priority>
     </url>
   

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){
+         function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t
+      }({
+         instrumentationKey:"92c82829-9ba0-470e-b7ac-ab3af0c05e38"
+      });
+   
+      window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+   </script>
+  
+
+  <title>
+    
+    
+        How To Monitor Static Websites on Azure (With Rod Stewart) | Jason Hand
+    
+  </title>
+
+  <meta name="title" content="How To Monitor Static Websites on Azure (With Rod Stewart) | Jason Hand">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="generator" content="">
+  <base href="https://www.jasonhand.com/">
+
+  
+    <meta name="description" content="Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <meta name="author" content="@jasonhand">
+  
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jasonhand">
+    <meta name="twitter:creator" content="@jasonhand">
+  
+
+  <meta property="og:title" content="How To Monitor Static Websites on Azure (With Rod Stewart) | Jason Hand">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.jasonhand.com/">
+
+  
+    <meta property="og:image" content="https://www.jasonhand.com//qcon_head_shot.jpg">
+  
+
+  
+    <meta property="og:description" content="Cloud Ops Advocate @ Microsoft (Azure)">
+  
+
+  
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.jasonhand.com/images/favicon.ico">
+    <meta name="theme-color" content="#FFF">
+  
+
+  <link rel="canonical" href="https://www.jasonhand.com/blog/monitoring-a-static-website-with-rod-stuart/">
+
+  
+
+  <link rel="stylesheet" href="https://www.jasonhand.com//styles/main.css" type="text/css">
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+
+  
+</head>
+
+  <body>
+    <head>
+    <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){
+         function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t
+      }({
+         instrumentationKey:"92c82829-9ba0-470e-b7ac-ab3af0c05e38"
+      });
+   
+      window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+   </script>
+</head>
+
+
+
+
+<nav class="row middle-xs center-xs">
+  <div class="col-xs-6 col-sm-1 logo">
+    <a href="https://www.jasonhand.com/#"><img src="https://www.jasonhand.com/images/pit_crew.png" alt="Jason Hand"></a>
+  </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#about">Bio</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#work">Community</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#blog">Blog</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://www.jasonhand.com/#contact">Social</a></h3>
+      </div>
+    
+  <div class="col-xs-6 col-sm-1 nav-toggle">
+      <a href="" class="nav-icon" onclick="return false"><img src="https://www.jasonhand.com/images/icon-menu.png" alt="Open Menu"><img src="https://www.jasonhand.com/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
+  </div>
+</nav>
+
+<section class="nav-full row middle-xs center-xs">
+  <div class="col-xs-12">
+    <div class="row middle-xs center-xs">
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#about">Bio</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#work">Community</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#blog">Blog</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://www.jasonhand.com/#contact">Social</a></h1></div>
+      
+    </div>
+  </div>
+</section>
+
+    <main>
+
+      <section class="container">
+          <section class="content">
+              <h1> How To Monitor Static Websites on Azure (With Rod Stewart) </h1>
+
+              <div class="sub-header">
+                  July 17, 2019 · 4 minute read
+              </div>
+
+              <article class="entry-content">
+                  <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="heres-how-i-setup-monitoring-on-my-site">Here&rsquo;s How I Setup Monitoring on My Site</h2>
+<p>I recently changed this website from an <a href="https://cda.ms/Zs">App Service</a> to a <a href="https://cda.ms/Zp">static site hosted in Azure Blob storage</a>. So, the <a href="https://cda.ms/Zk">Application Insights</a> (part of <a href="https://cda.ms/Zk">Azure Monitor</a>) that I was previously using wasn&rsquo;t going to work any more.</p>
+<p>Rather than try to reconfigure my existing instance, I decided a <em>green field</em> would be more interesting. And maybe even more challenging.</p>
+<p>It was actually way simpler than I thought it would be.</p>
+<p>I don&rsquo;t know why I&rsquo;d been putting it off for so long.</p>
+<p><img src="https://www.jasonhand.com/images/EveryPictureTellsAStory.jpg" alt="">
+With help from Rod Stewart (circa 1973) and <a href="https://cda.ms/Zh">following instructions found here</a>, I wired my site up in less time than it takes to listen to <a href="http://www.discogs.com/Rod-Stewart-Every-Picture-Tells-A-Story/master/68324">&ldquo;Every Picture Tells A Story&rdquo;</a>.</p>
+<p>Watch the video above if you haven&rsquo;t.</p>
+<h2 id="steps"><strong>Steps:</strong></h2>
+<p>(<em>Everything below assumes you are hosting on Azure. If not, <a href="https://cda.ms/Zh">grab a free account</a> and follow along</em>)</p>
+<h3 id="create-application-insights-instance">Create Application Insights Instance</h3>
+<p>In the same Resource Group as your static site storage, create a new &ldquo;Application Insights&rdquo; resource.</p>
+<h3 id="copy-your-instrumentation-key">Copy Your Instrumentation Key</h3>
+<p>Once the Application Insights resource is ready and you can view the Overview screen, <strong>grab the instrumentation key</strong>.</p>
+<p>You&rsquo;ll paste it in the script provided here.</p>
+<p>Replace the <em>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx</em> with your instrumentation key copied from the overview screen.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span><span style="color:#f92672">&gt;</span>
+   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">sdkInstance</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;appInsightsSDK&#34;</span>;window[<span style="color:#a6e22e">sdkInstance</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;appInsights&#34;</span>;<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">aiName</span><span style="color:#f92672">=</span>window[<span style="color:#a6e22e">sdkInstance</span>],<span style="color:#a6e22e">aisdk</span><span style="color:#f92672">=</span>window[<span style="color:#a6e22e">aiName</span>]<span style="color:#f92672">||</span><span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>){
+      <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">n</span>(<span style="color:#a6e22e">e</span>){<span style="color:#a6e22e">t</span>[<span style="color:#a6e22e">e</span>]<span style="color:#f92672">=</span><span style="color:#66d9ef">function</span>(){<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">n</span><span style="color:#f92672">=</span><span style="color:#a6e22e">arguments</span>;<span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">queue</span>.<span style="color:#a6e22e">push</span>(<span style="color:#66d9ef">function</span>(){<span style="color:#a6e22e">t</span>[<span style="color:#a6e22e">e</span>].<span style="color:#a6e22e">apply</span>(<span style="color:#a6e22e">t</span>,<span style="color:#a6e22e">n</span>)})}}<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">t</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">config</span><span style="color:#f92672">:</span><span style="color:#a6e22e">e</span>};<span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">initialize</span><span style="color:#f92672">=</span><span style="color:#f92672">!</span><span style="color:#ae81ff">0</span>;<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span>document,<span style="color:#a6e22e">a</span><span style="color:#f92672">=</span>window;<span style="color:#a6e22e">setTimeout</span>(<span style="color:#66d9ef">function</span>(){<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">n</span><span style="color:#f92672">=</span><span style="color:#a6e22e">i</span>.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;script&#34;</span>);<span style="color:#a6e22e">n</span>.<span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">url</span><span style="color:#f92672">||</span><span style="color:#e6db74">&#34;https://az416426.vo.msecnd.net/next/ai.2.min.js&#34;</span>,<span style="color:#a6e22e">i</span>.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#34;script&#34;</span>)[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">parentNode</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">n</span>)});<span style="color:#66d9ef">try</span>{<span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">cookie</span><span style="color:#f92672">=</span><span style="color:#a6e22e">i</span>.<span style="color:#a6e22e">cookie</span>}<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">e</span>){}<span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">queue</span><span style="color:#f92672">=</span>[],<span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">version</span><span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>;<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">r</span><span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;Event&#34;</span>,<span style="color:#e6db74">&#34;PageView&#34;</span>,<span style="color:#e6db74">&#34;Exception&#34;</span>,<span style="color:#e6db74">&#34;Trace&#34;</span>,<span style="color:#e6db74">&#34;DependencyData&#34;</span>,<span style="color:#e6db74">&#34;Metric&#34;</span>,<span style="color:#e6db74">&#34;PageViewPerformance&#34;</span>];<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">length</span>;)<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;track&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">pop</span>());<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;startTrackPage&#34;</span>),<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;stopTrackPage&#34;</span>);<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">s</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Track&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">r</span>[<span style="color:#ae81ff">0</span>];<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;start&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">s</span>),<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;stop&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">s</span>),<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;setAuthenticatedUserContext&#34;</span>),<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;clearAuthenticatedUserContext&#34;</span>),<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;flush&#34;</span>),<span style="color:#f92672">!</span>(<span style="color:#f92672">!</span><span style="color:#ae81ff">0</span><span style="color:#f92672">===</span><span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">disableExceptionTracking</span><span style="color:#f92672">||</span><span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">extensionConfig</span><span style="color:#f92672">&amp;&amp;</span><span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">extensionConfig</span>.<span style="color:#a6e22e">ApplicationInsightsAnalytics</span><span style="color:#f92672">&amp;&amp;</span><span style="color:#f92672">!</span><span style="color:#ae81ff">0</span><span style="color:#f92672">===</span><span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">extensionConfig</span>.<span style="color:#a6e22e">ApplicationInsightsAnalytics</span>.<span style="color:#a6e22e">disableExceptionTracking</span>)){<span style="color:#a6e22e">n</span>(<span style="color:#e6db74">&#34;_&#34;</span><span style="color:#f92672">+</span>(<span style="color:#a6e22e">r</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;onerror&#34;</span>));<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">o</span><span style="color:#f92672">=</span><span style="color:#a6e22e">a</span>[<span style="color:#a6e22e">r</span>];<span style="color:#a6e22e">a</span>[<span style="color:#a6e22e">r</span>]<span style="color:#f92672">=</span><span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>,<span style="color:#a6e22e">n</span>,<span style="color:#a6e22e">i</span>,<span style="color:#a6e22e">a</span>,<span style="color:#a6e22e">s</span>){<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">c</span><span style="color:#f92672">=</span><span style="color:#a6e22e">o</span><span style="color:#f92672">&amp;&amp;</span><span style="color:#a6e22e">o</span>(<span style="color:#a6e22e">e</span>,<span style="color:#a6e22e">n</span>,<span style="color:#a6e22e">i</span>,<span style="color:#a6e22e">a</span>,<span style="color:#a6e22e">s</span>);<span style="color:#66d9ef">return</span><span style="color:#f92672">!</span><span style="color:#ae81ff">0</span><span style="color:#f92672">!==</span><span style="color:#a6e22e">c</span><span style="color:#f92672">&amp;&amp;</span><span style="color:#a6e22e">t</span>[<span style="color:#e6db74">&#34;_&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">r</span>]({<span style="color:#a6e22e">message</span><span style="color:#f92672">:</span><span style="color:#a6e22e">e</span>,<span style="color:#a6e22e">url</span><span style="color:#f92672">:</span><span style="color:#a6e22e">n</span>,<span style="color:#a6e22e">lineNumber</span><span style="color:#f92672">:</span><span style="color:#a6e22e">i</span>,<span style="color:#a6e22e">columnNumber</span><span style="color:#f92672">:</span><span style="color:#a6e22e">a</span>,<span style="color:#a6e22e">error</span><span style="color:#f92672">:</span><span style="color:#a6e22e">s</span>}),<span style="color:#a6e22e">c</span>},<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">autoExceptionInstrumented</span><span style="color:#f92672">=</span><span style="color:#f92672">!</span><span style="color:#ae81ff">0</span>}<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">t</span>
+   }({
+      <span style="color:#a6e22e">instrumentationKey</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx&#34;</span>
+   });
+
+   window[<span style="color:#a6e22e">aiName</span>]<span style="color:#f92672">=</span><span style="color:#a6e22e">aisdk</span>,<span style="color:#a6e22e">aisdk</span>.<span style="color:#a6e22e">queue</span><span style="color:#f92672">&amp;&amp;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">===</span><span style="color:#a6e22e">aisdk</span>.<span style="color:#a6e22e">queue</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">&amp;&amp;</span><span style="color:#a6e22e">aisdk</span>.<span style="color:#a6e22e">trackPageView</span>({});
+<span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#960050;background-color:#1e0010">s</span><span style="color:#960050;background-color:#1e0010">c</span><span style="color:#960050;background-color:#1e0010">r</span><span style="color:#960050;background-color:#1e0010">i</span><span style="color:#960050;background-color:#1e0010">p</span><span style="color:#960050;background-color:#1e0010">t</span><span style="color:#960050;background-color:#1e0010">&gt;</span>
+</code></pre></div><h3 id="add-the-script-to-all-html-files">Add The Script To All HTML Files</h3>
+<p>Now that you have a script with your own instrumentation key, we&rsquo;ll need to place that in each HTML file you wish to monitor.</p>
+<blockquote>
+<p><em><strong>NOTE:</strong></em> In my case, I use Hugo to build my site so it was as simple as adding the script to the <!-- raw HTML omitted --> section of my master HTML template. Then, each time I rebuild the site, it automatically adds the javascript snippet to any new HTML files that may have been newly built. That saves me from having to copy and paste it on each new blog post not to mention everything I&rsquo;ve already written.</p>
+</blockquote>
+<p>We in the SRE biz call that toil!</p>
+<p>Toil is bad. ;)</p>
+<h3 id="deploy-your-site">Deploy Your Site</h3>
+<p>Once you&rsquo;ve added your javascript snippet to all of the HTML you&rsquo;d like to monitor, it&rsquo;s time to upload your site to Azure.</p>
+<p>In the video, I do this using <a href="https://cda.ms/Zt">Visual Studio Code</a> by deploying from a dropdown command in seconds.</p>
+<p><img src="https://www.jasonhand.com/images/rightclickdeploysite.gif" alt=""></p>
+<p>Alternatively, I could use <a href="https://cda.ms/Zv">Azure Storage Explorer</a> and upload my files FTP style.</p>
+<p><strong>NOTE:</strong> <em>In the video, I show you an even easier way to do it through the portal when you only have one or two files</em>.</p>
+<h3 id="exercise-your-site">Exercise Your Site</h3>
+<p>Alright, now that you&rsquo;ve uploaded all of the HTML with their new monitoring scripts we need to get them to start collecting data. This means going to your site and browsing around.</p>
+<p>I suggest using a couple of different browsers and maybe even some of your friends or coworkers, just to get as much activity on your site as possible.</p>
+<h3 id="verify-monitoring-is-collecting-data">Verify Monitoring Is Collecting Data</h3>
+<p>Return to the overview screen in the Azure portal. It&rsquo;s unlikely that you&rsquo;ll see any data show up on the provided charts.</p>
+<p>However, if we use <a href="https://cda.ms/Zm">Log Analytics</a>, we can run a <a href="https://cda.ms/Zn">Kusto query</a> that will verify if we are getting data.</p>
+<p>Go to Log Analytics&hellip;
+<img src="https://www.jasonhand.com/images/LogAnalyticsButton.png" alt=""></p>
+<p>The following query will give us an average duration of Page Views for the last 15 minutes, as reported by the browser.</p>
+<pre><code class="language-Kusto" data-lang="Kusto">// average pageView duration by name
+let timeGrain=1s;
+let dataset=pageViews
+// additional filters can be applied here
+| where timestamp &gt; ago(15m)
+| where client_Type == &quot;Browser&quot; ;
+// calculate average pageView duration for all pageViews
+dataset
+| summarize avg(duration) by bin(timestamp, timeGrain)
+| extend pageView='Overall'
+// render result in a chart
+| render timechart
+</code></pre><p>It then renders a chart for us to view.</p>
+<p><img src="https://www.jasonhand.com/images/BrowserKusto.png" alt=""></p>
+<p>If our javascript is working we should see something in the chart.</p>
+<h3 id="bask-in-your-technical-savviness">Bask In Your Technical Savviness</h3>
+<p>You&rsquo;re all set. I&rsquo;m planning to come back and check on mine each day for the next week or two just to make sure it&rsquo;s working as expected.</p>
+<p>If you host a static website on Azure, <a href="https://twitter.com/jasonhand">let me know</a> if you are using any monitoring and what you find interesting about the data you are seeing.</p>
+<h4 id="additional-resources"><strong>Additional Resources:</strong></h4>
+<p>-<a href="https://cda.ms/107">FREE Azure Account</a></p>
+<p>-<a href="https://cda.ms/108">Static Website Hosting</a></p>
+<p>-<a href="https://cda.ms/109">App Service</a></p>
+<p>-<a href="https://cda.ms/10b">Azure Monitor</a></p>
+<p>-<a href="https://cda.ms/10b">Application Insights</a></p>
+<p>-<a href="https://cda.ms/10c">Log Analytics</a></p>
+<p>-<a href="https://cda.ms/10d">Kusto Query Language</a></p>
+<p>-<a href="https://cda.ms/10f">Static Website Hosting</a></p>
+<p>-<a href="https://cda.ms/10g">Monitoring User Flow</a></p>
+<p>-<a href="https://cda.ms/10h">Azure Storage Explorer</a></p>
+<p>-<a href="https://cda.ms/10k">Static website hosting in Azure Storage</a></p>
+<p>-<a href="https://cda.ms/10m">SRE on MS Learn</a></p>
+<p>-<a href="https://cda.ms/10n">Visual Studio Code</a></p>
+<p>-<a href="https://www.discogs.com/Rod-Stewart-Every-Picture-Tells-A-Story/master/68324">Rod Stewart on Discogs</a></p>
+
+              </article>
+
+              <div class="pagination">
+                  
+                      <a href="https://www.jasonhand.com/blog/five-things/">&laquo; Five Things Developers Can Use To Go On-call (and Not Hate Their Life)</a>
+                  
+                  
+                      <a href="https://www.jasonhand.com/blog/understand-the-evolving-world-of-data/">Understand the Evolving World of Data &raquo;</a>
+                  
+              </div>
+          </section>
+          <br>
+          <section class="disqus">
+
+  
+
+</section>
+
+      </section>
+
+    </main>
+    <footer class="row middle-xs center-xs">
+ 
+ 
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://twitter.com/jasonhand">Twitter</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://instagram.com/jhand">Instagram</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://facebook.com/jhand">Facebook</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://linkedin.com/in/jasonhand24">LinkedIn</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://youtube.com/jasonhand24">YouTube</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://github.com/jasonhand">GitHub</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://reddit.com/user/jhand24">Reddit</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://medium.com/@jasonhand">Medium</a></div>
+  
+ 
+
+
+  
+    <div class="col-xs-12">
+      
+        Copyright &copy; 2020 Jason Hand.
+      
+      
+        <a href="https://tomanistor.com" target="_blank">Theme developed by Toma Nistor</a>
+      
+    </div>
+  
+
+</footer>
+
+    <head>
+    <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){
+         function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t
+      }({
+         instrumentationKey:"92c82829-9ba0-470e-b7ac-ab3af0c05e38"
+      });
+   
+      window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+   </script>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+  <script src="https://www.jasonhand.com/scripts/main.min.js" type="text/javascript"></script>
+
+
+  </body>
+</html>
